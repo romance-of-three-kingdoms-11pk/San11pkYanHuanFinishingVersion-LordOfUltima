@@ -1,0 +1,1668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config><AbilityLimit enable="true">200</AbilityLimit>
+  <AbilityExpLimit enable="true">80</AbilityExpLimit>
+  <AbilityTrainLimit enable="true">30</AbilityTrainLimit>
+  <LevelName lv0name="Ｃ" lv1name="Ｂ" lv2name="Ａ" lv3name="Ｓ" lv4name="熟" lv5name="精" lv6name="极" lv7name="神" lv8name="候" lv9name="公" lv10name="王" lv11name="帝" lv12name="皇" lv13name="妖" lv14name="圣" lv15name="仙"></LevelName>
+  <LvLimitAndExp enable="true" lv0exp="150" lv1exp="200" lv2exp="250" lv3exp="250" lv4exp="250" lv5exp="250" lv6exp="250" lv7exp="250" lv8exp="250" lv9exp="250" lv10exp="250" lv11exp="250" lv12exp="250" lv13exp="250" lv14exp="250">15</LvLimitAndExp>
+  <ABExpGain enable="true" AB0="-2" AB1="-1" AB2="-2" AB3="0" AB4="0"></ABExpGain>
+  <LvExpGain enable="true" Lv0="0" Lv1="1" Lv2="-1" Lv3="-2" Lv4="-2" Lv5="0"></LvExpGain>
+  <ABTrainLimit enable="true" Low="70" Medium="80" High="105"></ABTrainLimit>
+  <LvTrainLimit enable="true" A="2" B="1"></LvTrainLimit>
+  <LvTrainNoCond enable="true"></LvTrainNoCond>
+  <TrainPeriod enable="true">2</TrainPeriod>
+  <ContribGain enable="true">150</ContribGain>
+  <ContribLimit enable="true">60000</ContribLimit>
+  <OfficialRank enable="false">4000</OfficialRank>
+  <TreasureSkill enable="true"><Treasure enable="true" TreasureID="0" Description="五明骥（韩信）" Skill="1-飞渡" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="1" Description="浑红马（李靖）" Skill="1-飞渡" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="2" Description="踏雪乌雅马（项籍）" Skill="130-治军" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="3" Description="毕燕挝（李存孝）" Skill="11-昂扬" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="4" Description="天龙破城戟（项籍）" Skill="10-威风" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="5" Description="錾金枪（徐达）" Skill="29-铁壁" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="6" Description="尚方斩马剑（刘秀）" Skill="20-精妙" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="7" Description="银合马（铁木真）" Skill="32-天命" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="8" Description="沥泉神矛（岳飞）" Skill="29-铁壁" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="9" Description="龙胆亮银枪（赵云） " Skill="52-护卫" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="10" Description="芦叶枪（杨延昭）" Skill="27-不屈" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="11" Description="方天画戟（吕布）" Skill="1-飞渡" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="12" Description="八宝驼龙枪（秦琼）" Skill="9-威武" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="13" Description="蛇矛（张飞）" Skill="30-怒发" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="14" Description="梨花枪（霍去病）" Skill="3-长驱" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="15" Description="苏力德（铁木真）" Skill="135-破竹" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="16" Description="青龙偃月刀（关羽）" Skill="133-陷阵" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="17" Description="韩信兵法（治军）" Skill="130-治军" WL="0" TS="1" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="18" Description="孙子兵法（孙武）" Skill="57-虚实" WL="0" TS="1" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="19" Description="赤宵（刘邦）" Skill="9-威武" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="20" Description="菊花青" Skill="49-冲锋" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="21" Description="岳飞" Skill="1-飞渡" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="22" Description="莫邪" Skill="143-圣人" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="23" Description="灵宝（李广）" Skill="9-威武" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="24" Description="轩辕弓（巧变）" Skill="125-巧变" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="25" Description="李元霸" Skill="51-猛者" WL="0" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="26" Description="纪效新书" Skill="74-明镜" WL="0" TS="1" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="27" Description="李卫公问对（李靖）" Skill="130-治军" WL="0" TS="1" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="28" Description="大夏龙雀（姬重耳）" Skill="9-威武" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="29" Description="论战（赵匡义）" Skill="130-治军" WL="0" TS="0" ZL="0" ZZ="0" ML="1"></Treasure>
+    <Treasure enable="true" TreasureID="30" Description="定国（刘裕）" Skill="28-金刚" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="31" Description="霸王弓（项籍）" Skill="129-神臂" WL="0" TS="1" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="32" Description="龙舌（吕布）" Skill="50-射手" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="33" Description="六韬（姜尚）" Skill="122-兵仙" WL="0" TS="0" ZL="1" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="34" Description="三略（张良）" Skill="68-反计" WL="0" TS="0" ZL="1" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="35" Description="（吴起）" Skill="22-攻心" WL="0" TS="1" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="37" Description="巨阙（姬光）" Skill="13-突袭" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="38" Description="七星剑（伍员）" Skill="132-料敌" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="39" Description="白起" Skill="130-治军" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="40" Description="震天弓（薛礼）" Skill="26-辅佐" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="41" Description="玉玺（安民）" Skill="136-安民" WL="0" TS="0" ZL="0" ZZ="0" ML="1"></Treasure>
+    <Treasure enable="true" TreasureID="42" Description="铜雀（曹操）" Skill="87-富国" WL="0" TS="0" ZL="0" ZZ="0" ML="1"></Treasure>
+    <Treasure enable="true" TreasureID="36" Description="诸葛亮" Skill="70-妖术" WL="0" TS="0" ZL="1" ZZ="0" ML="0"></Treasure>
+    
+  </TreasureSkill>
+  <TreasureNoConfiscate enable="true"></TreasureNoConfiscate>
+  <ArmyInnovation enable="true">4000</ArmyInnovation>
+  <AMLimit enable="true">10000</AMLimit>
+  <ARLimit enable="true">50000</ARLimit>
+  <TSLimit enable="true">60000</TSLimit>
+  <TEqLimit enable="true">100000</TEqLimit>
+  <TMLimit enable="true">100000</TMLimit>
+  <TRLimit enable="true">500000</TRLimit>
+  <ArmyAtk use="0" PoWL="60" PoTS="20" Threshold="5000"></ArmyAtk>
+  <ArmyDef use="0" PoWL="0" PoTS="100" Threshold="5000"></ArmyDef>
+  <MoralePlusA enable="true" Threshold="50">80</MoralePlusA>
+  <MoralePlusD enable="true" Threshold="50">80</MoralePlusD>
+  <ArmyBuild enable="false" PoZZ="67" Plus="50"></ArmyBuild>
+  <TransitBuildNoDis enable="true"></TransitBuildNoDis>
+  <TransitBaseMov enable="false">16</TransitBaseMov>
+  <SwordADPlus enable="true">80</SwordADPlus>
+  <TransitPlus enable="true">40</TransitPlus>
+  <EliteADPlus enable="true">10</EliteADPlus>
+  <LvADPlus enable="true">10</LvADPlus>
+  <ArmyShareAbility enable="true"></ArmyShareAbility>
+  <CityEat enable="true">50</CityEat>
+  <WideEat enable="true">300</WideEat>
+  <HorseEat enable="false"></HorseEat>
+  <SameEat enable="false"></SameEat>
+  <MoraleLimit enable="true" SLBN="150" SLBY="250"></MoraleLimit>
+  <BaseHits enable="false" Atk0="70" Atk1="70" Atk2="60" Atk3="70" Atk4="70" Atk5="65" Atk6="75" Atk7="70" Atk8="65" Atk9="70" Atk10="65" Atk11="60" Atk12="100" Atk13="100" Atk14="100" Atk15="100" Atk16="100" Atk17="65" Atk18="100"></BaseHits>
+  <HitsLowerLmt enable="true">1</HitsLowerLmt>
+  <HitsUpperLmt enable="true">100</HitsUpperLmt>
+  <HitsPlus enable="true" lv="3" unit="3"></HitsPlus>
+  <HitsPlus1 enable="false">20</HitsPlus1>
+  <HitsPlus2 enable="false">10</HitsPlus2>
+  <HitsPlusToEx enable="true" toEx="20">1</HitsPlusToEx>
+  <BurstBase enable="true">10</BurstBase>
+  <BurstUpperLmt enable="true">100</BurstUpperLmt>
+  <BurstPlus1 enable="true" ToWL="100" PlusMul="5"></BurstPlus1>
+  <BurstPlus2 enable="true">1</BurstPlus2>
+  <BurstPlus3 enable="true" QM="6" ZJ="8" YW="4"></BurstPlus3>
+  <ExerPlus enable="true">8</ExerPlus>
+  <ElitePlus enable="true">12</ElitePlus>
+  <SLadderPlus enable="true" SPEQ="40" SPWP="20"></SLadderPlus>
+  <ArrowShield enable="true">50</ArrowShield>
+  <BigShield enable="true">55</BigShield>
+  <Forage enable="true" base="0" mul1="1" mul2="2"></Forage>
+  <MovePlus enable="false" mp0="3" mp1="4" mp2="4" mp3="6" mp4="6" mp5="6" mp6="2"></MovePlus>
+  <DamagePlus enable="true" ToWL="102" PlusMul="50" general="true"></DamagePlus>
+  <AtkBurst enable="true">15</AtkBurst>
+  <AtkReflect enable="true">50</AtkReflect>
+  <CoAtk enable="true">180</CoAtk>
+  <HardDec enable="true">30</HardDec>
+  <TSvsJD enable="true">20</TSvsJD>
+  <JLvsJD enable="true">180</JLvsJD>
+  <QBvsSS enable="true">100</QBvsSS>
+  <QBvsJD enable="true">100</QBvsJD>
+  <ArmyVsArmy enable="false" AvsA11="1" AvsA12="1.15" AvsA13="1" AvsA14="0.85" AvsA15="1" AvsA16="1" AvsA17="1" AvsA18="1" AvsA21="0.85" AvsA22="1" AvsA23="1" AvsA24="1.15" AvsA25="1" AvsA26="1" AvsA27="1" AvsA28="1" AvsA31="1" AvsA32="1" AvsA33="1" AvsA34="1" AvsA35="1" AvsA36="1" AvsA37="1" AvsA38="1" AvsA41="1.15" AvsA42="0.85" AvsA43="1" AvsA44="1" AvsA45="1" AvsA46="1" AvsA47="1" AvsA48="1" AvsA51="1" AvsA52="1" AvsA53="0.85" AvsA54="1" AvsA55="1" AvsA56="1" AvsA57="1" AvsA58="1" AvsA61="1" AvsA62="1" AvsA63="0.85" AvsA64="1" AvsA65="1" AvsA66="1" AvsA67="1" AvsA68="0.8" AvsA71="1" AvsA72="1" AvsA73="0.85" AvsA74="1" AvsA75="1" AvsA76="1" AvsA77="1" AvsA78="1" AvsA81="1" AvsA82="1" AvsA83="1" AvsA84="1" AvsA85="1" AvsA86="1" AvsA87="1" AvsA88="0.8"></ArmyVsArmy>
+  <SpecialKillHDM enable="true">2</SpecialKillHDM>
+  <SpecialKillBurst enable="true">2</SpecialKillBurst>
+  <SpecialKillBase enable="true" Base1="1" Base2="2"></SpecialKillBase>
+  <SpecialPKWithoutCond enable="true"></SpecialPKWithoutCond>
+  <SpecialPKBase enable="true">10</SpecialPKBase>
+  <SpecialInjBurst enable="true">1</SpecialInjBurst>
+  <SpecialInjBase enable="true" Base1="1" Base2="5" Base3="2"></SpecialInjBase>
+  <SpecialCapNoHalf enable="true"></SpecialCapNoHalf>
+  <SpecialCapJI enable="true">15</SpecialCapJI>
+  <SpecialCapBase enable="true">2</SpecialCapBase>
+  <QLevel1Chaos enable="true"></QLevel1Chaos>
+  <QLevel3Chaos enable="true" base="15" burst="100"></QLevel3Chaos>
+  <QLevel2Chaos enable="true" base="15" burst="100"></QLevel2Chaos>
+  <ShotPrecision enable="false"></ShotPrecision>
+  <SameSpread enable="true"></SameSpread>
+  <DistancePlus enable="true">1</DistancePlus>
+  <StraHitsLL enable="true">1</StraHitsLL>
+  <StraHitsUL enable="false">99</StraHitsUL>
+  <StraHitsToEx enable="true">10</StraHitsToEx>
+  <StraBurstLL enable="true">3</StraBurstLL>
+  <StraFireHitsPlus enable="false"></StraFireHitsPlus>
+  <StraChaosHitsPlus enable="false"></StraChaosHitsPlus>
+  <StraCost enable="false" NBC0="10" NBC1="10" NBC2="15" NBC3="15" NBC4="10" NBC5="10" NBC6="20" NBC7="50" NBC8="50"></StraCost>
+  <StraRangeInc enable="true"></StraRangeInc>
+  <StraRange enable="true" Range0="1" Range1="4" Range2="2" Range3="2" Range4="5" Range5="3" Range6="2" Range7="2" Range8="5"></StraRange>
+  <RemoteFire enable="true">2</RemoteFire>
+  <StraFBAnywhere enable="true"></StraFBAnywhere>
+  <StraNHAnyarmy enable="true"></StraNHAnyarmy>
+  <StraFBDamage enable="true">1</StraFBDamage>
+  <StraFBMorale enable="true">20</StraFBMorale>
+  <StraFBStun enable="true">80</StraFBStun>
+  <StraLLDamage enable="true" DamageA="1500" DamageB="700"></StraLLDamage>
+  <FireBaseDamage enable="false" DamageA="300" DamageB="100"></FireBaseDamage>
+  <FireTechDamage enable="false" DamageA="300" DamageB="100"></FireTechDamage>
+  <FireTrapDamage enable="false" DamageA0="300" DamageB0="100" DamageA1="400" DamageB1="200" DamageA2="300" DamageB2="200" DamageA3="400" DamageB3="300" DamageA4="400" DamageB4="200" DamageA5="500" DamageB5="400" DamageA6="500" DamageB6="300"></FireTrapDamage>
+  <FireDamagePlus1 enable="false">500</FireDamagePlus1>
+  <FireDamagePlus2 enable="true">50</FireDamagePlus2>
+  <HQExtend enable="false" HQ1="3" HQ2="5" HQ3="4"></HQExtend>
+  <HZExtend enable="false" HZ1="1" HZ2="2"></HZExtend>
+  <FireChaos enable="false" YHZ="50" HC="25"></FireChaos>
+  <FireChaosYHQ enable="false"></FireChaosYHQ>
+  <FireDeath enable="false" NDM="2" HDM="4"></FireDeath>
+  <FireInjure enable="false">2</FireInjure>
+  <StoneDamage enable="false" DamageA="1500" DamageB="800"></StoneDamage>
+  <CityArmyLimit use="1" NCAL="100000" BCAL="150000" city0="100000" city1="100000" city2="100000" city3="100000" city4="100000" city5="100000" city6="150000" city7="100000" city8="150000" city9="100000" city10="100000" city11="100000" city12="100000" city13="150000" city14="100000" city15="150000" city16="100000" city17="150000" city18="100000" city19="100000" city20="100000" city21="100000" city22="150000" city23="100000" city24="100000" city25="100000" city26="100000" city27="100000" city28="100000" city29="150000" city30="100000" city31="100000" city32="100000" city33="100000" city34="100000" city35="100000" city36="100000" city37="100000" city38="100000" city39="150000" city40="100000" city41="100000"></CityArmyLimit>
+  <CityMLimit enable="true">200000</CityMLimit>
+  <CityRLimit enable="true">5000000</CityRLimit>
+  <CityEqLimit enable="true">200000</CityEqLimit>
+  <CityWpLimit enable="true">100</CityWpLimit>
+  <GGALimit enable="true" base="50000" expand="20000"></GGALimit>
+  <GGMLimit enable="true" base="50000" expand="50000"></GGMLimit>
+  <GGRLimit enable="true" base="100000" expand="500000"></GGRLimit>
+  <GGEqLimit enable="true" base="100000" expand="50000"></GGEqLimit>
+  <Strengthen1 enable="true">2000</Strengthen1>
+  <Strengthen2 enable="true">3000</Strengthen2>
+  <RecoverMul enable="false">50</RecoverMul>
+  <RecoverPlus enable="true">250</RecoverPlus>
+  <RecoverMin enable="false">150</RecoverMin>
+  <RecoverMax enable="false">450</RecoverMax>
+  <NormalRecover enable="false"></NormalRecover>
+  <KeepCaptive enable="false"></KeepCaptive>
+  <CaptiveNoCost enable="true"></CaptiveNoCost>
+  <AllGGIncome enable="true"></AllGGIncome>
+  <NoneIncome enable="false"></NoneIncome>
+  <NormalRecruit enable="true"></NormalRecruit>
+  <NoneRunaway enable="true"></NoneRunaway>
+  <DefenceMul enable="true" city="20" port="20" pass="30"></DefenceMul>
+  <SelfDefMul enable="true" city="45" port="45" pass="40"></SelfDefMul>
+  <DefenceToSJ enable="true"></DefenceToSJ>
+  <DefenceToGJ enable="true">20</DefenceToGJ>
+  <DefEnhenceMul enable="true">200</DefEnhenceMul>
+  <DefAtkMul enable="true">50</DefAtkMul>
+  <AreaAutoAttack enable="true"></AreaAutoAttack>
+  <DestoryCity enable="true" mul="20" min="5" pass="40"></DestoryCity>
+  <BADamage enable="true" JL="300" LN="500" TS="900"></BADamage>
+  <BARange enable="true" JL="3" LN="4" TS="3"></BARange>
+  <BCDamage enable="true" ZH="400" ZI="600" CS="800"></BCDamage>
+  <BDefMul enable="true" ZH="85" ZI="75" CS="65"></BDefMul>
+  <BEatMul enable="true" ZH="83" ZI="67" CS="50"></BEatMul>
+  <BSelfDefMul enable="true" ZH="80" ZI="70" CS="60"></BSelfDefMul>
+  <OSelfDefMul enable="true" TL="90" SQ="70"></OSelfDefMul>
+  <TGRange enable="true">4</TGRange>
+  <TGEffect enable="true">20</TGEffect>
+  <JYRange enable="true">4</JYRange>
+  <JYEffect enable="true">20</JYEffect>
+  <SBRange enable="true">1</SBRange>
+  <SBProb enable="true">90</SBProb>
+  <SBEffect enable="true">0</SBEffect>
+  <SBEffectMax enable="true">1</SBEffectMax>
+  <CancelDistance enable="false"></CancelDistance>
+  <BuildSpeed enable="true">200</BuildSpeed>
+  <BuildLimit enable="false" Fix="405" Rand="10"></BuildLimit>
+  <GHBase enable="true" Prop="0" Range="1" Threshold1="108" Threshold2="115" Threshold3="120" Mul="50" Min="5" Max="50"></GHBase>
+  <GHPlus1 enable="true" Prop="0" Threshold="90" Mul="50" Min="5" Max="50"></GHPlus1>
+  <GHPlus2 enable="true" Prop="1" Threshold="90" Mul="30" Min="2" Max="20"></GHPlus2>
+  <GHPlus3 enable="true" Prop="2" Threshold="80" Mul="50" Min="5" Max="50"></GHPlus3>
+  <GHPlus4 enable="true" Prop="2" Threshold="80" Mul="100" Min="5" Max="50"></GHPlus4>
+  <GHPlus5 enable="true" Prop="3" Threshold="90" Mul="100" Min="10" Max="100"></GHPlus5>
+  <GHPlus6 enable="true" Prop="4" Threshold="80" Mul="50" Min="2" Max="20"></GHPlus6>
+  <EmptyArea enable="true"><Area1 enable="false" Description="襄平" AreaX="185" AreaY="9"></Area1>
+    <Area2 enable="false" Description="襄平" AreaX="185" AreaY="8"></Area2>
+    <Area3 enable="false" Description="襄平" AreaX="184" AreaY="10"></Area3>
+    <Area4 enable="false" Description="襄平" AreaX="184" AreaY="9"></Area4>
+    <Area5 enable="true" Description="襄平" AreaX="185" AreaY="18"></Area5>
+    <Area6 enable="true" Description="襄平" AreaX="185" AreaY="19"></Area6>
+    <Area7 enable="true" Description="襄平" AreaX="184" AreaY="18"></Area7>
+    <Area8 enable="true" Description="襄平" AreaX="184" AreaY="19"></Area8>
+    <Area9 enable="true" Description="襄平" AreaX="184" AreaY="20"></Area9>
+    <Area10 enable="true" Description="襄平" AreaX="183" AreaY="17"></Area10>
+    <Area11 enable="true" Description="襄平" AreaX="183" AreaY="18"></Area11>
+    <Area12 enable="true" Description="襄平" AreaX="183" AreaY="19"></Area12>
+    <Area13 enable="true" Description="襄平" AreaX="183" AreaY="20"></Area13>
+    <Area14 enable="false" Description="襄平" AreaX="178" AreaY="21"></Area14>
+    <Area15 enable="false" Description="襄平" AreaX="178" AreaY="22"></Area15>
+    <Area16 enable="false" Description="襄平" AreaX="178" AreaY="23"></Area16>
+    <Area17 enable="false" Description="襄平" AreaX="177" AreaY="21"></Area17>
+    <Area18 enable="false" Description="襄平" AreaX="177" AreaY="22"></Area18>
+    <Area19 enable="false" Description="襄平" AreaX="176" AreaY="21"></Area19>
+    <Area20 enable="false" Description="襄平" AreaX="176" AreaY="22"></Area20>
+    <Area21 enable="false" Description="襄平" AreaX="176" AreaY="23"></Area21>
+    <Area22 enable="true" Description="襄平" AreaX="182" AreaY="19"></Area22>
+    <Area23 enable="true" Description="襄平" AreaX="182" AreaY="20"></Area23>
+    <Area24 enable="true" Description="襄平" AreaX="182" AreaY="18"></Area24>
+    <Area25 enable="true" Description="襄平" AreaX="182" AreaY="21"></Area25>
+    <Area26 enable="true" Description="襄平" AreaX="181" AreaY="21"></Area26>
+    <Area27 enable="true" Description="襄平" AreaX="181" AreaY="20"></Area27>
+    <Area28 enable="true" Description="襄平" AreaX="181" AreaY="19"></Area28>
+    <Area29 enable="true" Description="襄平" AreaX="180" AreaY="20"></Area29>
+    <Area30 enable="true" Description="襄平" AreaX="180" AreaY="21"></Area30>
+    <Area31 enable="true" Description="襄平" AreaX="180" AreaY="22"></Area31>
+    <Area32 enable="true" Description="襄平" AreaX="169" AreaY="18"></Area32>
+    <Area33 enable="true" Description="襄平" AreaX="169" AreaY="19"></Area33>
+    <Area34 enable="true" Description="襄平" AreaX="170" AreaY="19"></Area34>
+    <Area35 enable="true" Description="襄平" AreaX="170" AreaY="20"></Area35>
+    <Area36 enable="true" Description="襄平" AreaX="170" AreaY="18"></Area36>
+    <Area37 enable="true" Description="襄平" AreaX="171" AreaY="18"></Area37>
+    <Area38 enable="true" Description="襄平" AreaX="171" AreaY="19"></Area38>
+    <Area39 enable="true" Description="襄平" AreaX="179" AreaY="21"></Area39>
+    <Area40 enable="true" Description="襄平" AreaX="179" AreaY="20"></Area40>
+    <Area41 enable="true" Description="襄平" AreaX="179" AreaY="19"></Area41>
+    <Area42 enable="true" Description="襄平" AreaX="169" AreaY="20"></Area42>
+    <Area43 enable="false" Description="北平" AreaX="150" AreaY="30"></Area43>
+    <Area44 enable="false" Description="北平" AreaX="150" AreaY="29"></Area44>
+    <Area45 enable="false" Description="北平" AreaX="150" AreaY="28"></Area45>
+    <Area46 enable="false" Description="北平" AreaX="149" AreaY="29"></Area46>
+    <Area47 enable="false" Description="北平" AreaX="149" AreaY="28"></Area47>
+    <Area48 enable="false" Description="北平" AreaX="148" AreaY="30"></Area48>
+    <Area49 enable="false" Description="北平" AreaX="148" AreaY="29"></Area49>
+    <Area50 enable="false" Description="北平" AreaX="147" AreaY="29"></Area50>
+    <Area51 enable="false" Description="北平" AreaX="147" AreaY="28"></Area51>
+    <Area52 enable="false" Description="北平" AreaX="148" AreaY="16"></Area52>
+    <Area53 enable="false" Description="北平" AreaX="146" AreaY="15"></Area53>
+    <Area54 enable="false" Description="北平" AreaX="147" AreaY="15"></Area54>
+    <Area55 enable="false" Description="北平" AreaX="147" AreaY="16"></Area55>
+    <Area56 enable="false" Description="北平" AreaX="146" AreaY="16"></Area56>
+    <Area57 enable="true" Description="北平" AreaX="145" AreaY="18"></Area57>
+    <Area58 enable="true" Description="北平" AreaX="145" AreaY="19"></Area58>
+    <Area59 enable="true" Description="北平" AreaX="145" AreaY="17"></Area59>
+    <Area60 enable="true" Description="北平" AreaX="145" AreaY="16"></Area60>
+    <Area61 enable="true" Description="北平" AreaX="144" AreaY="19"></Area61>
+    <Area62 enable="true" Description="北平" AreaX="144" AreaY="18"></Area62>
+    <Area63 enable="true" Description="北平" AreaX="143" AreaY="19"></Area63>
+    <Area64 enable="true" Description="北平" AreaX="144" AreaY="20"></Area64>
+    <Area65 enable="true" Description="北平" AreaX="143" AreaY="20"></Area65>
+    <Area66 enable="true" Description="北平" AreaX="142" AreaY="20"></Area66>
+    <Area67 enable="true" Description="北平" AreaX="142" AreaY="19"></Area67>
+    <Area68 enable="true" Description="北平" AreaX="143" AreaY="18"></Area68>
+    <Area69 enable="true" Description="北平" AreaX="140" AreaY="19"></Area69>
+    <Area70 enable="true" Description="北平" AreaX="147" AreaY="17"></Area70>
+    <Area71 enable="true" Description="北平" AreaX="141" AreaY="19"></Area71>
+    <Area72 enable="true" Description="北平" AreaX="146" AreaY="18"></Area72>
+    <Area73 enable="true" Description="北平" AreaX="146" AreaY="17"></Area73>
+    <Area74 enable="true" Description="北平" AreaX="146" AreaY="27"></Area74>
+    <Area75 enable="true" Description="北平" AreaX="146" AreaY="26"></Area75>
+    <Area76 enable="true" Description="北平" AreaX="146" AreaY="25"></Area76>
+    <Area77 enable="true" Description="北平" AreaX="146" AreaY="24"></Area77>
+    <Area78 enable="true" Description="北平" AreaX="145" AreaY="26"></Area78>
+    <Area79 enable="true" Description="北平" AreaX="145" AreaY="25"></Area79>
+    <Area80 enable="true" Description="北平" AreaX="145" AreaY="24"></Area80>
+    <Area81 enable="true" Description="北平" AreaX="145" AreaY="23"></Area81>
+    <Area82 enable="true" Description="北平" AreaX="144" AreaY="24"></Area82>
+    <Area83 enable="true" Description="北平" AreaX="144" AreaY="25"></Area83>
+    <Area84 enable="true" Description="北平" AreaX="144" AreaY="26"></Area84>
+    <Area85 enable="false" Description="北平" AreaX="148" AreaY="28"></Area85>
+    <Area86 enable="true" Description="北平" AreaX="147" AreaY="27"></Area86>
+    <Area87 enable="true" Description="北平" AreaX="147" AreaY="26"></Area87>
+    <Area88 enable="false" Description="蓟" AreaX="121" AreaY="25"></Area88>
+    <Area89 enable="false" Description="蓟" AreaX="121" AreaY="26"></Area89>
+    <Area90 enable="false" Description="蓟" AreaX="122" AreaY="26"></Area90>
+    <Area91 enable="false" Description="蓟" AreaX="122" AreaY="25"></Area91>
+    <Area92 enable="false" Description="蓟" AreaX="123" AreaY="26"></Area92>
+    <Area93 enable="false" Description="蓟" AreaX="123" AreaY="25"></Area93>
+    <Area94 enable="false" Description="蓟" AreaX="123" AreaY="24"></Area94>
+    <Area95 enable="true" Description="蓟" AreaX="116" AreaY="12"></Area95>
+    <Area96 enable="true" Description="蓟" AreaX="117" AreaY="13"></Area96>
+    <Area97 enable="true" Description="蓟" AreaX="117" AreaY="14"></Area97>
+    <Area98 enable="true" Description="蓟" AreaX="120" AreaY="10"></Area98>
+    <Area99 enable="true" Description="蓟" AreaX="120" AreaY="11"></Area99>
+    <Area100 enable="true" Description="蓟" AreaX="123" AreaY="9"></Area100>
+    <Area101 enable="true" Description="蓟" AreaX="116" AreaY="15"></Area101>
+    <Area102 enable="true" Description="蓟" AreaX="121" AreaY="9"></Area102>
+    <Area103 enable="true" Description="蓟" AreaX="123" AreaY="10"></Area103>
+    <Area104 enable="true" Description="蓟" AreaX="124" AreaY="9"></Area104>
+    <Area105 enable="true" Description="蓟" AreaX="124" AreaY="10"></Area105>
+    <Area106 enable="true" Description="蓟" AreaX="125" AreaY="8"></Area106>
+    <Area107 enable="true" Description="蓟" AreaX="126" AreaY="8"></Area107>
+    <Area108 enable="true" Description="蓟" AreaX="126" AreaY="9"></Area108>
+    <Area109 enable="true" Description="蓟" AreaX="127" AreaY="7"></Area109>
+    <Area110 enable="true" Description="蓟" AreaX="127" AreaY="8"></Area110>
+    <Area111 enable="true" Description="蓟" AreaX="127" AreaY="9"></Area111>
+    <Area112 enable="true" Description="蓟" AreaX="128" AreaY="8"></Area112>
+    <Area113 enable="true" Description="蓟" AreaX="128" AreaY="9"></Area113>
+    <Area114 enable="true" Description="蓟" AreaX="128" AreaY="10"></Area114>
+    <Area115 enable="true" Description="蓟" AreaX="129" AreaY="8"></Area115>
+    <Area116 enable="true" Description="蓟" AreaX="129" AreaY="9"></Area116>
+    <Area117 enable="true" Description="蓟" AreaX="121" AreaY="10"></Area117>
+    <Area118 enable="true" Description="蓟" AreaX="122" AreaY="10"></Area118>
+    <Area119 enable="true" Description="蓟" AreaX="122" AreaY="11"></Area119>
+    <Area120 enable="false" Description="江夏" AreaX="125" AreaY="117"></Area120>
+    <Area121 enable="false" Description="江夏" AreaX="124" AreaY="118"></Area121>
+    <Area122 enable="false" Description="江夏" AreaX="123" AreaY="118"></Area122>
+    <Area123 enable="false" Description="江夏" AreaX="122" AreaY="119"></Area123>
+    <Area124 enable="false" Description="江夏" AreaX="121" AreaY="119"></Area124>
+    <Area125 enable="false" Description="江夏" AreaX="120" AreaY="120"></Area125>
+    <Area126 enable="false" Description="江夏" AreaX="104" AreaY="120"></Area126>
+    <Area127 enable="false" Description="江夏" AreaX="103" AreaY="119"></Area127>
+    <Area128 enable="false" Description="江夏" AreaX="103" AreaY="120"></Area128>
+    <Area129 enable="false" Description="江夏" AreaX="102" AreaY="119"></Area129>
+    <Area130 enable="false" Description="江夏" AreaX="102" AreaY="120"></Area130>
+    <Area131 enable="false" Description="江夏" AreaX="101" AreaY="119"></Area131>
+    <Area132 enable="true" Description="江夏" AreaX="123" AreaY="111"></Area132>
+    <Area133 enable="true" Description="江夏" AreaX="123" AreaY="112"></Area133>
+    <Area134 enable="true" Description="江夏" AreaX="124" AreaY="112"></Area134>
+    <Area135 enable="true" Description="江夏" AreaX="124" AreaY="113"></Area135>
+    <Area136 enable="true" Description="江夏" AreaX="125" AreaY="112"></Area136>
+    <Area137 enable="true" Description="江夏" AreaX="125" AreaY="113"></Area137>
+    <Area138 enable="true" Description="江夏" AreaX="126" AreaY="112"></Area138>
+    <Area139 enable="true" Description="江夏" AreaX="126" AreaY="113"></Area139>
+    <Area140 enable="true" Description="江夏" AreaX="99" AreaY="117"></Area140>
+    <Area141 enable="true" Description="江夏" AreaX="100" AreaY="118"></Area141>
+    <Area142 enable="true" Description="江夏" AreaX="126" AreaY="114"></Area142>
+    <Area143 enable="true" Description="江夏" AreaX="115" AreaY="117"></Area143>
+    <Area144 enable="true" Description="江夏" AreaX="101" AreaY="116"></Area144>
+    <Area145 enable="true" Description="江夏" AreaX="101" AreaY="117"></Area145>
+    <Area146 enable="true" Description="江夏" AreaX="100" AreaY="116"></Area146>
+    <Area147 enable="true" Description="江夏" AreaX="100" AreaY="117"></Area147>
+    <Area148 enable="true" Description="江夏" AreaX="102" AreaY="117"></Area148>
+    <Area149 enable="true" Description="江夏" AreaX="102" AreaY="118"></Area149>
+    <Area150 enable="true" Description="江夏" AreaX="116" AreaY="118"></Area150>
+    <Area151 enable="true" Description="江夏" AreaX="103" AreaY="117"></Area151>
+    <Area152 enable="true" Description="江夏" AreaX="120" AreaY="117"></Area152>
+    <Area153 enable="true" Description="江夏" AreaX="119" AreaY="114"></Area153>
+    <Area154 enable="true" Description="江夏" AreaX="119" AreaY="115"></Area154>
+    <Area155 enable="true" Description="江夏" AreaX="119" AreaY="116"></Area155>
+    <Area156 enable="true" Description="江夏" AreaX="119" AreaY="117"></Area156>
+    <Area157 enable="true" Description="江夏" AreaX="118" AreaY="116"></Area157>
+    <Area158 enable="true" Description="江夏" AreaX="118" AreaY="117"></Area158>
+    <Area159 enable="true" Description="江夏" AreaX="118" AreaY="118"></Area159>
+    <Area160 enable="true" Description="江夏" AreaX="117" AreaY="117"></Area160>
+    <Area161 enable="true" Description="江夏" AreaX="117" AreaY="118"></Area161>
+    <Area162 enable="false" Description="南皮" AreaX="145" AreaY="33"></Area162>
+    <Area163 enable="false" Description="南皮" AreaX="145" AreaY="34"></Area163>
+    <Area164 enable="false" Description="南皮" AreaX="145" AreaY="35"></Area164>
+    <Area165 enable="false" Description="南皮" AreaX="144" AreaY="33"></Area165>
+    <Area166 enable="false" Description="南皮" AreaX="144" AreaY="34"></Area166>
+    <Area167 enable="false" Description="南皮" AreaX="144" AreaY="35"></Area167>
+    <Area168 enable="false" Description="南皮" AreaX="143" AreaY="34"></Area168>
+    <Area169 enable="true" Description="南皮" AreaX="142" AreaY="32"></Area169>
+    <Area170 enable="true" Description="南皮" AreaX="142" AreaY="33"></Area170>
+    <Area171 enable="true" Description="南皮" AreaX="142" AreaY="34"></Area171>
+    <Area172 enable="true" Description="南皮" AreaX="141" AreaY="31"></Area172>
+    <Area173 enable="true" Description="南皮" AreaX="141" AreaY="32"></Area173>
+    <Area174 enable="true" Description="南皮" AreaX="141" AreaY="33"></Area174>
+    <Area175 enable="true" Description="南皮" AreaX="141" AreaY="34"></Area175>
+    <Area176 enable="true" Description="南皮" AreaX="140" AreaY="31"></Area176>
+    <Area177 enable="true" Description="南皮" AreaX="140" AreaY="32"></Area177>
+    <Area178 enable="true" Description="南皮" AreaX="140" AreaY="33"></Area178>
+    <Area179 enable="true" Description="南皮" AreaX="140" AreaY="34"></Area179>
+    <Area180 enable="true" Description="南皮" AreaX="135" AreaY="41"></Area180>
+    <Area181 enable="true" Description="南皮" AreaX="139" AreaY="32"></Area181>
+    <Area182 enable="true" Description="南皮" AreaX="139" AreaY="33"></Area182>
+    <Area183 enable="true" Description="南皮" AreaX="136" AreaY="42"></Area183>
+    <Area184 enable="true" Description="南皮" AreaX="138" AreaY="33"></Area184>
+    <Area185 enable="true" Description="南皮" AreaX="137" AreaY="41"></Area185>
+    <Area186 enable="true" Description="南皮" AreaX="136" AreaY="41"></Area186>
+    <Area187 enable="true" Description="南皮" AreaX="129" AreaY="38"></Area187>
+    <Area188 enable="true" Description="南皮" AreaX="129" AreaY="37"></Area188>
+    <Area189 enable="true" Description="南皮" AreaX="130" AreaY="38"></Area189>
+    <Area190 enable="true" Description="南皮" AreaX="130" AreaY="39"></Area190>
+    <Area191 enable="false" Description="晋阳" AreaX="88" AreaY="50"></Area191>
+    <Area192 enable="false" Description="晋阳" AreaX="87" AreaY="50"></Area192>
+    <Area193 enable="false" Description="晋阳" AreaX="87" AreaY="49"></Area193>
+    <Area194 enable="false" Description="晋阳" AreaX="86" AreaY="50"></Area194>
+    <Area195 enable="true" Description="晋阳" AreaX="91" AreaY="33"></Area195>
+    <Area196 enable="true" Description="晋阳" AreaX="91" AreaY="34"></Area196>
+    <Area197 enable="true" Description="晋阳" AreaX="91" AreaY="35"></Area197>
+    <Area198 enable="true" Description="晋阳" AreaX="97" AreaY="37"></Area198>
+    <Area199 enable="true" Description="晋阳" AreaX="90" AreaY="35"></Area199>
+    <Area200 enable="true" Description="晋阳" AreaX="90" AreaY="36"></Area200>
+    <Area201 enable="true" Description="晋阳" AreaX="97" AreaY="38"></Area201>
+    <Area202 enable="true" Description="晋阳" AreaX="89" AreaY="36"></Area202>
+    <Area203 enable="true" Description="晋阳" AreaX="92" AreaY="28"></Area203>
+    <Area204 enable="true" Description="晋阳" AreaX="92" AreaY="29"></Area204>
+    <Area205 enable="true" Description="晋阳" AreaX="92" AreaY="30"></Area205>
+    <Area206 enable="true" Description="晋阳" AreaX="97" AreaY="36"></Area206>
+    <Area207 enable="true" Description="晋阳" AreaX="91" AreaY="28"></Area207>
+    <Area208 enable="true" Description="晋阳" AreaX="91" AreaY="29"></Area208>
+    <Area209 enable="true" Description="晋阳" AreaX="91" AreaY="30"></Area209>
+    <Area210 enable="true" Description="晋阳" AreaX="90" AreaY="30"></Area210>
+    <Area211 enable="true" Description="晋阳" AreaX="90" AreaY="29"></Area211>
+    <Area212 enable="true" Description="晋阳" AreaX="98" AreaY="38"></Area212>
+    <Area213 enable="true" Description="晋阳" AreaX="98" AreaY="39"></Area213>
+    <Area214 enable="true" Description="晋阳" AreaX="99" AreaY="38"></Area214>
+    <Area215 enable="true" Description="晋阳" AreaX="99" AreaY="39"></Area215>
+    <Area216 enable="true" Description="晋阳" AreaX="100" AreaY="39"></Area216>
+    <Area217 enable="false" Description="邺" AreaX="114" AreaY="40"></Area217>
+    <Area218 enable="false" Description="邺" AreaX="113" AreaY="39"></Area218>
+    <Area219 enable="false" Description="邺" AreaX="113" AreaY="40"></Area219>
+    <Area220 enable="false" Description="邺" AreaX="112" AreaY="40"></Area220>
+    <Area221 enable="false" Description="邺" AreaX="112" AreaY="41"></Area221>
+    <Area222 enable="false" Description="邺" AreaX="112" AreaY="42"></Area222>
+    <Area223 enable="false" Description="邺" AreaX="111" AreaY="39"></Area223>
+    <Area224 enable="false" Description="邺" AreaX="111" AreaY="40"></Area224>
+    <Area225 enable="true" Description="邺" AreaX="105" AreaY="46"></Area225>
+    <Area226 enable="true" Description="邺" AreaX="106" AreaY="46"></Area226>
+    <Area227 enable="true" Description="邺" AreaX="107" AreaY="46"></Area227>
+    <Area228 enable="false" Description="邺" AreaX="102" AreaY="63"></Area228>
+    <Area229 enable="false" Description="邺" AreaX="101" AreaY="63"></Area229>
+    <Area230 enable="false" Description="邺" AreaX="101" AreaY="62"></Area230>
+    <Area231 enable="false" Description="邺" AreaX="100" AreaY="63"></Area231>
+    <Area232 enable="false" Description="邺" AreaX="100" AreaY="64"></Area232>
+    <Area233 enable="true" Description="邺" AreaX="105" AreaY="49"></Area233>
+    <Area234 enable="true" Description="邺" AreaX="105" AreaY="50"></Area234>
+    <Area235 enable="true" Description="邺" AreaX="105" AreaY="51"></Area235>
+    <Area236 enable="true" Description="邺" AreaX="105" AreaY="52"></Area236>
+    <Area237 enable="true" Description="邺" AreaX="105" AreaY="53"></Area237>
+    <Area238 enable="true" Description="邺" AreaX="104" AreaY="53"></Area238>
+    <Area239 enable="true" Description="邺" AreaX="104" AreaY="52"></Area239>
+    <Area240 enable="true" Description="邺" AreaX="106" AreaY="50"></Area240>
+    <Area241 enable="true" Description="邺" AreaX="106" AreaY="51"></Area241>
+    <Area242 enable="true" Description="邺" AreaX="111" AreaY="48"></Area242>
+    <Area243 enable="true" Description="邺" AreaX="111" AreaY="49"></Area243>
+    <Area244 enable="true" Description="邺" AreaX="107" AreaY="49"></Area244>
+    <Area245 enable="true" Description="邺" AreaX="107" AreaY="50"></Area245>
+    <Area246 enable="true" Description="邺" AreaX="111" AreaY="50"></Area246>
+    <Area247 enable="true" Description="邺" AreaX="110" AreaY="49"></Area247>
+    <Area248 enable="true" Description="邺" AreaX="110" AreaY="48"></Area248>
+    <Area249 enable="true" Description="邺" AreaX="110" AreaY="50"></Area249>
+    <Area250 enable="true" Description="邺" AreaX="112" AreaY="50"></Area250>
+    <Area251 enable="true" Description="邺" AreaX="112" AreaY="49"></Area251>
+    <Area252 enable="true" Description="邺" AreaX="113" AreaY="49"></Area252>
+    <Area253 enable="false" Description="平原" AreaX="127" AreaY="59"></Area253>
+    <Area254 enable="false" Description="平原" AreaX="126" AreaY="59"></Area254>
+    <Area255 enable="false" Description="平原" AreaX="125" AreaY="59"></Area255>
+    <Area256 enable="false" Description="平原" AreaX="126" AreaY="60"></Area256>
+    <Area257 enable="false" Description="平原" AreaX="138" AreaY="53"></Area257>
+    <Area258 enable="false" Description="平原" AreaX="138" AreaY="54"></Area258>
+    <Area259 enable="false" Description="平原" AreaX="137" AreaY="52"></Area259>
+    <Area260 enable="false" Description="平原" AreaX="137" AreaY="53"></Area260>
+    <Area261 enable="false" Description="平原" AreaX="137" AreaY="54"></Area261>
+    <Area262 enable="false" Description="平原" AreaX="136" AreaY="54"></Area262>
+    <Area263 enable="false" Description="平原" AreaX="136" AreaY="55"></Area263>
+    <Area264 enable="true" Description="平原" AreaX="135" AreaY="50"></Area264>
+    <Area265 enable="true" Description="平原" AreaX="135" AreaY="51"></Area265>
+    <Area266 enable="true" Description="平原" AreaX="135" AreaY="52"></Area266>
+    <Area267 enable="true" Description="平原" AreaX="135" AreaY="53"></Area267>
+    <Area268 enable="true" Description="平原" AreaX="134" AreaY="51"></Area268>
+    <Area269 enable="true" Description="平原" AreaX="134" AreaY="52"></Area269>
+    <Area270 enable="false" Description="平原" AreaX="136" AreaY="53"></Area270>
+    <Area271 enable="true" Description="平原" AreaX="134" AreaY="53"></Area271>
+    <Area272 enable="true" Description="平原" AreaX="133" AreaY="50"></Area272>
+    <Area273 enable="true" Description="平原" AreaX="133" AreaY="51"></Area273>
+    <Area274 enable="true" Description="平原" AreaX="133" AreaY="52"></Area274>
+    <Area275 enable="true" Description="平原" AreaX="133" AreaY="53"></Area275>
+    <Area276 enable="true" Description="平原" AreaX="132" AreaY="50"></Area276>
+    <Area277 enable="true" Description="平原" AreaX="132" AreaY="51"></Area277>
+    <Area278 enable="true" Description="平原" AreaX="132" AreaY="52"></Area278>
+    <Area279 enable="true" Description="平原" AreaX="122" AreaY="55"></Area279>
+    <Area280 enable="true" Description="平原" AreaX="124" AreaY="55"></Area280>
+    <Area281 enable="true" Description="平原" AreaX="124" AreaY="56"></Area281>
+    <Area282 enable="true" Description="平原" AreaX="124" AreaY="57"></Area282>
+    <Area283 enable="true" Description="平原" AreaX="124" AreaY="58"></Area283>
+    <Area284 enable="true" Description="平原" AreaX="123" AreaY="55"></Area284>
+    <Area285 enable="true" Description="平原" AreaX="123" AreaY="56"></Area285>
+    <Area286 enable="true" Description="平原" AreaX="123" AreaY="57"></Area286>
+    <Area287 enable="true" Description="平原" AreaX="125" AreaY="55"></Area287>
+    <Area288 enable="true" Description="平原" AreaX="125" AreaY="56"></Area288>
+    <Area289 enable="true" Description="平原" AreaX="125" AreaY="54"></Area289>
+    <Area290 enable="true" Description="平原" AreaX="125" AreaY="57"></Area290>
+    <Area291 enable="true" Description="平原" AreaX="125" AreaY="58"></Area291>
+    <Area292 enable="true" Description="平原" AreaX="126" AreaY="58"></Area292>
+    <Area293 enable="true" Description="平原" AreaX="126" AreaY="57"></Area293>
+    <Area294 enable="true" Description="平原" AreaX="134" AreaY="54"></Area294>
+    <Area295 enable="false" Description="北海" AreaX="168" AreaY="47"></Area295>
+    <Area296 enable="false" Description="北海" AreaX="168" AreaY="48"></Area296>
+    <Area297 enable="false" Description="北海" AreaX="167" AreaY="46"></Area297>
+    <Area298 enable="false" Description="北海" AreaX="167" AreaY="47"></Area298>
+    <Area299 enable="false" Description="北海" AreaX="166" AreaY="47"></Area299>
+    <Area300 enable="false" Description="北海" AreaX="166" AreaY="48"></Area300>
+    <Area301 enable="false" Description="北海" AreaX="165" AreaY="46"></Area301>
+    <Area302 enable="false" Description="北海" AreaX="165" AreaY="47"></Area302>
+    <Area303 enable="false" Description="北海" AreaX="164" AreaY="47"></Area303>
+    <Area304 enable="false" Description="北海" AreaX="164" AreaY="48"></Area304>
+    <Area305 enable="true" Description="北海" AreaX="166" AreaY="49"></Area305>
+    <Area306 enable="true" Description="北海" AreaX="166" AreaY="50"></Area306>
+    <Area307 enable="true" Description="北海" AreaX="166" AreaY="51"></Area307>
+    <Area308 enable="true" Description="北海" AreaX="166" AreaY="52"></Area308>
+    <Area309 enable="true" Description="北海" AreaX="165" AreaY="48"></Area309>
+    <Area310 enable="true" Description="北海" AreaX="165" AreaY="49"></Area310>
+    <Area311 enable="true" Description="北海" AreaX="165" AreaY="50"></Area311>
+    <Area312 enable="true" Description="北海" AreaX="165" AreaY="51"></Area312>
+    <Area313 enable="true" Description="北海" AreaX="164" AreaY="49"></Area313>
+    <Area314 enable="true" Description="北海" AreaX="164" AreaY="50"></Area314>
+    <Area315 enable="true" Description="北海" AreaX="164" AreaY="51"></Area315>
+    <Area316 enable="true" Description="北海" AreaX="164" AreaY="52"></Area316>
+    <Area317 enable="true" Description="北海" AreaX="165" AreaY="52"></Area317>
+    <Area318 enable="true" Description="北海" AreaX="167" AreaY="49"></Area318>
+    <Area319 enable="true" Description="北海" AreaX="167" AreaY="50"></Area319>
+    <Area320 enable="true" Description="北海" AreaX="167" AreaY="51"></Area320>
+    <Area321 enable="true" Description="北海" AreaX="170" AreaY="49"></Area321>
+    <Area322 enable="true" Description="北海" AreaX="168" AreaY="50"></Area322>
+    <Area323 enable="true" Description="北海" AreaX="169" AreaY="48"></Area323>
+    <Area324 enable="true" Description="北海" AreaX="169" AreaY="49"></Area324>
+    <Area325 enable="true" Description="北海" AreaX="153" AreaY="57"></Area325>
+    <Area326 enable="true" Description="北海" AreaX="154" AreaY="57"></Area326>
+    <Area327 enable="true" Description="北海" AreaX="154" AreaY="58"></Area327>
+    <Area328 enable="true" Description="北海" AreaX="155" AreaY="56"></Area328>
+    <Area329 enable="true" Description="北海" AreaX="155" AreaY="57"></Area329>
+    <Area330 enable="true" Description="北海" AreaX="156" AreaY="57"></Area330>
+    <Area331 enable="true" Description="北海" AreaX="156" AreaY="56"></Area331>
+    <Area332 enable="true" Description="北海" AreaX="157" AreaY="56"></Area332>
+    <Area333 enable="false" Description="下邳" AreaX="166" AreaY="72"></Area333>
+    <Area334 enable="false" Description="下邳" AreaX="166" AreaY="73"></Area334>
+    <Area335 enable="false" Description="下邳" AreaX="165" AreaY="71"></Area335>
+    <Area336 enable="false" Description="下邳" AreaX="165" AreaY="72"></Area336>
+    <Area337 enable="false" Description="下邳" AreaX="165" AreaY="73"></Area337>
+    <Area338 enable="false" Description="下邳" AreaX="164" AreaY="71"></Area338>
+    <Area339 enable="false" Description="下邳" AreaX="164" AreaY="72"></Area339>
+    <Area340 enable="false" Description="下邳" AreaX="163" AreaY="70"></Area340>
+    <Area341 enable="false" Description="下邳" AreaX="163" AreaY="71"></Area341>
+    <Area342 enable="true" Description="下邳" AreaX="164" AreaY="74"></Area342>
+    <Area343 enable="true" Description="下邳" AreaX="164" AreaY="75"></Area343>
+    <Area344 enable="true" Description="下邳" AreaX="164" AreaY="76"></Area344>
+    <Area345 enable="true" Description="下邳" AreaX="163" AreaY="73"></Area345>
+    <Area346 enable="true" Description="下邳" AreaX="163" AreaY="74"></Area346>
+    <Area347 enable="true" Description="下邳" AreaX="163" AreaY="75"></Area347>
+    <Area348 enable="true" Description="下邳" AreaX="163" AreaY="76"></Area348>
+    <Area349 enable="true" Description="下邳" AreaX="162" AreaY="72"></Area349>
+    <Area350 enable="true" Description="下邳" AreaX="162" AreaY="73"></Area350>
+    <Area351 enable="true" Description="下邳" AreaX="162" AreaY="74"></Area351>
+    <Area352 enable="true" Description="下邳" AreaX="162" AreaY="75"></Area352>
+    <Area353 enable="true" Description="下邳" AreaX="162" AreaY="76"></Area353>
+    <Area354 enable="true" Description="下邳" AreaX="162" AreaY="77"></Area354>
+    <Area355 enable="true" Description="下邳" AreaX="161" AreaY="72"></Area355>
+    <Area356 enable="true" Description="下邳" AreaX="161" AreaY="73"></Area356>
+    <Area357 enable="true" Description="下邳" AreaX="161" AreaY="71"></Area357>
+    <Area358 enable="true" Description="下邳" AreaX="161" AreaY="74"></Area358>
+    <Area359 enable="true" Description="下邳" AreaX="161" AreaY="75"></Area359>
+    <Area360 enable="true" Description="下邳" AreaX="161" AreaY="76"></Area360>
+    <Area361 enable="true" Description="下邳" AreaX="153" AreaY="80"></Area361>
+    <Area362 enable="true" Description="下邳" AreaX="153" AreaY="81"></Area362>
+    <Area363 enable="false" Description="下邳" AreaX="154" AreaY="83"></Area363>
+    <Area364 enable="false" Description="下邳" AreaX="155" AreaY="83"></Area364>
+    <Area365 enable="false" Description="下邳" AreaX="156" AreaY="84"></Area365>
+    <Area366 enable="false" Description="下邳" AreaX="157" AreaY="83"></Area366>
+    <Area367 enable="true" Description="下邳" AreaX="160" AreaY="72"></Area367>
+    <Area368 enable="true" Description="下邳" AreaX="160" AreaY="71"></Area368>
+    <Area369 enable="true" Description="下邳" AreaX="160" AreaY="73"></Area369>
+    <Area370 enable="true" Description="下邳" AreaX="160" AreaY="74"></Area370>
+    <Area371 enable="true" Description="下邳" AreaX="160" AreaY="75"></Area371>
+    <Area372 enable="false" Description="下邳" AreaX="155" AreaY="82"></Area372>
+    <Area373 enable="false" Description="下邳" AreaX="156" AreaY="83"></Area373>
+    <Area374 enable="false" Description="下邳" AreaX="157" AreaY="82"></Area374>
+    <Area375 enable="true" Description="下邳" AreaX="160" AreaY="76"></Area375>
+    <Area376 enable="true" Description="下邳" AreaX="154" AreaY="81"></Area376>
+    <Area377 enable="false" Description="小沛" AreaX="137" AreaY="81"></Area377>
+    <Area378 enable="false" Description="小沛" AreaX="138" AreaY="82"></Area378>
+    <Area379 enable="false" Description="小沛" AreaX="139" AreaY="82"></Area379>
+    <Area380 enable="true" Description="小沛" AreaX="142" AreaY="69"></Area380>
+    <Area381 enable="true" Description="小沛" AreaX="142" AreaY="70"></Area381>
+    <Area382 enable="true" Description="小沛" AreaX="142" AreaY="71"></Area382>
+    <Area383 enable="true" Description="小沛" AreaX="142" AreaY="72"></Area383>
+    <Area384 enable="true" Description="小沛" AreaX="141" AreaY="69"></Area384>
+    <Area385 enable="true" Description="小沛" AreaX="141" AreaY="70"></Area385>
+    <Area386 enable="true" Description="小沛" AreaX="141" AreaY="71"></Area386>
+    <Area387 enable="true" Description="小沛" AreaX="141" AreaY="72"></Area387>
+    <Area388 enable="true" Description="小沛" AreaX="140" AreaY="70"></Area388>
+    <Area389 enable="true" Description="小沛" AreaX="140" AreaY="71"></Area389>
+    <Area390 enable="true" Description="小沛" AreaX="140" AreaY="72"></Area390>
+    <Area391 enable="true" Description="小沛" AreaX="140" AreaY="73"></Area391>
+    <Area392 enable="true" Description="小沛" AreaX="139" AreaY="70"></Area392>
+    <Area393 enable="true" Description="小沛" AreaX="139" AreaY="72"></Area393>
+    <Area394 enable="true" Description="小沛" AreaX="139" AreaY="73"></Area394>
+    <Area395 enable="true" Description="小沛" AreaX="139" AreaY="74"></Area395>
+    <Area396 enable="true" Description="小沛" AreaX="138" AreaY="73"></Area396>
+    <Area397 enable="true" Description="小沛" AreaX="138" AreaY="74"></Area397>
+    <Area398 enable="true" Description="小沛" AreaX="137" AreaY="73"></Area398>
+    <Area399 enable="true" Description="小沛" AreaX="139" AreaY="79"></Area399>
+    <Area400 enable="true" Description="小沛" AreaX="139" AreaY="80"></Area400>
+    <Area401 enable="true" Description="小沛" AreaX="138" AreaY="80"></Area401>
+    <Area402 enable="true" Description="小沛" AreaX="137" AreaY="80"></Area402>
+    <Area403 enable="false" Description="濮阳" AreaX="112" AreaY="70"></Area403>
+    <Area404 enable="false" Description="濮阳" AreaX="112" AreaY="71"></Area404>
+    <Area405 enable="false" Description="濮阳" AreaX="111" AreaY="69"></Area405>
+    <Area406 enable="false" Description="濮阳" AreaX="111" AreaY="70"></Area406>
+    <Area407 enable="false" Description="濮阳" AreaX="110" AreaY="70"></Area407>
+    <Area408 enable="false" Description="濮阳" AreaX="109" AreaY="70"></Area408>
+    <Area409 enable="false" Description="濮阳" AreaX="130" AreaY="67"></Area409>
+    <Area410 enable="false" Description="濮阳" AreaX="129" AreaY="67"></Area410>
+    <Area411 enable="true" Description="濮阳" AreaX="109" AreaY="72"></Area411>
+    <Area412 enable="true" Description="濮阳" AreaX="110" AreaY="72"></Area412>
+    <Area413 enable="true" Description="濮阳" AreaX="110" AreaY="73"></Area413>
+    <Area414 enable="true" Description="濮阳" AreaX="111" AreaY="72"></Area414>
+    <Area415 enable="true" Description="濮阳" AreaX="111" AreaY="73"></Area415>
+    <Area416 enable="true" Description="濮阳" AreaX="112" AreaY="72"></Area416>
+    <Area417 enable="true" Description="濮阳" AreaX="112" AreaY="73"></Area417>
+    <Area418 enable="true" Description="濮阳" AreaX="112" AreaY="74"></Area418>
+    <Area419 enable="true" Description="濮阳" AreaX="113" AreaY="71"></Area419>
+    <Area420 enable="true" Description="濮阳" AreaX="113" AreaY="72"></Area420>
+    <Area421 enable="true" Description="濮阳" AreaX="113" AreaY="73"></Area421>
+    <Area422 enable="true" Description="濮阳" AreaX="130" AreaY="70"></Area422>
+    <Area423 enable="true" Description="濮阳" AreaX="129" AreaY="70"></Area423>
+    <Area424 enable="true" Description="濮阳" AreaX="128" AreaY="69"></Area424>
+    <Area425 enable="true" Description="濮阳" AreaX="128" AreaY="70"></Area425>
+    <Area426 enable="true" Description="濮阳" AreaX="128" AreaY="71"></Area426>
+    <Area427 enable="true" Description="濮阳" AreaX="127" AreaY="69"></Area427>
+    <Area428 enable="true" Description="濮阳" AreaX="127" AreaY="70"></Area428>
+    <Area429 enable="true" Description="濮阳" AreaX="125" AreaY="69"></Area429>
+    <Area430 enable="true" Description="濮阳" AreaX="126" AreaY="69"></Area430>
+    <Area431 enable="true" Description="濮阳" AreaX="126" AreaY="70"></Area431>
+    <Area432 enable="true" Description="濮阳" AreaX="126" AreaY="71"></Area432>
+    <Area433 enable="true" Description="濮阳" AreaX="125" AreaY="70"></Area433>
+    <Area434 enable="false" Description="寿春" AreaX="149" AreaY="96"></Area434>
+    <Area435 enable="false" Description="寿春" AreaX="149" AreaY="97"></Area435>
+    <Area436 enable="false" Description="寿春" AreaX="148" AreaY="96"></Area436>
+    <Area437 enable="false" Description="寿春" AreaX="148" AreaY="97"></Area437>
+    <Area438 enable="false" Description="寿春" AreaX="148" AreaY="98"></Area438>
+    <Area439 enable="false" Description="寿春" AreaX="147" AreaY="97"></Area439>
+    <Area440 enable="true" Description="寿春" AreaX="147" AreaY="95"></Area440>
+    <Area441 enable="true" Description="寿春" AreaX="147" AreaY="94"></Area441>
+    <Area442 enable="true" Description="寿春" AreaX="147" AreaY="93"></Area442>
+    <Area443 enable="true" Description="寿春" AreaX="147" AreaY="92"></Area443>
+    <Area444 enable="true" Description="寿春" AreaX="147" AreaY="91"></Area444>
+    <Area445 enable="true" Description="寿春" AreaX="146" AreaY="92"></Area445>
+    <Area446 enable="true" Description="寿春" AreaX="146" AreaY="93"></Area446>
+    <Area447 enable="true" Description="寿春" AreaX="146" AreaY="94"></Area447>
+    <Area448 enable="true" Description="寿春" AreaX="146" AreaY="95"></Area448>
+    <Area449 enable="true" Description="寿春" AreaX="146" AreaY="96"></Area449>
+    <Area450 enable="true" Description="寿春" AreaX="145" AreaY="92"></Area450>
+    <Area451 enable="true" Description="寿春" AreaX="145" AreaY="93"></Area451>
+    <Area452 enable="true" Description="寿春" AreaX="145" AreaY="94"></Area452>
+    <Area453 enable="true" Description="寿春" AreaX="145" AreaY="95"></Area453>
+    <Area454 enable="true" Description="寿春" AreaX="145" AreaY="96"></Area454>
+    <Area455 enable="true" Description="寿春" AreaX="134" AreaY="94"></Area455>
+    <Area456 enable="true" Description="寿春" AreaX="134" AreaY="95"></Area456>
+    <Area457 enable="true" Description="寿春" AreaX="134" AreaY="96"></Area457>
+    <Area458 enable="true" Description="寿春" AreaX="134" AreaY="97"></Area458>
+    <Area459 enable="true" Description="寿春" AreaX="133" AreaY="94"></Area459>
+    <Area460 enable="true" Description="寿春" AreaX="133" AreaY="95"></Area460>
+    <Area461 enable="false" Description="陈留" AreaX="106" AreaY="85"></Area461>
+    <Area462 enable="false" Description="陈留" AreaX="105" AreaY="84"></Area462>
+    <Area463 enable="false" Description="陈留" AreaX="105" AreaY="85"></Area463>
+    <Area464 enable="false" Description="陈留" AreaX="104" AreaY="84"></Area464>
+    <Area465 enable="false" Description="陈留" AreaX="104" AreaY="85"></Area465>
+    <Area466 enable="false" Description="陈留" AreaX="103" AreaY="83"></Area466>
+    <Area467 enable="false" Description="陈留" AreaX="103" AreaY="84"></Area467>
+    <Area468 enable="true" Description="陈留" AreaX="106" AreaY="82"></Area468>
+    <Area469 enable="true" Description="陈留" AreaX="106" AreaY="83"></Area469>
+    <Area470 enable="true" Description="陈留" AreaX="105" AreaY="81"></Area470>
+    <Area471 enable="true" Description="陈留" AreaX="105" AreaY="82"></Area471>
+    <Area472 enable="true" Description="陈留" AreaX="104" AreaY="81"></Area472>
+    <Area473 enable="true" Description="陈留" AreaX="104" AreaY="82"></Area473>
+    <Area474 enable="true" Description="陈留" AreaX="103" AreaY="80"></Area474>
+    <Area475 enable="true" Description="陈留" AreaX="103" AreaY="81"></Area475>
+    <Area476 enable="true" Description="陈留" AreaX="103" AreaY="82"></Area476>
+    <Area477 enable="true" Description="陈留" AreaX="102" AreaY="80"></Area477>
+    <Area478 enable="true" Description="陈留" AreaX="102" AreaY="81"></Area478>
+    <Area479 enable="true" Description="陈留" AreaX="102" AreaY="82"></Area479>
+    <Area480 enable="true" Description="陈留" AreaX="102" AreaY="83"></Area480>
+    <Area481 enable="true" Description="陈留" AreaX="101" AreaY="80"></Area481>
+    <Area482 enable="true" Description="陈留" AreaX="101" AreaY="81"></Area482>
+    <Area483 enable="true" Description="陈留" AreaX="101" AreaY="82"></Area483>
+    <Area484 enable="true" Description="陈留" AreaX="101" AreaY="83"></Area484>
+    <Area485 enable="true" Description="陈留" AreaX="100" AreaY="80"></Area485>
+    <Area486 enable="true" Description="陈留" AreaX="100" AreaY="81"></Area486>
+    <Area487 enable="true" Description="陈留" AreaX="100" AreaY="82"></Area487>
+    <Area488 enable="true" Description="陈留" AreaX="105" AreaY="76"></Area488>
+    <Area489 enable="true" Description="陈留" AreaX="106" AreaY="76"></Area489>
+    <Area490 enable="false" Description="洛阳" AreaX="85" AreaY="70"></Area490>
+    <Area491 enable="false" Description="洛阳" AreaX="85" AreaY="71"></Area491>
+    <Area492 enable="false" Description="洛阳" AreaX="84" AreaY="70"></Area492>
+    <Area493 enable="false" Description="洛阳" AreaX="84" AreaY="71"></Area493>
+    <Area494 enable="false" Description="洛阳" AreaX="83" AreaY="70"></Area494>
+    <Area495 enable="false" Description="洛阳" AreaX="73" AreaY="72"></Area495>
+    <Area496 enable="false" Description="洛阳" AreaX="73" AreaY="73"></Area496>
+    <Area497 enable="false" Description="洛阳" AreaX="72" AreaY="73"></Area497>
+    <Area498 enable="false" Description="洛阳" AreaX="72" AreaY="74"></Area498>
+    <Area499 enable="false" Description="洛阳" AreaX="71" AreaY="73"></Area499>
+    <Area500 enable="false" Description="洛阳" AreaX="71" AreaY="74"></Area500>
+    <Area501 enable="true" Description="洛阳" AreaX="78" AreaY="80"></Area501>
+    <Area502 enable="true" Description="洛阳" AreaX="77" AreaY="79"></Area502>
+    <Area503 enable="true" Description="洛阳" AreaX="77" AreaY="80"></Area503>
+    <Area504 enable="true" Description="洛阳" AreaX="76" AreaY="79"></Area504>
+    <Area505 enable="true" Description="洛阳" AreaX="75" AreaY="78"></Area505>
+    <Area506 enable="true" Description="洛阳" AreaX="73" AreaY="79"></Area506>
+    <Area507 enable="true" Description="洛阳" AreaX="73" AreaY="75"></Area507>
+    <Area508 enable="true" Description="洛阳" AreaX="74" AreaY="74"></Area508>
+    <Area509 enable="true" Description="洛阳" AreaX="74" AreaY="75"></Area509>
+    <Area510 enable="true" Description="洛阳" AreaX="75" AreaY="74"></Area510>
+    <Area511 enable="true" Description="洛阳" AreaX="84" AreaY="73"></Area511>
+    <Area512 enable="true" Description="洛阳" AreaX="83" AreaY="72"></Area512>
+    <Area513 enable="true" Description="洛阳" AreaX="83" AreaY="73"></Area513>
+    <Area514 enable="true" Description="洛阳" AreaX="82" AreaY="72"></Area514>
+    <Area515 enable="true" Description="洛阳" AreaX="82" AreaY="73"></Area515>
+    <Area516 enable="true" Description="洛阳" AreaX="82" AreaY="74"></Area516>
+    <Area517 enable="true" Description="洛阳" AreaX="81" AreaY="72"></Area517>
+    <Area518 enable="true" Description="洛阳" AreaX="81" AreaY="73"></Area518>
+    <Area519 enable="true" Description="洛阳" AreaX="85" AreaY="73"></Area519>
+    <Area520 enable="false" Description="长安" AreaX="42" AreaY="70"></Area520>
+    <Area521 enable="false" Description="长安" AreaX="42" AreaY="71"></Area521>
+    <Area522 enable="false" Description="长安" AreaX="41" AreaY="69"></Area522>
+    <Area523 enable="false" Description="长安" AreaX="41" AreaY="70"></Area523>
+    <Area524 enable="false" Description="长安" AreaX="41" AreaY="71"></Area524>
+    <Area525 enable="false" Description="长安" AreaX="40" AreaY="70"></Area525>
+    <Area526 enable="false" Description="长安" AreaX="40" AreaY="71"></Area526>
+    <Area527 enable="false" Description="长安" AreaX="39" AreaY="69"></Area527>
+    <Area528 enable="false" Description="长安" AreaX="39" AreaY="70"></Area528>
+    <Area529 enable="false" Description="长安" AreaX="39" AreaY="71"></Area529>
+    <Area530 enable="false" Description="长安" AreaX="55" AreaY="69"></Area530>
+    <Area531 enable="false" Description="长安" AreaX="55" AreaY="70"></Area531>
+    <Area532 enable="false" Description="长安" AreaX="54" AreaY="69"></Area532>
+    <Area533 enable="false" Description="长安" AreaX="54" AreaY="70"></Area533>
+    <Area534 enable="false" Description="长安" AreaX="53" AreaY="68"></Area534>
+    <Area535 enable="false" Description="长安" AreaX="53" AreaY="69"></Area535>
+    <Area536 enable="true" Description="长安" AreaX="47" AreaY="74"></Area536>
+    <Area537 enable="true" Description="长安" AreaX="47" AreaY="75"></Area537>
+    <Area538 enable="true" Description="长安" AreaX="47" AreaY="76"></Area538>
+    <Area539 enable="true" Description="长安" AreaX="48" AreaY="75"></Area539>
+    <Area540 enable="true" Description="长安" AreaX="48" AreaY="76"></Area540>
+    <Area541 enable="true" Description="长安" AreaX="48" AreaY="77"></Area541>
+    <Area542 enable="true" Description="长安" AreaX="49" AreaY="75"></Area542>
+    <Area543 enable="true" Description="长安" AreaX="49" AreaY="76"></Area543>
+    <Area544 enable="true" Description="长安" AreaX="49" AreaY="77"></Area544>
+    <Area545 enable="true" Description="长安" AreaX="50" AreaY="78"></Area545>
+    <Area546 enable="true" Description="长安" AreaX="50" AreaY="77"></Area546>
+    <Area547 enable="true" Description="长安" AreaX="50" AreaY="76"></Area547>
+    <Area548 enable="true" Description="长安" AreaX="51" AreaY="76"></Area548>
+    <Area549 enable="true" Description="长安" AreaX="51" AreaY="77"></Area549>
+    <Area550 enable="true" Description="长安" AreaX="51" AreaY="78"></Area550>
+    <Area551 enable="true" Description="长安" AreaX="52" AreaY="77"></Area551>
+    <Area552 enable="true" Description="长安" AreaX="52" AreaY="78"></Area552>
+    <Area553 enable="true" Description="长安" AreaX="52" AreaY="79"></Area553>
+    <Area554 enable="true" Description="长安" AreaX="52" AreaY="70"></Area554>
+    <Area555 enable="true" Description="长安" AreaX="51" AreaY="69"></Area555>
+    <Area556 enable="true" Description="长安" AreaX="50" AreaY="69"></Area556>
+    <Area557 enable="true" Description="长安" AreaX="49" AreaY="68"></Area557>
+    <Area558 enable="true" Description="长安" AreaX="51" AreaY="70"></Area558>
+    <Area559 enable="true" Description="长安" AreaX="50" AreaY="70"></Area559>
+    <Area560 enable="true" Description="武威" AreaX="16" AreaY="43"></Area560>
+    <Area561 enable="true" Description="武威" AreaX="16" AreaY="44"></Area561>
+    <Area562 enable="true" Description="武威" AreaX="15" AreaY="42"></Area562>
+    <Area563 enable="true" Description="武威" AreaX="15" AreaY="43"></Area563>
+    <Area564 enable="true" Description="武威" AreaX="15" AreaY="44"></Area564>
+    <Area565 enable="true" Description="武威" AreaX="14" AreaY="43"></Area565>
+    <Area566 enable="true" Description="武威" AreaX="14" AreaY="44"></Area566>
+    <Area567 enable="true" Description="武威" AreaX="3" AreaY="36"></Area567>
+    <Area568 enable="true" Description="武威" AreaX="3" AreaY="37"></Area568>
+    <Area569 enable="true" Description="武威" AreaX="4" AreaY="36"></Area569>
+    <Area570 enable="true" Description="武威" AreaX="4" AreaY="37"></Area570>
+    <Area571 enable="true" Description="武威" AreaX="4" AreaY="38"></Area571>
+    <Area572 enable="true" Description="武威" AreaX="5" AreaY="35"></Area572>
+    <Area573 enable="true" Description="武威" AreaX="5" AreaY="36"></Area573>
+    <Area574 enable="true" Description="武威" AreaX="5" AreaY="37"></Area574>
+    <Area575 enable="true" Description="安定" AreaX="28" AreaY="62"></Area575>
+    <Area576 enable="true" Description="安定" AreaX="29" AreaY="62"></Area576>
+    <Area577 enable="true" Description="安定" AreaX="30" AreaY="63"></Area577>
+    <Area578 enable="true" Description="安定" AreaX="30" AreaY="64"></Area578>
+    <Area579 enable="true" Description="安定" AreaX="29" AreaY="64"></Area579>
+    <Area580 enable="true" Description="安定" AreaX="28" AreaY="65"></Area580>
+    <Area581 enable="true" Description="安定" AreaX="33" AreaY="44"></Area581>
+    <Area582 enable="true" Description="安定" AreaX="33" AreaY="45"></Area582>
+    <Area583 enable="true" Description="安定" AreaX="32" AreaY="44"></Area583>
+    <Area584 enable="true" Description="安定" AreaX="32" AreaY="45"></Area584>
+    <Area585 enable="true" Description="安定" AreaX="32" AreaY="46"></Area585>
+    <Area586 enable="true" Description="安定" AreaX="31" AreaY="44"></Area586>
+    <Area587 enable="true" Description="安定" AreaX="31" AreaY="45"></Area587>
+    <Area588 enable="true" Description="安定" AreaX="33" AreaY="49"></Area588>
+    <Area589 enable="true" Description="安定" AreaX="33" AreaY="50"></Area589>
+    <Area590 enable="true" Description="安定" AreaX="32" AreaY="49"></Area590>
+    <Area591 enable="true" Description="安定" AreaX="32" AreaY="50"></Area591>
+    <Area592 enable="true" Description="安定" AreaX="32" AreaY="51"></Area592>
+    <Area593 enable="true" Description="安定" AreaX="31" AreaY="49"></Area593>
+    <Area594 enable="true" Description="安定" AreaX="31" AreaY="50"></Area594>
+    <Area595 enable="true" Description="天水" AreaX="4" AreaY="68"></Area595>
+    <Area596 enable="true" Description="天水" AreaX="4" AreaY="69"></Area596>
+    <Area597 enable="true" Description="天水" AreaX="2" AreaY="65"></Area597>
+    <Area598 enable="true" Description="天水" AreaX="2" AreaY="66"></Area598>
+    <Area599 enable="true" Description="天水" AreaX="2" AreaY="67"></Area599>
+    <Area600 enable="true" Description="天水" AreaX="5" AreaY="67"></Area600>
+    <Area601 enable="true" Description="天水" AreaX="5" AreaY="68"></Area601>
+    <Area602 enable="true" Description="天水" AreaX="3" AreaY="66"></Area602>
+    <Area603 enable="true" Description="天水" AreaX="3" AreaY="67"></Area603>
+    <Area604 enable="true" Description="天水" AreaX="5" AreaY="69"></Area604>
+    <Area605 enable="true" Description="天水" AreaX="4" AreaY="67"></Area605>
+    <Area606 enable="true" Description="天水" AreaX="5" AreaY="63"></Area606>
+    <Area607 enable="true" Description="天水" AreaX="5" AreaY="66"></Area607>
+    <Area608 enable="true" Description="天水" AreaX="15" AreaY="66"></Area608>
+    <Area609 enable="true" Description="天水" AreaX="16" AreaY="66"></Area609>
+    <Area610 enable="true" Description="天水" AreaX="17" AreaY="66"></Area610>
+    <Area611 enable="true" Description="天水" AreaX="14" AreaY="66"></Area611>
+    <Area612 enable="true" Description="天水" AreaX="15" AreaY="65"></Area612>
+    <Area613 enable="false" Description="许昌" AreaX="103" AreaY="87"></Area613>
+    <Area614 enable="false" Description="许昌" AreaX="103" AreaY="88"></Area614>
+    <Area615 enable="false" Description="许昌" AreaX="104" AreaY="88"></Area615>
+    <Area616 enable="false" Description="许昌" AreaX="104" AreaY="89"></Area616>
+    <Area617 enable="false" Description="许昌" AreaX="105" AreaY="88"></Area617>
+    <Area618 enable="false" Description="许昌" AreaX="102" AreaY="88"></Area618>
+    <Area619 enable="true" Description="许昌" AreaX="100" AreaY="89"></Area619>
+    <Area620 enable="true" Description="许昌" AreaX="101" AreaY="89"></Area620>
+    <Area621 enable="true" Description="许昌" AreaX="102" AreaY="90"></Area621>
+    <Area622 enable="true" Description="许昌" AreaX="103" AreaY="90"></Area622>
+    <Area623 enable="true" Description="许昌" AreaX="104" AreaY="90"></Area623>
+    <Area624 enable="true" Description="许昌" AreaX="104" AreaY="91"></Area624>
+    <Area625 enable="true" Description="许昌" AreaX="90" AreaY="92"></Area625>
+    <Area626 enable="true" Description="许昌" AreaX="91" AreaY="92"></Area626>
+    <Area627 enable="true" Description="许昌" AreaX="92" AreaY="93"></Area627>
+    <Area628 enable="true" Description="许昌" AreaX="92" AreaY="94"></Area628>
+    <Area629 enable="true" Description="许昌" AreaX="93" AreaY="93"></Area629>
+    <Area630 enable="true" Description="许昌" AreaX="93" AreaY="94"></Area630>
+    <Area631 enable="true" Description="许昌" AreaX="94" AreaY="94"></Area631>
+    <Area632 enable="true" Description="许昌" AreaX="105" AreaY="90"></Area632>
+    <Area633 enable="true" Description="许昌" AreaX="105" AreaY="91"></Area633>
+    <Area634 enable="true" Description="许昌" AreaX="103" AreaY="91"></Area634>
+    <Area635 enable="true" Description="许昌" AreaX="103" AreaY="92"></Area635>
+    <Area636 enable="true" Description="许昌" AreaX="104" AreaY="92"></Area636>
+    <Area637 enable="false" Description="宛" AreaX="71" AreaY="101"></Area637>
+    <Area638 enable="false" Description="宛" AreaX="71" AreaY="102"></Area638>
+    <Area639 enable="false" Description="宛" AreaX="72" AreaY="102"></Area639>
+    <Area640 enable="false" Description="宛" AreaX="72" AreaY="103"></Area640>
+    <Area641 enable="false" Description="宛" AreaX="73" AreaY="101"></Area641>
+    <Area642 enable="false" Description="宛" AreaX="73" AreaY="102"></Area642>
+    <Area643 enable="true" Description="宛" AreaX="85" AreaY="94"></Area643>
+    <Area644 enable="true" Description="宛" AreaX="84" AreaY="95"></Area644>
+    <Area645 enable="true" Description="宛" AreaX="84" AreaY="96"></Area645>
+    <Area646 enable="true" Description="宛" AreaX="84" AreaY="97"></Area646>
+    <Area647 enable="true" Description="宛" AreaX="82" AreaY="96"></Area647>
+    <Area648 enable="true" Description="宛" AreaX="81" AreaY="96"></Area648>
+    <Area649 enable="true" Description="宛" AreaX="80" AreaY="96"></Area649>
+    <Area650 enable="true" Description="宛" AreaX="80" AreaY="97"></Area650>
+    <Area651 enable="true" Description="宛" AreaX="79" AreaY="96"></Area651>
+    <Area652 enable="true" Description="宛" AreaX="81" AreaY="97"></Area652>
+    <Area653 enable="true" Description="宛" AreaX="82" AreaY="97"></Area653>
+    <Area654 enable="true" Description="宛" AreaX="72" AreaY="94"></Area654>
+    <Area655 enable="true" Description="宛" AreaX="72" AreaY="95"></Area655>
+    <Area656 enable="true" Description="宛" AreaX="72" AreaY="96"></Area656>
+    <Area657 enable="true" Description="宛" AreaX="75" AreaY="96"></Area657>
+    <Area658 enable="true" Description="宛" AreaX="75" AreaY="97"></Area658>
+    <Area659 enable="true" Description="宛" AreaX="74" AreaY="96"></Area659>
+    <Area660 enable="true" Description="宛" AreaX="74" AreaY="97"></Area660>
+    <Area661 enable="true" Description="宛" AreaX="70" AreaY="97"></Area661>
+    <Area662 enable="true" Description="宛" AreaX="71" AreaY="97"></Area662>
+    <Area663 enable="true" Description="宛" AreaX="72" AreaY="97"></Area663>
+    <Area664 enable="true" Description="汝南" AreaX="115" AreaY="104"></Area664>
+    <Area665 enable="true" Description="汝南" AreaX="114" AreaY="111"></Area665>
+    <Area666 enable="true" Description="汝南" AreaX="115" AreaY="110"></Area666>
+    <Area667 enable="true" Description="汝南" AreaX="115" AreaY="111"></Area667>
+    <Area668 enable="true" Description="汝南" AreaX="114" AreaY="100"></Area668>
+    <Area669 enable="true" Description="汝南" AreaX="114" AreaY="101"></Area669>
+    <Area670 enable="true" Description="汝南" AreaX="114" AreaY="102"></Area670>
+    <Area671 enable="true" Description="汝南" AreaX="114" AreaY="103"></Area671>
+    <Area672 enable="true" Description="汝南" AreaX="115" AreaY="99"></Area672>
+    <Area673 enable="true" Description="汝南" AreaX="115" AreaY="100"></Area673>
+    <Area674 enable="true" Description="汝南" AreaX="115" AreaY="101"></Area674>
+    <Area675 enable="true" Description="汝南" AreaX="115" AreaY="102"></Area675>
+    <Area676 enable="true" Description="汝南" AreaX="115" AreaY="103"></Area676>
+    <Area677 enable="true" Description="汝南" AreaX="116" AreaY="100"></Area677>
+    <Area678 enable="true" Description="汝南" AreaX="116" AreaY="101"></Area678>
+    <Area679 enable="true" Description="汝南" AreaX="116" AreaY="102"></Area679>
+    <Area680 enable="true" Description="汝南" AreaX="116" AreaY="103"></Area680>
+    <Area681 enable="true" Description="汝南" AreaX="114" AreaY="104"></Area681>
+    <Area682 enable="true" Description="新野" AreaX="87" AreaY="103"></Area682>
+    <Area683 enable="true" Description="新野" AreaX="87" AreaY="104"></Area683>
+    <Area684 enable="true" Description="新野" AreaX="87" AreaY="105"></Area684>
+    <Area685 enable="true" Description="新野" AreaX="88" AreaY="105"></Area685>
+    <Area686 enable="true" Description="新野" AreaX="88" AreaY="106"></Area686>
+    <Area687 enable="true" Description="新野" AreaX="89" AreaY="106"></Area687>
+    <Area688 enable="true" Description="新野" AreaX="84" AreaY="102"></Area688>
+    <Area689 enable="true" Description="新野" AreaX="84" AreaY="103"></Area689>
+    <Area690 enable="true" Description="新野" AreaX="85" AreaY="103"></Area690>
+    <Area691 enable="true" Description="新野" AreaX="86" AreaY="104"></Area691>
+    <Area692 enable="true" Description="新野" AreaX="84" AreaY="106"></Area692>
+    <Area693 enable="true" Description="新野" AreaX="84" AreaY="107"></Area693>
+    <Area694 enable="true" Description="新野" AreaX="85" AreaY="106"></Area694>
+    <Area695 enable="true" Description="新野" AreaX="83" AreaY="105"></Area695>
+    <Area696 enable="true" Description="新野" AreaX="83" AreaY="106"></Area696>
+    <Area697 enable="true" Description="新野" AreaX="83" AreaY="102"></Area697>
+    <Area698 enable="true" Description="新野" AreaX="83" AreaY="103"></Area698>
+    <Area699 enable="true" Description="新野" AreaX="84" AreaY="104"></Area699>
+    <Area700 enable="true" Description="新野" AreaX="85" AreaY="104"></Area700>
+    <Area701 enable="true" Description="新野" AreaX="86" AreaY="105"></Area701>
+    <Area702 enable="true" Description="上庸" AreaX="54" AreaY="97"></Area702>
+    <Area703 enable="true" Description="上庸" AreaX="54" AreaY="98"></Area703>
+    <Area704 enable="true" Description="上庸" AreaX="55" AreaY="97"></Area704>
+    <Area705 enable="true" Description="上庸" AreaX="53" AreaY="97"></Area705>
+    <Area706 enable="true" Description="上庸" AreaX="53" AreaY="98"></Area706>
+    <Area707 enable="true" Description="上庸" AreaX="52" AreaY="98"></Area707>
+    <Area708 enable="true" Description="上庸" AreaX="52" AreaY="99"></Area708>
+    <Area709 enable="true" Description="上庸" AreaX="51" AreaY="97"></Area709>
+    <Area710 enable="true" Description="上庸" AreaX="51" AreaY="98"></Area710>
+    <Area711 enable="true" Description="上庸" AreaX="49" AreaY="98"></Area711>
+    <Area712 enable="true" Description="上庸" AreaX="50" AreaY="98"></Area712>
+    <Area713 enable="true" Description="上庸" AreaX="50" AreaY="99"></Area713>
+    <Area714 enable="true" Description="上庸" AreaX="55" AreaY="98"></Area714>
+    <Area715 enable="true" Description="上庸" AreaX="56" AreaY="98"></Area715>
+    <Area716 enable="true" Description="上庸" AreaX="51" AreaY="99"></Area716>
+    <Area717 enable="true" Description="上庸" AreaX="47" AreaY="101"></Area717>
+    <Area718 enable="true" Description="上庸" AreaX="47" AreaY="102"></Area718>
+    <Area719 enable="true" Description="上庸" AreaX="48" AreaY="102"></Area719>
+    <Area720 enable="false" Description="庐江" AreaX="148" AreaY="113"></Area720>
+    <Area721 enable="false" Description="庐江" AreaX="148" AreaY="114"></Area721>
+    <Area722 enable="false" Description="庐江" AreaX="148" AreaY="115"></Area722>
+    <Area723 enable="false" Description="庐江" AreaX="147" AreaY="113"></Area723>
+    <Area724 enable="false" Description="庐江" AreaX="147" AreaY="114"></Area724>
+    <Area725 enable="false" Description="庐江" AreaX="137" AreaY="118"></Area725>
+    <Area726 enable="false" Description="庐江" AreaX="138" AreaY="119"></Area726>
+    <Area727 enable="true" Description="庐江" AreaX="139" AreaY="112"></Area727>
+    <Area728 enable="true" Description="庐江" AreaX="139" AreaY="116"></Area728>
+    <Area729 enable="true" Description="庐江" AreaX="139" AreaY="117"></Area729>
+    <Area730 enable="true" Description="庐江" AreaX="139" AreaY="118"></Area730>
+    <Area731 enable="true" Description="庐江" AreaX="140" AreaY="117"></Area731>
+    <Area732 enable="true" Description="庐江" AreaX="140" AreaY="118"></Area732>
+    <Area733 enable="true" Description="庐江" AreaX="140" AreaY="119"></Area733>
+    <Area734 enable="true" Description="庐江" AreaX="141" AreaY="117"></Area734>
+    <Area735 enable="true" Description="庐江" AreaX="141" AreaY="118"></Area735>
+    <Area736 enable="true" Description="庐江" AreaX="141" AreaY="119"></Area736>
+    <Area737 enable="true" Description="庐江" AreaX="142" AreaY="118"></Area737>
+    <Area738 enable="true" Description="庐江" AreaX="142" AreaY="119"></Area738>
+    <Area739 enable="true" Description="庐江" AreaX="142" AreaY="120"></Area739>
+    <Area740 enable="true" Description="庐江" AreaX="139" AreaY="113"></Area740>
+    <Area741 enable="true" Description="庐江" AreaX="138" AreaY="112"></Area741>
+    <Area742 enable="true" Description="庐江" AreaX="141" AreaY="112"></Area742>
+    <Area743 enable="true" Description="庐江" AreaX="140" AreaY="112"></Area743>
+    <Area744 enable="true" Description="庐江" AreaX="140" AreaY="113"></Area744>
+    <Area745 enable="true" Description="庐江" AreaX="137" AreaY="112"></Area745>
+    <Area746 enable="true" Description="庐江" AreaX="137" AreaY="111"></Area746>
+    <Area747 enable="true" Description="庐江" AreaX="138" AreaY="113"></Area747>
+    <Area748 enable="true" Description="庐江" AreaX="141" AreaY="111"></Area748>
+    <Area749 enable="false" Description="襄阳" AreaX="66" AreaY="111"></Area749>
+    <Area750 enable="false" Description="襄阳" AreaX="66" AreaY="112"></Area750>
+    <Area751 enable="false" Description="襄阳" AreaX="67" AreaY="111"></Area751>
+    <Area752 enable="false" Description="襄阳" AreaX="67" AreaY="112"></Area752>
+    <Area753 enable="false" Description="襄阳" AreaX="83" AreaY="120"></Area753>
+    <Area754 enable="false" Description="襄阳" AreaX="83" AreaY="121"></Area754>
+    <Area755 enable="false" Description="襄阳" AreaX="83" AreaY="122"></Area755>
+    <Area756 enable="false" Description="襄阳" AreaX="83" AreaY="123"></Area756>
+    <Area757 enable="false" Description="襄阳" AreaX="82" AreaY="124"></Area757>
+    <Area758 enable="true" Description="襄阳" AreaX="72" AreaY="121"></Area758>
+    <Area759 enable="true" Description="襄阳" AreaX="72" AreaY="122"></Area759>
+    <Area760 enable="true" Description="襄阳" AreaX="72" AreaY="123"></Area760>
+    <Area761 enable="true" Description="襄阳" AreaX="72" AreaY="124"></Area761>
+    <Area762 enable="true" Description="襄阳" AreaX="73" AreaY="120"></Area762>
+    <Area763 enable="true" Description="襄阳" AreaX="73" AreaY="121"></Area763>
+    <Area764 enable="true" Description="襄阳" AreaX="73" AreaY="123"></Area764>
+    <Area765 enable="true" Description="襄阳" AreaX="73" AreaY="122"></Area765>
+    <Area766 enable="true" Description="襄阳" AreaX="74" AreaY="120"></Area766>
+    <Area767 enable="true" Description="襄阳" AreaX="74" AreaY="121"></Area767>
+    <Area768 enable="true" Description="襄阳" AreaX="74" AreaY="122"></Area768>
+    <Area769 enable="true" Description="襄阳" AreaX="73" AreaY="117"></Area769>
+    <Area770 enable="true" Description="襄阳" AreaX="74" AreaY="118"></Area770>
+    <Area771 enable="true" Description="襄阳" AreaX="74" AreaY="119"></Area771>
+    <Area772 enable="true" Description="襄阳" AreaX="81" AreaY="119"></Area772>
+    <Area773 enable="true" Description="襄阳" AreaX="81" AreaY="123"></Area773>
+    <Area774 enable="true" Description="襄阳" AreaX="80" AreaY="120"></Area774>
+    <Area775 enable="true" Description="襄阳" AreaX="80" AreaY="123"></Area775>
+    <Area776 enable="true" Description="襄阳" AreaX="79" AreaY="120"></Area776>
+    <Area777 enable="true" Description="襄阳" AreaX="79" AreaY="121"></Area777>
+    <Area778 enable="true" Description="襄阳" AreaX="79" AreaY="122"></Area778>
+    <Area779 enable="true" Description="江陵" AreaX="89" AreaY="133"></Area779>
+    <Area780 enable="true" Description="江陵" AreaX="88" AreaY="134"></Area780>
+    <Area781 enable="true" Description="江陵" AreaX="88" AreaY="133"></Area781>
+    <Area782 enable="true" Description="江陵" AreaX="87" AreaY="133"></Area782>
+    <Area783 enable="true" Description="江陵" AreaX="87" AreaY="134"></Area783>
+    <Area784 enable="true" Description="江陵" AreaX="86" AreaY="133"></Area784>
+    <Area785 enable="true" Description="江陵" AreaX="86" AreaY="134"></Area785>
+    <Area786 enable="true" Description="江陵" AreaX="84" AreaY="132"></Area786>
+    <Area787 enable="true" Description="江陵" AreaX="84" AreaY="133"></Area787>
+    <Area788 enable="true" Description="江陵" AreaX="85" AreaY="132"></Area788>
+    <Area789 enable="true" Description="江陵" AreaX="85" AreaY="133"></Area789>
+    <Area790 enable="true" Description="江陵" AreaX="83" AreaY="130"></Area790>
+    <Area791 enable="true" Description="江陵" AreaX="83" AreaY="131"></Area791>
+    <Area792 enable="true" Description="江陵" AreaX="83" AreaY="132"></Area792>
+    <Area793 enable="true" Description="江陵" AreaX="78" AreaY="133"></Area793>
+    <Area794 enable="false" Description="柴桑" AreaX="113" AreaY="139"></Area794>
+    <Area795 enable="false" Description="柴桑" AreaX="113" AreaY="140"></Area795>
+    <Area796 enable="false" Description="柴桑" AreaX="113" AreaY="141"></Area796>
+    <Area797 enable="false" Description="柴桑" AreaX="114" AreaY="140"></Area797>
+    <Area798 enable="false" Description="柴桑" AreaX="123" AreaY="142"></Area798>
+    <Area799 enable="true" Description="柴桑" AreaX="120" AreaY="136"></Area799>
+    <Area800 enable="true" Description="柴桑" AreaX="120" AreaY="137"></Area800>
+    <Area801 enable="true" Description="柴桑" AreaX="120" AreaY="138"></Area801>
+    <Area802 enable="true" Description="柴桑" AreaX="120" AreaY="139"></Area802>
+    <Area803 enable="true" Description="柴桑" AreaX="121" AreaY="135"></Area803>
+    <Area804 enable="true" Description="柴桑" AreaX="121" AreaY="136"></Area804>
+    <Area805 enable="true" Description="柴桑" AreaX="121" AreaY="137"></Area805>
+    <Area806 enable="true" Description="柴桑" AreaX="121" AreaY="138"></Area806>
+    <Area807 enable="true" Description="柴桑" AreaX="121" AreaY="139"></Area807>
+    <Area808 enable="true" Description="柴桑" AreaX="122" AreaY="135"></Area808>
+    <Area809 enable="true" Description="柴桑" AreaX="122" AreaY="136"></Area809>
+    <Area810 enable="true" Description="柴桑" AreaX="122" AreaY="137"></Area810>
+    <Area811 enable="true" Description="柴桑" AreaX="122" AreaY="138"></Area811>
+    <Area812 enable="true" Description="柴桑" AreaX="122" AreaY="139"></Area812>
+    <Area813 enable="true" Description="柴桑" AreaX="123" AreaY="135"></Area813>
+    <Area814 enable="true" Description="柴桑" AreaX="123" AreaY="136"></Area814>
+    <Area815 enable="true" Description="柴桑" AreaX="123" AreaY="137"></Area815>
+    <Area816 enable="true" Description="柴桑" AreaX="123" AreaY="138"></Area816>
+    <Area817 enable="true" Description="柴桑" AreaX="115" AreaY="140"></Area817>
+    <Area818 enable="true" Description="柴桑" AreaX="115" AreaY="141"></Area818>
+    <Area819 enable="true" Description="柴桑" AreaX="115" AreaY="142"></Area819>
+    <Area820 enable="true" Description="柴桑" AreaX="116" AreaY="141"></Area820>
+    <Area821 enable="true" Description="柴桑" AreaX="124" AreaY="136"></Area821>
+    <Area822 enable="true" Description="建业" AreaX="165" AreaY="106"></Area822>
+    <Area823 enable="true" Description="建业" AreaX="165" AreaY="107"></Area823>
+    <Area824 enable="true" Description="建业" AreaX="166" AreaY="109"></Area824>
+    <Area825 enable="true" Description="建业" AreaX="167" AreaY="109"></Area825>
+    <Area826 enable="true" Description="建业" AreaX="168" AreaY="109"></Area826>
+    <Area827 enable="true" Description="建业" AreaX="169" AreaY="108"></Area827>
+    <Area828 enable="true" Description="建业" AreaX="170" AreaY="108"></Area828>
+    <Area829 enable="true" Description="建业" AreaX="169" AreaY="109"></Area829>
+    <Area830 enable="true" Description="建业" AreaX="170" AreaY="109"></Area830>
+    <Area831 enable="true" Description="建业" AreaX="166" AreaY="110"></Area831>
+    <Area832 enable="true" Description="建业" AreaX="167" AreaY="110"></Area832>
+    <Area833 enable="true" Description="建业" AreaX="168" AreaY="110"></Area833>
+    <Area834 enable="true" Description="吴" AreaX="184" AreaY="106"></Area834>
+    <Area835 enable="true" Description="吴" AreaX="185" AreaY="105"></Area835>
+    <Area836 enable="true" Description="吴" AreaX="185" AreaY="106"></Area836>
+    <Area837 enable="true" Description="吴" AreaX="186" AreaY="106"></Area837>
+    <Area838 enable="true" Description="吴" AreaX="186" AreaY="107"></Area838>
+    <Area839 enable="true" Description="吴" AreaX="186" AreaY="110"></Area839>
+    <Area840 enable="true" Description="吴" AreaX="187" AreaY="106"></Area840>
+    <Area841 enable="true" Description="吴" AreaX="188" AreaY="107"></Area841>
+    <Area842 enable="true" Description="吴" AreaX="189" AreaY="107"></Area842>
+    <Area843 enable="true" Description="吴" AreaX="190" AreaY="108"></Area843>
+    <Area844 enable="true" Description="吴" AreaX="190" AreaY="109"></Area844>
+    <Area845 enable="true" Description="吴" AreaX="189" AreaY="109"></Area845>
+    <Area846 enable="true" Description="吴" AreaX="188" AreaY="110"></Area846>
+    <Area847 enable="true" Description="吴" AreaX="187" AreaY="110"></Area847>
+    <Area848 enable="true" Description="吴" AreaX="186" AreaY="111"></Area848>
+    <Area849 enable="true" Description="会稽" AreaX="194" AreaY="127"></Area849>
+    <Area850 enable="true" Description="会稽" AreaX="194" AreaY="128"></Area850>
+    <Area851 enable="true" Description="会稽" AreaX="193" AreaY="127"></Area851>
+    <Area852 enable="true" Description="会稽" AreaX="193" AreaY="128"></Area852>
+    <Area853 enable="true" Description="会稽" AreaX="192" AreaY="127"></Area853>
+    <Area854 enable="true" Description="会稽" AreaX="192" AreaY="128"></Area854>
+    <Area855 enable="true" Description="会稽" AreaX="192" AreaY="129"></Area855>
+    <Area856 enable="true" Description="会稽" AreaX="192" AreaY="130"></Area856>
+    <Area857 enable="true" Description="会稽" AreaX="189" AreaY="123"></Area857>
+    <Area858 enable="true" Description="会稽" AreaX="189" AreaY="124"></Area858>
+    <Area859 enable="true" Description="会稽" AreaX="191" AreaY="121"></Area859>
+    <Area860 enable="true" Description="会稽" AreaX="190" AreaY="122"></Area860>
+    <Area861 enable="true" Description="会稽" AreaX="190" AreaY="123"></Area861>
+    <Area862 enable="true" Description="会稽" AreaX="190" AreaY="124"></Area862>
+    <Area863 enable="true" Description="会稽" AreaX="190" AreaY="125"></Area863>
+    <Area864 enable="true" Description="武陵" AreaX="65" AreaY="152"></Area864>
+    <Area865 enable="true" Description="武陵" AreaX="64" AreaY="152"></Area865>
+    <Area866 enable="true" Description="武陵" AreaX="64" AreaY="153"></Area866>
+    <Area867 enable="true" Description="武陵" AreaX="63" AreaY="152"></Area867>
+    <Area868 enable="true" Description="武陵" AreaX="63" AreaY="153"></Area868>
+    <Area869 enable="true" Description="武陵" AreaX="62" AreaY="153"></Area869>
+    <Area870 enable="true" Description="武陵" AreaX="61" AreaY="152"></Area870>
+    <Area871 enable="true" Description="武陵" AreaX="61" AreaY="151"></Area871>
+    <Area872 enable="true" Description="武陵" AreaX="61" AreaY="150"></Area872>
+    <Area873 enable="true" Description="武陵" AreaX="61" AreaY="149"></Area873>
+    <Area874 enable="true" Description="武陵" AreaX="60" AreaY="154"></Area874>
+    <Area875 enable="true" Description="武陵" AreaX="60" AreaY="155"></Area875>
+    <Area876 enable="true" Description="武陵" AreaX="61" AreaY="153"></Area876>
+    <Area877 enable="true" Description="武陵" AreaX="61" AreaY="154"></Area877>
+    <Area878 enable="true" Description="武陵" AreaX="61" AreaY="155"></Area878>
+    <Area879 enable="true" Description="武陵" AreaX="62" AreaY="154"></Area879>
+    <Area880 enable="true" Description="武陵" AreaX="62" AreaY="155"></Area880>
+    <Area881 enable="true" Description="武陵" AreaX="60" AreaY="150"></Area881>
+    <Area882 enable="true" Description="武陵" AreaX="60" AreaY="151"></Area882>
+    <Area883 enable="true" Description="武陵" AreaX="60" AreaY="152"></Area883>
+    <Area884 enable="true" Description="零陵" AreaX="72" AreaY="190"></Area884>
+    <Area885 enable="true" Description="零陵" AreaX="71" AreaY="189"></Area885>
+    <Area886 enable="true" Description="零陵" AreaX="71" AreaY="190"></Area886>
+    <Area887 enable="true" Description="零陵" AreaX="71" AreaY="191"></Area887>
+    <Area888 enable="true" Description="零陵" AreaX="70" AreaY="190"></Area888>
+    <Area889 enable="true" Description="零陵" AreaX="70" AreaY="191"></Area889>
+    <Area890 enable="true" Description="零陵" AreaX="70" AreaY="189"></Area890>
+    <Area891 enable="true" Description="零陵" AreaX="69" AreaY="189"></Area891>
+    <Area892 enable="true" Description="零陵" AreaX="69" AreaY="190"></Area892>
+    <Area893 enable="true" Description="零陵" AreaX="69" AreaY="188"></Area893>
+    <Area894 enable="true" Description="零陵" AreaX="68" AreaY="188"></Area894>
+    <Area895 enable="true" Description="零陵" AreaX="68" AreaY="189"></Area895>
+    <Area896 enable="true" Description="零陵" AreaX="68" AreaY="190"></Area896>
+    <Area897 enable="true" Description="零陵" AreaX="67" AreaY="187"></Area897>
+    <Area898 enable="true" Description="零陵" AreaX="67" AreaY="188"></Area898>
+    <Area899 enable="true" Description="零陵" AreaX="67" AreaY="189"></Area899>
+    <Area900 enable="true" Description="零陵" AreaX="62" AreaY="180"></Area900>
+    <Area901 enable="true" Description="零陵" AreaX="63" AreaY="180"></Area901>
+    <Area902 enable="true" Description="桂阳" AreaX="107" AreaY="191"></Area902>
+    <Area903 enable="true" Description="桂阳" AreaX="107" AreaY="192"></Area903>
+    <Area904 enable="true" Description="桂阳" AreaX="106" AreaY="191"></Area904>
+    <Area905 enable="true" Description="桂阳" AreaX="105" AreaY="190"></Area905>
+    <Area906 enable="true" Description="桂阳" AreaX="104" AreaY="191"></Area906>
+    <Area907 enable="true" Description="桂阳" AreaX="103" AreaY="191"></Area907>
+    <Area908 enable="true" Description="桂阳" AreaX="103" AreaY="192"></Area908>
+    <Area909 enable="true" Description="桂阳" AreaX="103" AreaY="193"></Area909>
+    <Area910 enable="true" Description="桂阳" AreaX="103" AreaY="194"></Area910>
+    <Area911 enable="true" Description="桂阳" AreaX="104" AreaY="194"></Area911>
+    <Area912 enable="true" Description="桂阳" AreaX="102" AreaY="192"></Area912>
+    <Area913 enable="true" Description="桂阳" AreaX="102" AreaY="193"></Area913>
+    <Area914 enable="true" Description="桂阳" AreaX="102" AreaY="194"></Area914>
+    <Area915 enable="true" Description="桂阳" AreaX="102" AreaY="195"></Area915>
+    <Area916 enable="true" Description="桂阳" AreaX="101" AreaY="192"></Area916>
+    <Area917 enable="true" Description="桂阳" AreaX="101" AreaY="193"></Area917>
+    <Area918 enable="true" Description="桂阳" AreaX="101" AreaY="194"></Area918>
+    <Area919 enable="true" Description="桂阳" AreaX="100" AreaY="194"></Area919>
+    <Area920 enable="true" Description="长沙" AreaX="112" AreaY="165"></Area920>
+    <Area921 enable="true" Description="长沙" AreaX="112" AreaY="166"></Area921>
+    <Area922 enable="true" Description="长沙" AreaX="113" AreaY="164"></Area922>
+    <Area923 enable="true" Description="长沙" AreaX="113" AreaY="165"></Area923>
+    <Area924 enable="true" Description="长沙" AreaX="108" AreaY="155"></Area924>
+    <Area925 enable="true" Description="长沙" AreaX="109" AreaY="155"></Area925>
+    <Area926 enable="true" Description="长沙" AreaX="110" AreaY="156"></Area926>
+    <Area927 enable="true" Description="长沙" AreaX="109" AreaY="156"></Area927>
+    <Area928 enable="true" Description="长沙" AreaX="109" AreaY="157"></Area928>
+    <Area929 enable="true" Description="长沙" AreaX="109" AreaY="158"></Area929>
+    <Area930 enable="true" Description="长沙" AreaX="109" AreaY="159"></Area930>
+    <Area931 enable="true" Description="长沙" AreaX="110" AreaY="157"></Area931>
+    <Area932 enable="true" Description="长沙" AreaX="110" AreaY="158"></Area932>
+    <Area933 enable="true" Description="长沙" AreaX="110" AreaY="159"></Area933>
+    <Area934 enable="true" Description="长沙" AreaX="110" AreaY="160"></Area934>
+    <Area935 enable="true" Description="长沙" AreaX="111" AreaY="159"></Area935>
+    <Area936 enable="true" Description="长沙" AreaX="111" AreaY="160"></Area936>
+    <Area937 enable="true" Description="长沙" AreaX="112" AreaY="160"></Area937>
+    <Area938 enable="true" Description="永安" AreaX="38" AreaY="124"></Area938>
+    <Area939 enable="true" Description="永安" AreaX="38" AreaY="127"></Area939>
+    <Area940 enable="true" Description="永安" AreaX="39" AreaY="124"></Area940>
+    <Area941 enable="true" Description="永安" AreaX="39" AreaY="125"></Area941>
+    <Area942 enable="true" Description="永安" AreaX="39" AreaY="126"></Area942>
+    <Area943 enable="true" Description="永安" AreaX="39" AreaY="127"></Area943>
+    <Area944 enable="true" Description="永安" AreaX="40" AreaY="125"></Area944>
+    <Area945 enable="true" Description="永安" AreaX="40" AreaY="126"></Area945>
+    <Area946 enable="true" Description="永安" AreaX="40" AreaY="127"></Area946>
+    <Area947 enable="true" Description="永安" AreaX="40" AreaY="128"></Area947>
+    <Area948 enable="true" Description="永安" AreaX="41" AreaY="124"></Area948>
+    <Area949 enable="true" Description="永安" AreaX="41" AreaY="125"></Area949>
+    <Area950 enable="true" Description="永安" AreaX="41" AreaY="126"></Area950>
+    <Area951 enable="true" Description="永安" AreaX="41" AreaY="127"></Area951>
+    <Area952 enable="true" Description="永安" AreaX="45" AreaY="132"></Area952>
+    <Area953 enable="true" Description="永安" AreaX="42" AreaY="125"></Area953>
+    <Area954 enable="true" Description="永安" AreaX="42" AreaY="126"></Area954>
+    <Area955 enable="true" Description="永安" AreaX="42" AreaY="127"></Area955>
+    <Area956 enable="true" Description="汉中" AreaX="31" AreaY="93"></Area956>
+    <Area957 enable="true" Description="汉中" AreaX="30" AreaY="93"></Area957>
+    <Area958 enable="true" Description="汉中" AreaX="29" AreaY="92"></Area958>
+    <Area959 enable="true" Description="汉中" AreaX="28" AreaY="93"></Area959>
+    <Area960 enable="true" Description="汉中" AreaX="28" AreaY="94"></Area960>
+    <Area961 enable="true" Description="汉中" AreaX="28" AreaY="95"></Area961>
+    <Area962 enable="true" Description="汉中" AreaX="24" AreaY="86"></Area962>
+    <Area963 enable="true" Description="汉中" AreaX="24" AreaY="87"></Area963>
+    <Area964 enable="true" Description="汉中" AreaX="23" AreaY="85"></Area964>
+    <Area965 enable="true" Description="汉中" AreaX="23" AreaY="86"></Area965>
+    <Area966 enable="true" Description="汉中" AreaX="23" AreaY="87"></Area966>
+    <Area967 enable="true" Description="汉中" AreaX="22" AreaY="86"></Area967>
+    <Area968 enable="true" Description="汉中" AreaX="22" AreaY="87"></Area968>
+    <Area969 enable="true" Description="汉中" AreaX="21" AreaY="89"></Area969>
+    <Area970 enable="true" Description="汉中" AreaX="21" AreaY="90"></Area970>
+    <Area971 enable="false" Description="梓潼" AreaX="13" AreaY="103"></Area971>
+    <Area972 enable="false" Description="梓潼" AreaX="14" AreaY="103"></Area972>
+    <Area973 enable="false" Description="梓潼" AreaX="15" AreaY="103"></Area973>
+    <Area974 enable="true" Description="梓潼" AreaX="10" AreaY="109"></Area974>
+    <Area975 enable="true" Description="梓潼" AreaX="11" AreaY="108"></Area975>
+    <Area976 enable="true" Description="梓潼" AreaX="11" AreaY="109"></Area976>
+    <Area977 enable="true" Description="梓潼" AreaX="11" AreaY="110"></Area977>
+    <Area978 enable="true" Description="梓潼" AreaX="11" AreaY="111"></Area978>
+    <Area979 enable="true" Description="梓潼" AreaX="11" AreaY="112"></Area979>
+    <Area980 enable="true" Description="梓潼" AreaX="11" AreaY="113"></Area980>
+    <Area981 enable="true" Description="梓潼" AreaX="11" AreaY="114"></Area981>
+    <Area982 enable="true" Description="梓潼" AreaX="12" AreaY="109"></Area982>
+    <Area983 enable="true" Description="梓潼" AreaX="12" AreaY="110"></Area983>
+    <Area984 enable="true" Description="梓潼" AreaX="12" AreaY="111"></Area984>
+    <Area985 enable="true" Description="梓潼" AreaX="12" AreaY="112"></Area985>
+    <Area986 enable="true" Description="梓潼" AreaX="12" AreaY="113"></Area986>
+    <Area987 enable="true" Description="梓潼" AreaX="12" AreaY="114"></Area987>
+    <Area988 enable="true" Description="梓潼" AreaX="12" AreaY="115"></Area988>
+    <Area989 enable="true" Description="梓潼" AreaX="14" AreaY="105"></Area989>
+    <Area990 enable="true" Description="梓潼" AreaX="15" AreaY="105"></Area990>
+    <Area991 enable="true" Description="梓潼" AreaX="15" AreaY="106"></Area991>
+    <Area992 enable="true" Description="梓潼" AreaX="16" AreaY="105"></Area992>
+    <Area993 enable="true" Description="梓潼" AreaX="16" AreaY="106"></Area993>
+    <Area994 enable="true" Description="梓潼" AreaX="17" AreaY="105"></Area994>
+    <Area995 enable="true" Description="梓潼" AreaX="17" AreaY="106"></Area995>
+    <Area996 enable="true" Description="梓潼" AreaX="13" AreaY="105"></Area996>
+    <Area997 enable="true" Description="成都" AreaX="2" AreaY="134"></Area997>
+    <Area998 enable="true" Description="成都" AreaX="4" AreaY="133"></Area998>
+    <Area999 enable="true" Description="成都" AreaX="4" AreaY="134"></Area999>
+    <Area1000 enable="true" Description="成都" AreaX="4" AreaY="135"></Area1000>
+    <Area1001 enable="true" Description="成都" AreaX="4" AreaY="136"></Area1001>
+    <Area1002 enable="true" Description="成都" AreaX="4" AreaY="137"></Area1002>
+    <Area1003 enable="true" Description="成都" AreaX="3" AreaY="132"></Area1003>
+    <Area1004 enable="true" Description="成都" AreaX="3" AreaY="134"></Area1004>
+    <Area1005 enable="true" Description="成都" AreaX="3" AreaY="135"></Area1005>
+    <Area1006 enable="true" Description="成都" AreaX="3" AreaY="136"></Area1006>
+    <Area1007 enable="true" Description="成都" AreaX="3" AreaY="137"></Area1007>
+    <Area1008 enable="true" Description="成都" AreaX="3" AreaY="133"></Area1008>
+    <Area1009 enable="true" Description="江州" AreaX="38" AreaY="147"></Area1009>
+    <Area1010 enable="true" Description="江州" AreaX="38" AreaY="148"></Area1010>
+    <Area1011 enable="true" Description="江州" AreaX="38" AreaY="149"></Area1011>
+    <Area1012 enable="true" Description="江州" AreaX="38" AreaY="150"></Area1012>
+    <Area1013 enable="true" Description="江州" AreaX="37" AreaY="146"></Area1013>
+    <Area1014 enable="true" Description="江州" AreaX="37" AreaY="147"></Area1014>
+    <Area1015 enable="true" Description="江州" AreaX="37" AreaY="148"></Area1015>
+    <Area1016 enable="true" Description="江州" AreaX="35" AreaY="146"></Area1016>
+    <Area1017 enable="true" Description="江州" AreaX="35" AreaY="147"></Area1017>
+    <Area1018 enable="true" Description="江州" AreaX="35" AreaY="148"></Area1018>
+    <Area1019 enable="true" Description="江州" AreaX="36" AreaY="146"></Area1019>
+    <Area1020 enable="true" Description="江州" AreaX="36" AreaY="147"></Area1020>
+    <Area1021 enable="true" Description="江州" AreaX="36" AreaY="148"></Area1021>
+    <Area1022 enable="true" Description="江州" AreaX="38" AreaY="151"></Area1022>
+    <Area1023 enable="true" Description="江州" AreaX="23" AreaY="141"></Area1023>
+    <Area1024 enable="true" Description="江州" AreaX="24" AreaY="142"></Area1024>
+    <Area1025 enable="true" Description="江州" AreaX="25" AreaY="142"></Area1025>
+    <Area1026 enable="true" Description="江州" AreaX="25" AreaY="143"></Area1026>
+    <Area1027 enable="true" Description="建宁" AreaX="34" AreaY="173"></Area1027>
+    <Area1028 enable="true" Description="建宁" AreaX="34" AreaY="174"></Area1028>
+    <Area1029 enable="true" Description="建宁" AreaX="34" AreaY="175"></Area1029>
+    <Area1030 enable="true" Description="建宁" AreaX="33" AreaY="173"></Area1030>
+    <Area1031 enable="true" Description="建宁" AreaX="33" AreaY="174"></Area1031>
+    <Area1032 enable="true" Description="建宁" AreaX="35" AreaY="175"></Area1032>
+    <Area1033 enable="true" Description="建宁" AreaX="36" AreaY="171"></Area1033>
+    <Area1034 enable="true" Description="建宁" AreaX="18" AreaY="178"></Area1034>
+    <Area1035 enable="true" Description="建宁" AreaX="29" AreaY="177"></Area1035>
+    <Area1036 enable="true" Description="建宁" AreaX="28" AreaY="178"></Area1036>
+    <Area1037 enable="true" Description="建宁" AreaX="27" AreaY="178"></Area1037>
+    <Area1038 enable="true" Description="建宁" AreaX="26" AreaY="178"></Area1038>
+    <Area1039 enable="true" Description="建宁" AreaX="26" AreaY="179"></Area1039>
+    <Area1040 enable="true" Description="建宁" AreaX="26" AreaY="180"></Area1040>
+    <Area1041 enable="true" Description="建宁" AreaX="25" AreaY="178"></Area1041>
+    <Area1042 enable="true" Description="建宁" AreaX="25" AreaY="179"></Area1042>
+    <Area1043 enable="true" Description="建宁" AreaX="35" AreaY="171"></Area1043>
+    <Area1044 enable="true" Description="建宁" AreaX="34" AreaY="171"></Area1044>
+    <Area1045 enable="true" Description="云南" AreaX="0" AreaY="187"></Area1045>
+    <Area1046 enable="true" Description="云南" AreaX="0" AreaY="188"></Area1046>
+    <Area1047 enable="true" Description="云南" AreaX="1" AreaY="186"></Area1047>
+    <Area1048 enable="true" Description="云南" AreaX="1" AreaY="187"></Area1048>
+    <Area1049 enable="true" Description="云南" AreaX="1" AreaY="188"></Area1049>
+    <Area1050 enable="true" Description="云南" AreaX="2" AreaY="187"></Area1050>
+    <Area1051 enable="true" Description="云南" AreaX="2" AreaY="188"></Area1051>
+    <Area1052 enable="true" Description="云南" AreaX="2" AreaY="189"></Area1052>
+    <Area1053 enable="true" Description="云南" AreaX="2" AreaY="183"></Area1053>
+    <Area1054 enable="true" Description="云南" AreaX="3" AreaY="183"></Area1054>
+    <Area1055 enable="true" Description="云南" AreaX="3" AreaY="184"></Area1055>
+    <Area1056 enable="true" Description="云南" AreaX="3" AreaY="185"></Area1056>
+    <Area1057 enable="true" Description="云南" AreaX="3" AreaY="186"></Area1057>
+    <Area1058 enable="true" Description="云南" AreaX="3" AreaY="187"></Area1058>
+    <Area1059 enable="true" Description="云南" AreaX="3" AreaY="188"></Area1059>
+    
+  </EmptyArea>
+  <DevelopSpeed enable="true">100</DevelopSpeed>
+  <DevelopLimit enable="true"></DevelopLimit>
+  <CombineForbidden enable="true"></CombineForbidden>
+  <DirectBuild enable="true"></DirectBuild>
+  <BigMarketMul enable="true"></BigMarketMul>
+  <AllEcoMul enable="true"></AllEcoMul>
+  <ArmyStoreMul enable="true"></ArmyStoreMul>
+  <AllAgrMul enable="true"></AllAgrMul>
+  <SoldLimit enable="true">50000</SoldLimit>
+  <BarracksProduce enable="true" BigCity="250" NormalCity="200"></BarracksProduce>
+  <SmithProduce enable="true" Spec="200" NonSpec="100"></SmithProduce>
+  <HorseProduce enable="true" Spec="200" NonSpec="100"></HorseProduce>
+  <Machine enable="true">2</Machine>
+  <Dockyard enable="true">3</Dockyard>
+  <DockOnlyAtPort enable="true"></DockOnlyAtPort>
+  <RecruitFee enable="true">1000</RecruitFee>
+  <SpecialOff enable="true">80</SpecialOff>
+  <ProdByPolitics enable="true"></ProdByPolitics>
+  <Training enable="true">120</Training>
+  <TrainingPlus enable="true">50</TrainingPlus>
+  <PlusBuilding enable="false"></PlusBuilding>
+  <PeaceDownLimit enable="true">5</PeaceDownLimit>
+  <PatrolEffi enable="true">200</PatrolEffi>
+  <PeaceDownProb enable="true">50</PeaceDownProb>
+  <LoyaltyDownLimit enable="true">1</LoyaltyDownLimit>
+  <LoyaltyDownPlus enable="true">3</LoyaltyDownPlus>
+  <LoyaltyDownProb enable="true">5</LoyaltyDownProb>
+  <CharmToLoyalty enable="false"></CharmToLoyalty>
+  <RuseEffect enable="true" Rumor="10" Faction="5" Rebell="0"></RuseEffect>
+  <RumorPlus enable="true">2</RumorPlus>
+  <AmicableCostReduce enable="true">1000</AmicableCostReduce>
+  <AmicableCost enable="true">5000</AmicableCost>
+  <AdviseNoLimit enable="true"></AdviseNoLimit>
+  <SPGain enable="true">200</SPGain>
+  <SPLimit enable="true">60000</SPLimit>
+  <SPAutoGain enable="true" HDSkill="5" YXSkill="2" TQSkill="10"></SPAutoGain>
+  <ResearchDuration enable="true">200</ResearchDuration>
+  <RapidResearch enable="true">1</RapidResearch>
+  <Commission enable="true"></Commission>
+  <KeepBuilding enable="true"></KeepBuilding>
+  <SuperBuilding enable="false"></SuperBuilding>
+  <DisableDisaster enable="false"></DisableDisaster>
+  <CommandUnlimited enable="false"></CommandUnlimited>
+  <SkillWF enable="true">30</SkillWF>
+  <SkillST enable="true">12</SkillST>
+  <SkillNF enable="true">8</SkillNF>
+  <SkillAY enable="true">15</SkillAY>
+  <SkillZY enable="true">12</SkillZY>
+  <SkillBC enable="true" YBC0="1" YBC1="1" YBC2="1" YBC3="1" YBC4="1" YBC5="8" YBC6="1" YBC7="5" YBC8="25"></SkillBC>
+  <SkillLZProb enable="true">100</SkillLZProb>
+  <SkillJJProb enable="true">100</SkillJJProb>
+  <SkillTXProb enable="true">100</SkillTXProb>
+  <SkillQXProb enable="true">100</SkillQXProb>
+  <SkillMZProb enable="true">50</SkillMZProb>
+  <SkillLDProb enable="true">50</SkillLDProb>
+  <SkillBQ enable="true" cond="5000">60</SkillBQ>
+  <SkillJG enable="true" cond="1800">50</SkillJG>
+  <SkillQY enable="true">100</SkillQY>
+  <SkillBF enable="true">50</SkillBF>
+  <SkillLK enable="true" ProbTM="80" ProbTZ="80" ProbJH="80"></SkillLK>
+  <SkillMvCQ enable="true">3</SkillMvCQ>
+  <SkillMvCD enable="true">4</SkillMvCD>
+  <SkillMvBY enable="true">5</SkillMvBY>
+  <SkillMvQH enable="true">5</SkillMvQH>
+  <SkillQH enable="true"></SkillQH>
+  <SkillGX enable="true">15</SkillGX>
+  <SkillTP enable="true">100</SkillTP>
+  <SkillMS enable="true">20</SkillMS>
+  <SkillNL enable="true">200</SkillNL>
+  <SkillMD enable="true">180</SkillMD>
+  <SkillFH enable="true">180</SkillFH>
+  <SkillWY enable="true">60</SkillWY>
+  <SkillNZ enable="true">3</SkillNZ>
+  <SkillXJ enable="false" CmpA="1" CmpB="1"></SkillXJ>
+  <SkillQZ enable="true"></SkillQZ>
+  <SkillJCStat enable="true">0</SkillJCStat>
+  <SkillJCCmp enable="true" CmpA="0" CmpB="0" method="0"></SkillJCCmp>
+  <SkillJCNCmp enable="false"></SkillJCNCmp>
+  <SkillFZProb enable="true" ProbFZ="100" ProbXY="40" ProbQM="30" ProbZJ="50"></SkillFZProb>
+  <SkillFZ enable="true"></SkillFZ>
+  <SkillDZ enable="true"></SkillDZ>
+  <SkillQG enable="false"></SkillQG>
+  <SkillGM enable="true"></SkillGM>
+  <SkillZD enable="true"></SkillZD>
+  <SkillHG enable="true"></SkillHG>
+  <SkillTT enable="true"></SkillTT>
+  <SkillFJ enable="true"></SkillFJ>
+  <SkillZC enable="true"></SkillZC>
+  <SkillTB enable="true"></SkillTB>
+  <SkillLZ enable="true"></SkillLZ>
+  <SkillBQJG enable="true"></SkillBQJG>
+  <SkillLD enable="false"></SkillLD>
+  <SkillDF enable="true"></SkillDF>
+  <NewSkillBS enable="true">50</NewSkillBS>
+  <NewSkillBX enable="true" Prop="0"></NewSkillBX>
+  <NewSkillZS enable="true">60</NewSkillZS>
+  <NewSkillBZ enable="true">40</NewSkillBZ>
+  <NewSkillJJ enable="true">40</NewSkillJJ>
+  <NewSkillDH enable="true" Range="2" Prop="1"></NewSkillDH>
+  <NewSkillPZ enable="true" Range="3">30</NewSkillPZ>
+  <NewSkillXR enable="true">50</NewSkillXR>
+  <NewSkillBF enable="true">30</NewSkillBF>
+  <NewSkillHQ enable="true">10</NewSkillHQ>
+  <NewSkillYC enable="true">80</NewSkillYC>
+  <NewSkillJL enable="true">80</NewSkillJL>
+  <NewSkillBL enable="true" Range="25">50</NewSkillBL>
+  <NewSkillJH enable="true">100</NewSkillJH>
+  <NewSkillSC enable="true">80</NewSkillSC>
+  <NewSkillYJ enable="true">60</NewSkillYJ>
+  <NewSkillGS enable="true">60</NewSkillGS>
+  <UseNewSkill enable="true"><Skill0 prop0="无双" prop1="陆上不考虑ＺＯＣ且攻50％的機率不受损；无视地形施展战法；骑兵移动↑" prop2="行军" prop3="3" prop4="3-长驱" prop5="13-突袭" prop6="125-群雄" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXX\&#38;66"></Skill0>
+    <Skill1 prop0="遁走" prop1="「飞渡」於陆上时不考虑ＺＯＣ；不会战死、被俘、负伤" prop2="行军" prop3="3" prop4="32-天命" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXX纛?勜?勜?"></Skill1>
+    <Skill2 prop0="强行" prop1="增加兵器、输送部队以外的陆上部队之移动力" prop2="行军" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXX慃"></Skill2>
+    <Skill3 prop0="长驱" prop1="增加骑兵部队的移动力；打倒敌方部队就可回復气力" prop2="行军" prop3="2" prop4="11-昂扬" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX铸h蔸h蔸"></Skill3>
+    <Skill4 prop0="推进" prop1="水上无视ZOC且移动速度↑；枪剑和冰系对武低者战法成功时暴击" prop2="行军" prop3="2" prop4="5-操舵" prop5="34-枪将" prop6="38-水将" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXO黨?肋?肋?"></Skill4>
+    <Skill5 prop0="识水" prop1="增加水上的移动力；於水上时不考虑ＺＯＣ" prop2="行军" prop3="2" prop4="4-推进" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXO葹"></Skill5>
+    <Skill6 prop0="踏破" prop1="无栈道通行的损害；减轻落石的损伤；必定可识破智低者计略；伏兵爆击" prop2="行军" prop3="2" prop4="1-遁走" prop5="16-待伏" prop6="60-慧眼" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOX??l潸l潸"></Skill6>
+    <Skill7 prop0="游走" prop1="增加输送部队的移动力；不会战死、被俘、负伤" prop2="行军" prop3="2" prop4="32-天命" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX鋊?墟?墟?"></Skill7>
+    <Skill8 prop0="毒王" prop1="陆上无栈道损和毒泉伤害，减少落石火伤；攻防御力比己方攻击低者暴击" prop2="行军" prop3="2" prop4="6-踏破" prop5="124-天敌" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX??(辁(辁"></Skill8>
+    <Skill9 prop0="扫荡" prop1="被攻击的敌方部队气力减少（小）；预防毒泉的伤害" prop2="攻击" prop3="2" prop4="8-解毒" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO纕?x膪x膪"></Skill9>
+    <Skill10 prop0="威风" prop1="被攻击的敌方部队气力减少（大）；无栈道通行的损害；减轻落石的损伤" prop2="攻击" prop3="3" prop4="6-踏破" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO敐?仨?仨?"></Skill10>
+    <Skill11 prop0="昂扬" prop1="打倒敌方部队就可回復气力" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill11>
+    <Skill12 prop0="连战" prop1="敌武低刀戟招成必爆；攻击无损且50％连续攻击２次；每回合回复气力" prop2="攻击" prop3="2" prop4="13-突袭" prop5="35-戟将" prop6="75-奏乐" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXO8┨旘?旘?"></Skill12>
+    <Skill13 prop0="突袭" prop1="於陆上攻击时，有50％的機率不会受到损伤" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXX慃"></Skill13>
+    <Skill14 prop0="强袭" prop1="於水上攻击时，有50％的機率不会受到损伤" prop2="攻击" prop3="2" prop4="1-遁走" prop5="13-突袭" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXO铸h鼹h鼹"></Skill14>
+    <Skill15 prop0="乱战" prop1="於森林中攻击时暴击；增加兵器、输送部队以外的陆上部队之移动" prop2="攻击" prop3="2" prop4="2-强行" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXXXX錂?轩?轩?"></Skill15>
+    <Skill16 prop0="待伏" prop1="伏兵成功时暴击；外交80％可舌战" prop2="计略" prop3="2" prop4="86-论客" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOOT夶,,"></Skill16>
+    <Skill17 prop0="攻城" prop1="攻击据点、设施、建築物时施展会心一击；每回合回復自军部队的气力" prop2="攻击" prop3="3" prop4="75-奏乐" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXOO??匎?匎?"></Skill17>
+    <Skill18 prop0="掎角" prop1="施展齐攻时，有50％的機率让对方陷入混乱；有50％的機率不会受到损伤" prop2="攻击" prop3="2" prop4="27-不屈" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXO錂??"></Skill18>
+    <Skill19 prop0="捕缚" prop1="消灭敌方时技巧点数加倍，提高捕捉无「强运」或名马的敌将的几率50%" prop2="攻击" prop3="2" prop4="20-精妙" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXO\?T?T?"></Skill19>
+    <Skill20 prop0="精妙" prop1="击破敌方部队时所获得的技巧点数增为２倍" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill20>
+    <Skill21 prop0="掠夺" prop1="击破敌方部队时，有機会夺取敌将的道具" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXO慃"></Skill21>
+    <Skill22 prop0="攻心" prop1="攻击时可将敌方部队的一部分士兵吸收到自军部队中" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXX慃"></Skill22>
+    <Skill23 prop0="驱逐" prop1="对武力比自己低的敌方部队施展一般攻击时会成为会心一击" prop2="攻击" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXO慃"></Skill23>
+    <Skill24 prop0="射程" prop1="敌智低计成必爆、火伤1.5倍；机关招成必爆，井阑、投石的射程加１" prop2="攻击" prop3="2" prop4="46-工神" prop5="53-火攻" prop6="58-妙计" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXOX錂?????"></Skill24>
+    <Skill25 prop0="白马" prop1="未研究技巧「骑射」时也可施展骑射；骑射可施展会心一击" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX慃"></Skill25>
+    <Skill26 prop0="辅佐" prop1="即使没建立人际关係（厌恶除外）也可支援攻击；於森林中攻击时暴击" prop2="攻击" prop3="2" prop4="15-乱战" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOOXO??\?\?"></Skill26>
+    <Skill27 prop0="不屈" prop1="若在部队的士兵不多时被攻击，有50％的機率不会受到损伤" prop2="防御" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill27>
+    <Skill28 prop0="金刚" prop1="敌方伤害&#60;1800则80％免损;被齐攻视为普攻免撼动" prop2="防御" prop3="2" prop4="29-铁壁" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XOXXXX?1?7?7"></Skill28>
+    <Skill29 prop0="铁壁" prop1="就算被一齐攻击，也会视为一般攻击；遭受敌战法攻击时，气力回复" prop2="防御" prop3="2" prop4="30-怒发" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO錂?????"></Skill29>
+    <Skill30 prop0="怒发" prop1="遭受敌方部队的战法攻击时，气力就会回復" prop2="防御" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill30>
+    <Skill31 prop0="护身" prop1="火以外的攻击损伤减半，但火攻损伤增为２倍，同伴不会被俘战死、负伤" prop2="防御" prop3="2" prop4="52-护卫" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXX錂?????"></Skill31>
+    <Skill32 prop0="天命" prop1="外交80％可舌战；不会战死、被俘、负伤；破敌后80％取敌道具" prop2="防御" prop3="4" prop4="21-掠夺" prop5="86-论客" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO"></Skill32>
+    <Skill33 prop0="血路" prop1="就算部队溃灭，同部队的武将也不会被俘虏" prop2="防御" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill33>
+    <Skill34 prop0="枪将" prop1="对敌武低枪剑战法必爆；即使无人际关係（厌恶除外）也可援助攻击" prop2="攻击" prop3="2" prop4="18-掎角" prop5="26-辅佐" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXX??????"></Skill34>
+    <Skill35 prop0="戟将" prop1="对武力低的敌方施展刀戟战法成功暴击；森林中攻击必爆" prop2="攻击" prop3="2" prop4="15-乱战" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XOXXXXL輰,*?,*?"></Skill35>
+    <Skill36 prop0="弓将" prop1="对武低施展弓弩成必暴；可於森林使用弩兵战法" prop2="攻击" prop3="2" prop4="50-射手" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX魟?????"></Skill36>
+    <Skill37 prop0="骑将" prop1="对武比己低的敌部施展骑兵战法成功时暴击，增加骑兵的移动力" prop2="攻击" prop3="2" prop4="3-长驱" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXXDy?/?/?"></Skill37>
+    <Skill38 prop0="水将" prop1="对武比己低的敌方部队施展水军战法成功时暴击；於水上时不考虑ＺＯＣ" prop2="攻击" prop3="2" prop4="4-推进" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXO?????"></Skill38>
+    <Skill39 prop0="勇将" prop1="对武低全战法成必暴且无视地形；遭受敌方战法攻击时气力就会回復15" prop2="攻击" prop3="3" prop4="30-怒发" prop5="125-群雄" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO鸾?????"></Skill39>
+    <Skill40 prop0="神将" prop1="对武力比自己低的敌方部队施展一般攻击及战法成功时会心一击" prop2="攻击" prop3="4" prop4="10-威风" prop5="13-突袭" prop6="51-猛将" prop7="29-铁壁" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXX鞌?p6?p6?"></Skill40>
+    <Skill41 prop0="鬥神" prop1="枪兵战法与戟兵战法或攻击兵力远多己方部队暴击，功力&#60;八千50%免损" prop2="攻击" prop3="3" prop4="27-不屈" prop5="126-天狼" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXXXX竪?????"></Skill41>
+    <Skill42 prop0="枪神" prop1="枪剑战法必爆无视地形；破敌回气；陆上不考虑ＺＯＣ普攻几率连续攻击" prop2="攻击" prop3="3" prop4="0-无双" prop5="12-连战" prop6="11-昂扬" prop7="125-群雄" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXX@穼T;?T;?"></Skill42>
+    <Skill43 prop0="戟神" prop1="敌魅低战法必成且刀必定暴击；灭敌经验↑且技巧点翻倍；物理眩晕免疫" prop2="攻击" prop3="4" prop4="122-兵仙" prop5="20-精妙" prop6="84-枭雄" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XOXXXX??????"></Skill43>
+    <Skill44 prop0="弓神" prop1="弓弩战法成功时施展会心一击；使弩兵的射程增加１区格" prop2="攻击" prop3="3" prop4="129-神臂" prop5="9-扫荡" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX?-?C?C"></Skill44>
+    <Skill45 prop0="骑神" prop1="可施展骑射，骑兵战法成功暴击；增加骑兵移动力有50％的機率不会损伤" prop2="攻击" prop3="3" prop4="25-白马" prop5="3-长驱" prop6="27-不屈" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX@穼hB?hB?"></Skill45>
+    <Skill46 prop0="工神" prop1="兵器战法成功时施展会心一击；识破计略还施彼身" prop2="攻击" prop3="3" prop4="68-智者" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXOX$?腄?腄?"></Skill46>
+    <Skill47 prop0="寰宇" prop1="「水神」水军战法暴击；操舵+戟将+威风+猛者+驱逐" prop2="攻击" prop3="4" prop4="5-识水" prop5="35-戟将" prop6="10-威风" prop7="51-猛将" prop8="23-驱逐" prop9="" prop10="" prop11="" prop12="XOXOXO?? G? G?"></Skill47>
+    <Skill48 prop0="霸王" prop1="全战法成功必爆；敌攻击微弱免损；强势反击。全军覆没，伙伴不会被俘" prop2="攻击" prop3="4" prop4="27-不屈" prop5="133-陷阵" prop6="33-血路" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO竪?|I?|I?"></Skill48>
+    <Skill49 prop0="疾驰" prop1="对攻比己队低的施展骑兵战法成功时，必使其陷入混乱；乱战+骑将+弓将" prop2="攻击" prop3="3" prop4="15-乱战" prop5="37-骑将" prop6="36-弓将" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX衛?A?A?"></Skill49>
+    <Skill50 prop0="射手" prop1="可於森林使用弩兵战法" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX慃"></Skill50>
+    <Skill51 prop0="猛将" prop1="战法让敌方部队移动区格时，有50％的機率可让敌将负伤；解毒+扫荡+骑将" prop2="攻击" prop3="3" prop4="8-解毒" prop5="9-扫荡" prop6="37-骑将" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXO靶?lK?lK?"></Skill51>
+    <Skill52 prop0="护卫" prop1="同部队的武将不会战死、负伤；增加兵器、输送队以外的陆上部队移动力" prop2="防御" prop3="2" prop4="2-强行" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO$?(S?(S?"></Skill52>
+    <Skill53 prop0="火攻" prop1="火攻+犄角+反计（田单）" prop2="计略" prop3="3" prop4="30-怒发" prop5="68-反计" prop6="18-掎角" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXXu?????"></Skill53>
+    <Skill54 prop0="言毒" prop1="对智力比自己低的敌方部队施展部队计略「伪报」时，必定会成功" prop2="计略" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill54>
+    <Skill55 prop0="機智" prop1="对智力比自己低的敌方部队施展部队计略「擾乱」时，必定会成功" prop2="计略" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill55>
+    <Skill56 prop0="诡计" prop1="对智力比自己低的敌方部队施展部队计略「内讧」时，必定会成功" prop2="计略" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill56>
+    <Skill57 prop0="鬼谋" prop1="对智力比自己低的敌方部队施展全部队计略时，必定会成功" prop2="计略" prop3="4" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill57>
+    <Skill58 prop0="妙计" prop1="对智力比自己低的敌方部队施展部队计略成功时会心一击；伏兵暴击" prop2="计略" prop3="2" prop4="16-待伏" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX??靉?靉?"></Skill58>
+    <Skill59 prop0="秘计" prop1="对智力比自己高的敌方部队施展部队计略成功时会心一击；伏兵暴击" prop2="计略" prop3="2" prop4="16-待伏" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX??`d?`d?"></Skill59>
+    <Skill60 prop0="慧眼" prop1="必定可识破智力比自己低的敌方部队所施展部队计略；伏兵暴击" prop2="计略" prop3="3" prop4="16-待伏" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX??詅?詅?"></Skill60>
+    <Skill61 prop0="洞察" prop1="必定可识破敌方部队所施展的部队计略" prop2="计略" prop3="4" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill61>
+    <Skill62 prop0="梵天" prop1="「火神」火攻優势；驱逐+猛者+护身+射程" prop2="计略" prop3="4" prop4="23-驱逐" prop5="51-猛将" prop6="31-护身" prop7="24-射程" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXX靯%鑛7鑛7"></Skill62>
+    <Skill63 prop0="冠冕" prop1="对低智计略必会成功，於全计略有所優势；计成波及周围敌队，伏兵暴击" prop2="计略" prop3="4" prop4="66-布局" prop5="16-待伏" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX0?(n?(n?"></Skill63>
+    <Skill64 prop0="千秋" prop1="部队计略的消费气力变为１" prop2="计略" prop3="4" prop4="77-大将" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX????"></Skill64>
+    <Skill65 prop0="先知" prop1="增广１区格可施展部队计略的範围；每回合恢复部队气力，伏兵暴击" prop2="计略" prop3="3" prop4="75-鼓舞" prop5="16-待伏" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX??"></Skill65>
+    <Skill66 prop0="布局" prop1="对敌计成功，敌邻接部队也遭受计略波及，成功暴击" prop2="计略" prop3="3" prop4="67-深谋" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX$?`u?`u?"></Skill66>
+    <Skill67 prop0="深谋" prop1="部队计略成功时暴击" prop2="计略" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill67>
+    <Skill68 prop0="智者" prop1="敌方计略成功率低；识破敌计，还施彼身；伏兵暴击" prop2="计略" prop3="3" prop4="132-料敌" prop5="16-待伏" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX0?4z?4z?"></Skill68>
+    <Skill69 prop0="奇谋" prop1="对没有女性的部队施战部队计略成功率增为２倍" prop2="计略" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill69>
+    <Skill70 prop0="妖术" prop1="可施展部队计略的「妖术」" prop2="计略" prop3="3" prop4="59-秘计" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX€K??"></Skill70>
+    <Skill71 prop0="咒术" prop1="可施展部队计略的「妖术、落雷」" prop2="计略" prop3="4" prop4="53-火攻" prop5="66-布局" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX0?&#60;v?&#60;v?"></Skill71>
+    <Skill72 prop0="规律" prop1="可防止遭受部队计略「伪报」" prop2="补助" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill72>
+    <Skill73 prop0="智将" prop1="可防止遭受部队计略「擾乱」；踏破+护身+犄角+待伏" prop2="补助" prop3="3" prop4="6-踏破" prop5="31-护身" prop6="18-掎角" prop7="16-待伏" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX}5蘤蘤"></Skill73>
+    <Skill74 prop0="明镜" prop1="可防止遭受部队计略的「伪报、擾乱」" prop2="补助" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill74>
+    <Skill75 prop0="鼓舞" prop1="每回合回復自军部队的气力" prop2="补助" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill75>
+    <Skill76 prop0="诗想" prop1="军乐台的回復气力效果增为２倍" prop2="补助" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill76>
+    <Skill77 prop0="大将" prop1="「筑城」设施耐久上昇量增为２倍；犄角+铁壁+怒发+乱战" prop2="补助" prop3="3" prop4="18-掎角" prop5="29-铁壁" prop6="30-怒发" prop7="16-待伏" prop8="" prop9="" prop10="" prop11="" prop12="XXOOOX垶X婝X婝"></Skill77>
+    <Skill78 prop0="屯田" prop1="所属於关所、港口时，士兵不会消费兵粮" prop2="补助" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill78>
+    <Skill79 prop0="名声" prop1="增加徵兵时的士兵数" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill79>
+    <Skill80 prop0="能吏" prop1="增加生产枪、戟、弩之兵装时的产量" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill80>
+    <Skill81 prop0="繁殖" prop1="增加生产军马之兵装时的产量" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill81>
+    <Skill82 prop0="发明" prop1="生产兵器之兵装时所需的生产期间减半" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill82>
+    <Skill83 prop0="造船" prop1="兵器战法成功时爆击；生产舰船、兵器时间减半；加快内政、军事建设" prop2="内政" prop3="2" prop4="82-发明" prop5="46-工神" prop6="77-大将" prop7="137-纵横" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXt@橕@橕"></Skill83>
+    <Skill84 prop0="枭雄" prop1="指导+繁殖+拱戍+护身+强运" prop2="内政" prop3="3" prop4="81-繁殖" prop5="31-护身" prop6="116-拱戍" prop7="32-强运" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX尻L,?`x?`x?"></Skill84>
+    <Skill85 prop0="眼力" prop1="若有未发现的在野人士时执行人材探索的话，必定会发现" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill85>
+    <Skill86 prop0="论客" prop1="於同盟、停战协定、交换俘虏时容易进入舌战" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill86>
+    <Skill87 prop0="富豪" prop1="每个月的所属都市的资金收入增为1.5倍" prop2="收入" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill87>
+    <Skill88 prop0="米道" prop1="每季的所属都市的兵粮收入增加为1.5倍" prop2="收入" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill88>
+    <Skill89 prop0="徵税" prop1="每回合所属都市都会有资金收入（一次收入将减半）" prop2="收入" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill89>
+    <Skill90 prop0="徵收" prop1="每个月所属都市都会有兵粮的收入（一次的收入将减半）" prop2="收入" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill90>
+    <Skill91 prop0="亲乌" prop1="所属的领内不出现「乌丸」；踏破+白马+护身" prop2="灾害" prop3="2" prop4="6-踏破" prop5="25-白马" prop6="31-护身" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOOXX&#60;B5宧?宧?"></Skill91>
+    <Skill92 prop0="亲羌" prop1="所属领内不出现「羌族」；骑将+怒发" prop2="灾害" prop3="3" prop4="30-怒发" prop5="37-骑将" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOOXX+?`夳`夳"></Skill92>
+    <Skill93 prop0="亲越" prop1="所属领内不出现「山越」；操舵+乱战" prop2="灾害" prop3="3" prop4="5-操舵" prop5="15-乱战" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOOXX\F?虌?虌?"></Skill93>
+    <Skill94 prop0="蛮王" prop1="所属领内不出现「南蛮」；踏破+乱战+护身" prop2="灾害" prop3="2" prop4="6-踏破" prop5="15-乱战" prop6="31-护身" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XOOOXX悶(衞?衞?"></Skill94>
+    <Skill95 prop0="军阀" prop1="所属领内不易出现盗贼或異族；白马+强运+护身+掠夺" prop2="灾害" prop3="3" prop4="25-白马" prop5="31-护身" prop6="32-天命" prop7="21-掠夺" prop8="" prop9="" prop10="" prop11="" prop12="XOOOOX?%劵7劵7"></Skill95>
+    <Skill96 prop0="仁政" prop1="所属相同的武将之每个月的忠诚不会下降" prop2="灾害" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill96>
+    <Skill97 prop0="风水" prop1="所属都市不容易出现蝗灾、瘟疫" prop2="灾害" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill97>
+    <Skill98 prop0="祈願" prop1="所属都市容易出现豐收" prop2="灾害" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill98>
+    <Skill99 prop0="内助" prop1="若结婚，双方的能力全部＋3" prop2="关系" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill99>
+    <Skill100 prop0="飞将" prop1="无双+突袭+破竹+弓神+护身+骑将（李广+吕布）" prop2="攻击" prop3="4" prop4="0-无双" prop5="13-突袭" prop6="135-破竹" prop7="44-弓神" prop8="31-护身" prop9="37-骑将" prop10="" prop11="" prop12="OOOOXXd图d纣d纣"></Skill100>
+    <Skill101 prop0="破虏" prop1="驱逐+强袭+水将+护身（卢俊义+孙坚）" prop2="攻击" prop3="3" prop4="14-强袭" prop5="23-驱逐" prop6="38-水将" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXO??8?8"></Skill101>
+    <Skill102 prop0="俊才" prop1="法治+富国+繁殖+贤哲+料敌（耶律楚材）★" prop2="收入" prop3="4" prop4="81-繁殖" prop5="87-富豪" prop6="138-贤哲" prop7="140-法治" prop8="132-料敌" prop9="" prop10="" prop11="" prop12="XXXXXXxw?剃?剃?"></Skill102>
+    <Skill103 prop0="文正" prop1="诗想+仁政+法治+贤哲（范仲淹）★" prop2="内政" prop3="4" prop4="76-诗想" prop5="96-仁政" prop6="138-贤哲" prop7="140-法治" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX泄贱贱"></Skill103>
+    <Skill104 prop0="武襄" prop1="水将+辅佐+护身+工神（俞大猷+完颜银术可）" prop2="攻击" prop3="4" prop4="26-辅佐" prop5="38-水将" prop6="31-护身" prop7="37-骑将" prop8="" prop9="" prop10="" prop11="" prop12="OXXOOO?槉P8P8"></Skill104>
+    <Skill105 prop0="桓王" prop1="骑将+怒发+霸王+治军+护身（孙策）★" prop2="攻击" prop3="4" prop4="30-怒发" prop5="37-骑将" prop6="48-霸王" prop7="130-治军" prop8="31-护身" prop9="" prop10="" prop11="" prop12="OXXOOODD?D?D"></Skill105>
+    <Skill106 prop0="延平" prop1="水神+操舵+破浪+强袭（郑成功）★" prop2="行军" prop3="4" prop4="4-推进" prop5="5-操舵" prop6="14-强袭" prop7="47-寰宇" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXOT``"></Skill106>
+    <Skill107 prop0="昭侯" prop1="火攻+沉着+犄角+治军（陆逊）☆★" prop2="防御" prop3="4" prop4="18-掎角" prop5="53-火攻" prop6="73-智将" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XOOOXO郚?絮?絮?"></Skill107>
+    <Skill108 prop0="忠侯" prop1="坚城+不屈+铁壁（曹仁）★" prop2="防御" prop3="4" prop4="29-铁壁" prop5="27-不屈" prop6="131-奇阵" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XOXOOXLr?"></Skill108>
+    <Skill109 prop0="兰陵" prop1="昂扬+不屈+骑将+护身（高长恭）★" prop2="攻击" prop3="4" prop4="37-骑将" prop5="27-不屈" prop6="11-昂扬" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX€$T8T8"></Skill109>
+    <Skill110 prop0="纣王" prop1="枪神+游侠+巧变+金刚（帝辛）★" prop2="攻击" prop3="4" prop4="42-枪神" prop5="126-天狼" prop6="125-群雄" prop7="28-金刚" prop8="" prop9="" prop10="" prop11="" prop12="OXXOXXP??8?8"></Skill110>
+    <Skill111 prop0="名将" prop1="驱逐+怒发+不屈+猛者（英布+完颜娄室 ）" prop2="攻击" prop3="4" prop4="23-驱逐" prop5="27-不屈" prop6="30-怒发" prop7="51-猛将" prop8="" prop9="" prop10="" prop11="" prop12="OXXOXX?狛?狛?"></Skill111>
+    <Skill112 prop0="摧阵" prop1="攻城+踏破+规律+乱战（司马错+贺若弼）★" prop2="攻击" prop3="4" prop4="17-攻城" prop5="6-踏破" prop6="72-规律" prop7="15-乱战" prop8="" prop9="" prop10="" prop11="" prop12="XXXXOX葴??8?8"></Skill112>
+    <Skill113 prop0="犀首" prop1="治军+戟将+护身+料敌（先轸+犀首+司马穰苴）★" prop2="行军" prop3="3" prop4="35-戟将" prop5="31-护身" prop6="130-治军" prop7="132-料敌" prop8="" prop9="" prop10="" prop11="" prop12="XOXOXXp	???"></Skill113>
+    <Skill114 prop0="倾城" prop1="奏乐+亲和+内助+安民" prop2="补助" prop3="4" prop4="75-鼓舞" prop5="142-亲和" prop6="99-内助" prop7="136-汉将" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX |!?D?D"></Skill114>
+    <Skill115 prop0="神武" prop1="清野+反计+枪将+护身+强运+布阵（高欢）" prop2="内政" prop3="3" prop4="68-智者" prop5="34-枪将" prop6="117-布阵" prop7="32-天命" prop8="31-护身" prop9="" prop10="" prop11="" prop12="OXXOXO剡0?8?8"></Skill115>
+    <Skill116 prop0="拱戍" prop1="在己方领土上作战，增加伤害并减少所受伤害；水将+筑城+强运+护身" prop2="补助" prop3="3" prop4="38-水将" prop5="32-天命" prop6="77-大将" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO,-?8?8"></Skill116>
+    <Skill117 prop0="布阵" prop1="防止被战法暴击，规避兵种相克带来的负面影响；威风+驱逐+骑将+护身" prop2="防御" prop3="3" prop4="10-威风" prop5="23-驱逐" prop6="37-骑将" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO凹0X,8X,8"></Skill117>
+    <Skill118 prop0="悍将" prop1="「要击」对异常部队主动攻击伤害提升；勇将+猛将+遁走+护身" prop2="攻击" prop3="4" prop4="39-勇将" prop5="51-猛将" prop6="1-遁走" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOOH,?????"></Skill118>
+    <Skill119 prop0="商才" prop1="单次交易上限翻倍，且交易效果上升" prop2="内政" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill119>
+    <Skill120 prop0="惊叹" prop1="「兵圣」部队所受物理伤害减半；无双+霸王+驱逐+强运" prop2="防御" prop3="4" prop4="0-无双" prop5="48-霸王" prop6="32-天命" prop7="23-驱逐" prop8="" prop9="" prop10="" prop11="" prop12="XOXOXXhz炖?炖?"></Skill120>
+    <Skill121 prop0="军神" prop1="敌方战法成功率大幅下降；猛者+神将+霸王+陷阵" prop2="防御" prop3="4" prop4="133-陷阵" prop5="51-猛将" prop6="48-霸王" prop7="40-神将" prop8="31-护身" prop9="" prop10="" prop11="" prop12="XOXOXX4?炖7炖7"></Skill121>
+    <Skill122 prop0="兵仙" prop1="对统率较低的部队施展战法必成功" prop2="攻击" prop3="4" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXX慃"></Skill122>
+    <Skill123 prop0="战神" prop1="战法爆击时对敌方部队形成较高的伤害" prop2="攻击" prop3="4" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill123>
+    <Skill124 prop0="天敌" prop1="「战将」对防御力比己攻击力低敌部队暴击；突袭+猛者+强运+护身" prop2="攻击" prop3="3" prop4="13-突袭" prop5="32-天命" prop6="51-猛将" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXOl拄勈?勈?"></Skill124>
+    <Skill125 prop0="群雄" prop1="「巧变」可无视地形限制施展战法；遁走+强运+不屈+威风" prop2="攻击" prop3="4" prop4="1-遁走" prop5="27-不屈" prop6="10-威风" prop7="32-天命" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXXt仵柑?柑?"></Skill125>
+    <Skill126 prop0="天狼" prop1="「游侠」对兵力远多己方部队暴击；猛者+铁壁+勇将+陷阵（杨延昭）" prop2="攻击" prop3="4" prop4="51-猛将" prop5="29-铁壁" prop6="39-勇将" prop7="133-陷阵" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO鼻烫烫"></Skill126>
+    <Skill127 prop0="百战" prop1="部队战法的消费气力变为五分之一" prop2="攻击" prop3="4" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill127>
+    <Skill128 prop0="狙击" prop1="施展射击战法时，使敌将负伤機率增加" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX慃"></Skill128>
+    <Skill129 prop0="神臂" prop1="使弩兵的射程增加１区格" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX慃"></Skill129>
+    <Skill130 prop0="治军" prop1="物理攻击眩晕效果免疫" prop2="防御" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOX慃"></Skill130>
+    <Skill131 prop0="奇阵" prop1="「坚城」城防和士兵所受伤害减半；筑城+妖术+纵横" prop2="防御" prop3="3" prop4="77-大将" prop5="70-妖术" prop6="137-纵横" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX&#60;隰??"></Skill131>
+    <Skill132 prop0="料敌" prop1="敌方部队所施展部队计略成功的几率大幅降低" prop2="计略" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill132>
+    <Skill133 prop0="陷阵" prop1="能对敌方施展的战法予以强势的反击；威风+犄角+突袭+怒发" prop2="补助" prop3="4" prop4="10-威风" prop5="13-突袭" prop6="18-掎角" prop7="31-护身" prop8="30-怒发" prop9="" prop10="" prop11="" prop12="OOXOXX@W1d?d?"></Skill133>
+    <Skill134 prop0="恫吓" prop1="「恫吓」武比己低的邻敌有機率眩晕；无双+突袭+护身+威风" prop2="补助" prop3="4" prop4="0-无双" prop5="13-突袭" prop6="31-护身" prop7="10-威风" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO肖?揉7揉7"></Skill134>
+    <Skill135 prop0="破竹" prop1="「破竹」打倒敌部队後，周围敌部减气力；驱逐+威风+犄角+骑将" prop2="补助" prop3="4" prop4="23-驱逐" prop5="37-骑将" prop6="18-掎角" prop7="10-威风" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO€K颁?颁?"></Skill135>
+    <Skill136 prop0="汉将" prop1="「安民」攻破敌方城池后可保留全部内政设施；攻城+昂扬+骑将+筑城+护卫" prop2="攻击" prop3="4" prop4="17-攻城" prop5="77-大将" prop6="37-骑将" prop7="52-护卫" prop8="11-昂扬" prop9="" prop10="" prop11="" prop12="XOXOXX湎???"></Skill136>
+    <Skill137 prop0="纵横" prop1="增加建设内政设施的速度；亲和+论客+料敌+明镜☆" prop2="内政" prop3="2" prop4="142-亲和" prop5="86-论客" prop6="132-料敌" prop7="74-明镜" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX\彲L躯L躯"></Skill137>
+    <Skill138 prop0="贤哲" prop1="所属势力每月增加一定量的技巧值" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill138>
+    <Skill139 prop0="变法" prop1="每旬行动力恢复量增加，穀仓和造币厂作用提升为２倍" prop2="内政" prop3="4" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill139>
+    <Skill140 prop0="法治" prop1="所在城治安不会下降" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill140>
+    <Skill141 prop0="逆天" prop1="「后勤」补充兵力；乱战+辅佐+强运+护身+繁殖（勾践）" prop2="补助" prop3="3" prop4="15-乱战" prop5="26-辅佐" prop6="31-护身" prop7="81-繁殖" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXOXOX歙/堮7堮7"></Skill141>
+    <Skill142 prop0="亲和" prop1="实行亲善所能提升的友好度加；攻破敌方城池后可保留全部内政设施" prop2="内政" prop3="2" prop4="136-汉将" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXp? ? ?"></Skill142>
+    <Skill143 prop0="圣人" prop1="圣人+仁政+贤哲+强运（孔丘+周公）" prop2="内政" prop3="4" prop4="96-仁政" prop5="138-贤哲" prop6="32-天命" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX@/1l?l?"></Skill143>
+    <Skill144 prop0="王佐" prop1="「运筹」计成功，有機率再次行动；火神+水神+工神+操舵+奏乐（周瑜）" prop2="补助" prop3="4" prop4="47-寰宇" prop5="62-梵天" prop6="46-工神" prop7="74-明镜" prop8="75-鼓舞" prop9="5-识水" prop10="" prop11="" prop12="OOOXOOt?@@"></Skill144>
+    <Skill145 prop0="激励" prop1="如果使用战法成功，则有機率可再行动一次" prop2="补助" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill145>
+    <Skill146 prop0="雄主" prop1="可登非己在野武将；不会战死、被俘、负伤防内讧；征兵↑物伤减半不妨火" prop2="内政" prop3="3" prop4="32-天命" prop5="79-名声" prop6="56-诡计" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX$?橗7橗7"></Skill146>
+    <Skill147 prop0="女帝" prop1="登用无归属武将失败时舌战；所属城市者忠诚度不降；对智低者用计必成" prop2="内政" prop3="2" prop4="57-鬼谋" prop5="96-仁政" prop6="69-奇谋" prop7="95-军阀" prop8="97-风水" prop9="99-内助" prop10="" prop11="146-伯乐" prop12="XXXXXX郼t?t??"></Skill147>
+    <Skill148 prop0="七杀" prop1="「军魂」统率光环的各种加成效果翻倍；猛者+霸王+铁壁+妖术+戟将" prop2="补助" prop3="4" prop4="29-铁壁" prop5="48-霸王" prop6="51-猛将" prop7="35-戟将" prop8="70-妖术" prop9="" prop10="" prop11="" prop12="OOOOOO?????"></Skill148>
+    <Skill149 prop0="武尊" prop1="获得统帅光环或范围加1格；突袭+强行+护身+精妙" prop2="补助" prop3="4" prop4="13-突袭" prop5="2-强行" prop6="20-精妙" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO虙?溷?溷?"></Skill149>
+    <Skill150 prop0="异数" prop1="兵仙+攻心+百战+战神+斗神+破竹+料敌+强行（韩信）◆" prop2="行军" prop3="4" prop4="2-强行" prop5="22-攻心" prop6="41-鬥神" prop7="122-兵仙" prop8="127-百战" prop9="132-料敌" prop10="123-战神" prop11="135-破竹" prop12="OOXOXXd覄8úCj?"></Skill150>
+    <Skill151 prop0="杀神" prop1="战神+百战+斗神+军魂+遁走+料敌+铁壁+布阵（白起）◆" prop2="行军" prop3="4" prop4="1-遁走" prop5="29-铁壁" prop6="41-鬥神" prop7="123-战神" prop8="127-百战" prop9="132-料敌" prop10="117-布阵" prop11="148-七杀" prop12="XOXOXX楻	剽Cj?"></Skill151>
+    <Skill152 prop0="天王" prop1="巧变+百战+军神+战神+军魂+冲锋+护身+料敌（李靖）◆" prop2="行军" prop3="4" prop4="31-护身" prop5="48-霸王" prop6="49-疾驰" prop7="125-巧变" prop8="127-百战" prop9="132-料敌" prop10="123-战神" prop11="148-军魂" prop12="XXXOXX0籍ll?Cj?"></Skill152>
+    <Skill153 prop0="武穆" prop1="战神+枪神+百战+明镜+军魂+护身+治军+破竹（岳飞）◆" prop2="行军" prop3="4" prop4="31-护身" prop5="42-枪神" prop6="74-明镜" prop7="127-百战" prop8="135-破竹" prop9="130-治军" prop10="123-战神" prop11="148-军魂" prop12="OXXOXX??D邴Cj?"></Skill153>
+    <Skill154 prop0="霸主" prop1="无双+恫吓+霸王+护身+不屈+军神+突袭+疾驰（项籍）☆☆☆☆☆" prop2="行军" prop3="4" prop4="0-无双" prop5="134-恫吓" prop6="13-突袭" prop7="121-军神" prop8="31-护身" prop9="27-不屈" prop10="49-疾驰" prop11="48-霸王" prop12="OOXOOX(婅f2圵C齴鉻1"></Skill154>
+    <Skill155 prop0="留侯" prop1="神算+运筹+鬼谋+论客+精妙（张良）" prop2="计略" prop3="4" prop4="20-精妙" prop5="63-冠冕" prop6="65-先知" prop7="86-论客" prop8="144-王佐" prop9="32-强运" prop10="" prop11="" prop12="XXOXXXL?勂?勂?"></Skill155>
+    <Skill156 prop0="苍狼" prop1="骑神+冲锋+威风+长驱+明镜+护身（速不台）☆" prop2="行军" prop3="4" prop4="3-长驱" prop5="10-威风" prop6="45-骑神" prop7="49-疾驰" prop8="74-明镜" prop9="31-护身" prop10="" prop11="" prop12="XXXOXXPRpH6pH6"></Skill156>
+    <Skill157 prop0="烈侯" prop1="骑神+巧变+明镜+护身+攻心（卫青）☆" prop2="行军" prop3="4" prop4="45-骑神" prop5="31-护身" prop6="22-攻心" prop7="125-群雄" prop8="" prop9="74-明镜" prop10="" prop11="" prop12="XXXOXXx?@?@?"></Skill157>
+    <Skill158 prop0="兵神" prop1="军神+治军+遁走+变法+斗神+攻城+奇谋+兵圣（吴起）★" prop2="行军" prop3="4" prop4="121-军神" prop5="17-攻城" prop6="1-遁走" prop7="41-鬥神" prop8="69-奇谋" prop9="139-变法" prop10="130-治军" prop11="120-惊叹" prop12="OOXOXX-葿C?y"></Skill158>
+    <Skill159 prop0="兵魔" prop1="兵圣+军神+遁走+看破+料敌+攻心+治军（孙武）★" prop2="行军" prop3="4" prop4="120-天命" prop5="48-霸王" prop6="22-攻心" prop7="60-慧眼" prop8="1-遁走" prop9="130-治军" prop10="132-料敌" prop11="" prop12="XOXOXX`登`
+?`
+?"></Skill159>
+    <Skill160 prop0="武侯" prop1="虚实+妙计+运筹+治军+反计+安民+能吏+游侠（王猛）★" prop2="行军" prop3="4" prop4="57-鬼谋" prop5="58-妙计" prop6="68-智者" prop7="130-治军" prop8="144-王佐" prop9="136-汉将" prop10="80-能吏" prop11="126-天狼" prop12="OXOOXXX? 愨Cj"></Skill160>
+    <Skill161 prop0="中山" prop1="神将+料敌+攻心+威风+连击+治军（徐达）☆" prop2="行军" prop3="4" prop4="40-神将" prop5="10-威风" prop6="12-连击" prop7="22-攻心" prop8="132-料敌" prop9="130-治军" prop10="" prop11="" prop12="OXXOXX鑶?丶?丶?"></Skill161>
+    <Skill162 prop0="卧龙" prop1="洞察+神算+法治+昂扬+机智+治军+精妙+巧变（诸葛亮）☆" prop2="计略" prop3="4" prop4="63-冠冕" prop5="61-洞察" prop6="130-治军" prop7="140-法治" prop8="11-昂扬" prop9="55-機智" prop10="20-精妙" prop11="125-群雄" prop12="XXOXOX垶)$栤Cj~"></Skill162>
+    <Skill163 prop0="神箭" prop1="弓神+神臂+扫荡+狙击+治军（薛礼）" prop2="行军" prop3="4" prop4="44-弓神" prop5="130-治军" prop6="9-扫荡" prop7="128-狙击" prop8="129-神臂" prop9="" prop10="" prop11="" prop12="XXOOXX學-詡B詡B"></Skill163>
+    <Skill164 prop0="冠军" prop1="无双+破竹+冲锋+昂扬+连击+血路+犄角（霍去病）" prop2="攻击" prop3="4" prop4="0-无双" prop5="11-昂扬" prop6="12-连击" prop7="49-疾驰" prop8="135-破竹" prop9="18-掎角" prop10="" prop11="" prop12="XXOOXX??????"></Skill164>
+    <Skill165 prop0="唐宗" prop1="武干+军魂+强运+料敌+治军+仁政+激励（李世民）☆" prop2="行军" prop3="4" prop4="149-武尊" prop5="148-七杀" prop6="32-强运" prop7="96-仁政" prop8="145-激励" prop9="130-治军" prop10="132-料敌" prop11="" prop12="XXOOXXD噺????"></Skill165>
+    <Skill166 prop0="太公" prop1="治军+鬼门+贤哲+奇谋+百出+料敌（姜尚）☆★" prop2="计略" prop3="4" prop4="69-奇谋" prop5="71-咒术" prop6="130-治军" prop7="138-贤哲" prop8="64-百出" prop9="132-料敌" prop10="" prop11="" prop12="XXOXOXts?????"></Skill166>
+    <Skill167 prop0="天骄" prop1="激励+骑神+昂扬+疾驰+强运+金刚+料敌（铁木真）☆" prop2="行军" prop3="4" prop4="45-骑神" prop5="11-昂扬" prop6="49-疾驰" prop7="32-天命" prop8="145-激励" prop9="28-金刚" prop10="132-料敌" prop11="" prop12="XXXOXXd?凑6凑6"></Skill167>
+    <Skill168 prop0="仲父" prop1="能吏+繁殖+名声+治军+仁政+指导+富国(管仲)" prop2="行军" prop3="4" prop4="84-枭雄" prop5="79-名声" prop6="81-繁殖" prop7="87-富豪" prop8="96-仁政" prop9="80-能吏" prop10="130-治军" prop11="" prop12="XOOXXX"></Skill168>
+    <Skill169 prop0="魏武" prop1="虚实+捕缚+诗想+屯田+护身+治军+强运（曹操）" prop2="行军" prop3="3" prop4="19-捕缚" prop5="57-鬼谋" prop6="76-诗想" prop7="78-屯田" prop8="130-治军" prop9="31-护身" prop10="32-天命" prop11="" prop12="OOXXXX袆G8G8"></Skill169>
+    <Skill170 prop0="宋祖" prop1="枪神+巧变+强行+强运+护身（赵匡胤）☆★" prop2="行军" prop3="4" prop4="42-枪神" prop5="32-天命" prop6="125-群雄" prop7="31-护身" prop8="2-强行" prop9="" prop10="" prop11="" prop12="OXXOXXX瞛麶8麶8"></Skill170>
+    <Skill171 prop0="少保" prop1="工神+遁走+射程+强行+治军（戚继光）" prop2="行军" prop3="4" prop4="46-工神" prop5="1-遁走" prop6="2-强行" prop7="24-射程" prop8="130-治军" prop9="" prop10="" prop11="" prop12="XXOXOX@?鼹鼹"></Skill171>
+    <Skill172 prop0="光武" prop1="料敌+斗神+攻心+昂扬+强运+金刚（刘秀）☆" prop2="行军" prop3="4" prop4="132-料敌" prop5="41-鬥神" prop6="11-昂扬" prop7="22-攻心" prop8="32-强运" prop9="28-金刚" prop10="" prop11="" prop12="XOXOXXO?鐯?鐯?"></Skill172>
+    <Skill173 prop0="大帝" prop1="猛者+铁壁+金刚+霸王+疾驰+威风+白马+战神（冉闵）☆☆☆☆☆" prop2="攻击" prop3="4" prop4="49-疾驰" prop5="28-金刚" prop6="29-铁壁" prop7="48-霸王" prop8="10-威风" prop9="25-白马" prop10="123-战神" prop11="51-猛将" prop12="XOXOOXL???Cj4"></Skill173>
+    <Skill174 prop0="刑公" prop1="骑将+昂扬+突袭（苏烈）" prop2="行军" prop3="3" prop4="11-昂扬" prop5="13-突袭" prop6="37-骑将" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX$?????"></Skill174>
+    <Skill175 prop0="忠武" prop1="攻心+攻城+治军+护身+铁壁（郭子仪）" prop2="行军" prop3="4" prop4="22-攻心" prop5="130-治军" prop6="17-攻城" prop7="31-护身" prop8="29-铁壁" prop9="" prop10="" prop11="" prop12="XOXOOX,啀	????"></Skill175>
+    <Skill176 prop0="帝鞭" prop1="长驱+骑神+攻城+昂扬+掠夺+治军（旭烈兀）" prop2="攻击" prop3="4" prop4="3-长驱" prop5="45-骑神" prop6="17-攻城" prop7="11-昂扬" prop8="21-掠夺" prop9="130-治军" prop10="" prop11="" prop12="XXXOXX|郝????"></Skill176>
+    <Skill177 prop0="英公" prop1="射程+攻城+精妙+治军（李绩）" prop2="行军" prop3="3" prop4="24-射程" prop5="17-攻城" prop6="20-精妙" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXOXOX0I?碐?碐?"></Skill177>
+    <Skill178 prop0="武安" prop1="巧变+破竹+昂扬+治军+骑神+长驱+斗神+护身（李牧）★" prop2="行军" prop3="4" prop4="125-群雄" prop5="135-破竹" prop6="11-昂扬" prop7="45-骑神" prop8="130-治军" prop9="31-护身" prop10="41-鬥神" prop11="3-长驱" prop12="OOXOXX燤	??Cj"></Skill178>
+    <Skill179 prop0="武成" prop1="斗神+攻城+金刚+治军+威风+遁走+慧眼+强运(王翦）★" prop2="行军" prop3="4" prop4="41-鬥神" prop5="17-攻城" prop6="28-金刚" prop7="10-威风" prop8="130-治军" prop9="1-遁走" prop10="60-慧眼" prop11="32-天命" prop12="XOXXOX罊??Cj!"></Skill179>
+    <Skill180 prop0="宋武" prop1="神将+水神+铁壁+强运+布阵（刘裕）☆" prop2="攻击" prop3="4" prop4="40-神将" prop5="47-寰宇" prop6="29-铁壁" prop7="32-强运" prop8="117-布阵" prop9="" prop10="" prop11="" prop12="OOXOXO8x???"></Skill180>
+    <Skill181 prop0="太武" prop1="骑神+长驱+白马+护身+强运（拓拔焘）" prop2="攻击" prop3="3" prop4="25-白马" prop5="3-长驱" prop6="45-骑神" prop7="31-护身" prop8="" prop9="32-强运" prop10="" prop11="" prop12="XXXOXX????"></Skill181>
+    <Skill182 prop0="太保" prop1="无双+骑将+巧变+金刚+猛者（李存孝）" prop2="攻击" prop3="4" prop4="0-无双" prop5="37-骑将" prop6="28-金刚" prop7="125-群雄" prop8="51-猛将" prop9="" prop10="" prop11="" prop12="OOXOXXㄣ?纋?纋?"></Skill182>
+    <Skill183 prop0="开平" prop1="勇将+陷阵+怒发+猛者+治军（常遇春）" prop2="攻击" prop3="3" prop4="39-勇将" prop5="30-怒发" prop6="133-陷阵" prop7="51-猛将" prop8="130-治军" prop9="" prop10="" prop11="" prop12="OOXOXXdo?do?"></Skill183>
+    <Skill184 prop0="巾帼" prop1="料敌+巧变+辅佐（梁红玉+花木兰）☆" prop2="补助" prop3="3" prop4="132-料敌" prop5="125-群雄" prop6="26-辅佐" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX??餾?餾?"></Skill184>
+    <Skill185 prop0="文终" prop1="兴农+能吏+繁殖+后勤+征税+贤哲+屯田（萧何）" prop2="内政" prop3="4" prop4="88-米道" prop5="80-能吏" prop6="81-繁殖" prop7="89-徵税" prop8="78-屯田" prop9="141-后勤" prop10="138-贤哲" prop11="" prop12="XXXXXXt葕€"></Skill185>
+    <Skill186 prop0="阳明" prop1="虚实+妙计+贤哲+反计+精妙（王守仁）" prop2="计略" prop3="4" prop4="57-虚实" prop5="58-妙计" prop6="138-贤哲" prop7="20-精妙" prop8="68-反计" prop9="" prop10="" prop11="" prop12="OXOXXXt(K?p?p?"></Skill186>
+    <Skill187 prop0="忠襄" prop1="戟神+昂扬+不屈+治军(孟珙)" prop2="行军" prop3="3" prop4="43-戟神" prop5="11-昂扬" prop6="27-不屈" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XOXXXO$B?x傶x傶"></Skill187>
+    <Skill188 prop0="智圣" prop1="料敌+虚实+鬼谋+妙计+连环（孙膑）" prop2="计略" prop3="4" prop4="132-料敌" prop5="57-鬼谋" prop6="65-先知" prop7="58-妙计" prop8="66-布局" prop9="" prop10="" prop11="" prop12="XXOXXXxh?|嗿|嗿"></Skill188>
+    <Skill189 prop0="隐士" prop1="运筹+神算+鬼谋+反计+料敌（李泌+刘基）☆" prop2="计略" prop3="4" prop4="144-王佐" prop5="63-冠冕" prop6="65-先知" prop7="68-智者" prop8="132-料敌" prop9="" prop10="" prop11="" prop12="XXOXOX脆?l`?l`?"></Skill189>
+    <Skill190 prop0="陷城" prop1="工神+射程+强行+护身（郭侃+耿弇）" prop2="攻击" prop3="3" prop4="46-工神" prop5="24-射程" prop6="2-强行" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="XXXXOX&#60;?缼?缼?"></Skill190>
+    <Skill191 prop0="赵柱" prop1="戟神+威风+铁壁+金刚+料敌+强运+踏破+搬运（廉颇）" prop2="防御" prop3="3" prop4="43-戟神" prop5="10-威风" prop6="29-铁壁" prop7="28-金刚" prop8="32-天命" prop9="132-料敌" prop10="7-游走" prop11="6-踏破" prop12="XOXOXX?F?Cj"></Skill191>
+    <Skill192 prop0="白袍" prop1="巧变+明镜+激励+游侠+护身（陈庆之）☆" prop2="行军" prop3="4" prop4="125-群雄" prop5="126-天狼" prop6="74-明镜" prop7="145-激励" prop8="31-护身" prop9="" prop10="" prop11="" prop12="XXXOXXX鶔葨?葨?"></Skill192>
+    <Skill193 prop0="将星" prop1="工神+拱戍+强行+治军+铁壁（乐毅）★" prop2="攻击" prop3="4" prop4="116-拱戍" prop5="29-铁壁" prop6="2-强行" prop7="46-工神" prop8="130-治军" prop9="" prop10="" prop11="" prop12="XOXOOX鄭?笟?笟?"></Skill193>
+    <Skill194 prop0="遗爱" prop1="攻心+犄角+巧变+明镜+护身+铁壁（慕容恪）☆" prop2="补助" prop3="3" prop4="18-掎角" prop5="22-攻心" prop6="125-群雄" prop7="74-明镜" prop8="29-铁壁" prop9="31-护身" prop10="" prop11="" prop12="XXOOOOT?鄌鄌"></Skill194>
+    <Skill195 prop0="献武" prop1="破竹+勇将+攻心+护身+明镜（谢玄）" prop2="行军" prop3="3" prop4="135-破竹" prop5="39-勇将" prop6="22-攻心" prop7="74-明镜" prop8="" prop9="27-不屈" prop10="" prop11="" prop12="OXXOXO?鴷8鴷8"></Skill195>
+    <Skill196 prop0="骁勇" prop1="勇将+陷阵+猛者+护身+铁壁（萧摩柯+杨大眼+杨再兴）" prop2="攻击" prop3="4" prop4="39-勇将" prop5="133-陷阵" prop6="51-猛将" prop7="31-护身" prop8="" prop9="29-铁壁" prop10="" prop11="" prop12="XOXOXXX鶔堞?堞?"></Skill196>
+    <Skill197 prop0="景武" prop1="水神+破浪+操舵+强运+护身（杨素）" prop2="行军" prop3="3" prop4="4-推进" prop5="5-操舵" prop6="31-护身" prop7="47-寰宇" prop8="32-强运" prop9="" prop10="" prop11="" prop12="XXXOXOp茂歇?歇?"></Skill197>
+    <Skill198 prop0="献侯" prop1="百出+连环+伪报+内讧+妙计（陈平）☆" prop2="计略" prop3="4" prop4="64-百出" prop5="66-布局" prop6="54-言毒" prop7="58-妙计" prop8="56-诡计" prop9="" prop10="" prop11="" prop12="XXXXXX莛?挟?挟?"></Skill198>
+    <Skill199 prop0="孤胆" prop1="勇将+遁走+巧变+疾驰+血路（赵云+罗成+林冲）" prop2="攻击" prop3="3" prop4="39-勇将" prop5="1-遁走" prop6="125-群雄" prop7="49-疾驰" prop8="" prop9="33-血路" prop10="" prop11="" prop12="OOXOXOP嬳4圍4圍"></Skill199>
+    <Skill200 prop0="上将" prop1="筑城+猛者+骑将+火攻+布阵（章邯+袁崇焕+蓝玉）" prop2="行军" prop3="4" prop4="77-大将" prop5="117-布阵" prop6="37-骑将" prop7="53-火攻" prop8="51-猛将" prop9="" prop10="" prop11="" prop12="OOOOOX?t?t?"></Skill200>
+    <Skill201 prop0="女后" prop1="威压+风水+安民+内助+奇谋（萧绰+吕雉）" prop2="内政" prop3="1" prop4="95-军阀" prop5="97-风水" prop6="136-汉将" prop7="146-雄主" prop8="99-内助" prop9="69-奇谋" prop10="" prop11="" prop12="XXXXXX丕+D―D―"></Skill201>
+    <Skill202 prop0="明祖" prop1="水将+后勤+筑城+护身+强运（朱元璋）" prop2="行军" prop3="4" prop4="77-大将" prop5="38-水将" prop6="141-逆天" prop7="31-护身" prop8="32-强运" prop9="" prop10="" prop11="" prop12="OXXOXO愐?x忷x忷"></Skill202>
+    <Skill203 prop0="箭神" prop1="弩神+狙击+射手+治军（斛律光+后羿+养由基）" prop2="攻击" prop3="3" prop4="44-弓神" prop5="128-狙击" prop6="50-射手" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXXX睊ll"></Skill203>
+    <Skill204 prop0="能臣" prop1="富国+料敌+奇谋+妙计（荀彧+范蠡）" prop2="内政" prop3="4" prop4="132-料敌" prop5="87-富豪" prop6="58-妙计" prop7="69-奇谋" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXL彵L滫L滫"></Skill204>
+    <Skill205 prop0="革新" prop1="变法+指导+能吏+法治+贤哲（公孙鞅+王安石+张居正）" prop2="内政" prop3="4" prop4="139-变法" prop5="84-枭雄" prop6="138-贤哲" prop7="140-法治" prop8="80-能吏" prop9="" prop10="" prop11="" prop12="XXXXXX訧?l濟l濟"></Skill205>
+    <Skill206 prop0="冠首" prop1="看破+连环+鬼谋+奇谋+贤者+妖术（张宾+崔浩）" prop2="行军" prop3="1" prop4="69-奇谋" prop5="70-妖术" prop6="138-贤哲" prop7="60-慧眼" prop8="66-布局" prop9="65-先知" prop10="" prop11="" prop12="XXOXXX€?H耳H耳"></Skill206>
+    <Skill207 prop0="少帅" prop1="猛者+军神+斗神+护身（寇仲+李元芳）" prop2="攻击" prop3="4" prop4="41-鬥神" prop5="51-猛将" prop6="121-军神" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXX窶),m?,m?"></Skill207>
+    <Skill208 prop0="始皇" prop1="威压+和戎+征税+强运+名声（嬴政）" prop2="内政" prop3="4" prop4="32-天命" prop5="89-徵税" prop6="91-亲乌" prop7="95-军阀" prop8="" prop9="79-名声" prop10="" prop11="" prop12="XXOOXXt?垉垉"></Skill208>
+    <Skill209 prop0="中兴" prop1="治军+昂扬+弩将+扫荡（李光弼）★" prop2="防御" prop3="4" prop4="130-治军" prop5="11-昂扬" prop6="36-弓将" prop7="9-扫荡" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXXL彵P菌P菌"></Skill209>
+    <Skill210 prop0="元帝" prop1="骑将+铁壁+长驱+治军（忽必烈）" prop2="防御" prop3="3" prop4="37-骑将" prop5="29-铁壁" prop6="3-长驱" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXXOOXL彵,凕,凕"></Skill210>
+    <Skill211 prop0="睿武" prop1="巧变+连击+仁政+护身（柴荣）" prop2="补助" prop3="4" prop4="125-群雄" prop5="12-连击" prop6="96-仁政" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="XOXOXXL彵$嘃$嘃"></Skill211>
+    <Skill212 prop0="严侯" prop1="火神+退敌+明镜+待伏（韦睿）☆" prop2="计略" prop3="4" prop4="62-火神" prop5="74-明镜" prop6="54-言毒" prop7="16-待伏" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXt牠?稿?稿?"></Skill212>
+    <Skill213 prop0="忠肃" prop1="水神+洞察+不屈+推进（虞允文）☆" prop2="行军" prop3="4" prop4="47-寰宇" prop5="61-洞察" prop6="27-不屈" prop7="4-推进" prop8="" prop9="" prop10="" prop11="" prop12="OXOXOOL彵H岦H岦"></Skill213>
+    <Skill214 prop0="宣王" prop1="料敌+深谋+治军+坚城+强运（司马懿）☆★" prop2="防御" prop3="4" prop4="131-奇阵" prop5="67-深谋" prop6="132-料敌" prop7="130-治军" prop8="" prop9="32-强运" prop10="" prop11="" prop12="OXXOXX鄑"></Skill214>
+    <Skill215 prop0="步将" prop1="戟将+枪将" prop2="攻击" prop3="4" prop4="35-戟将" prop5="34-枪将" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXXXXt??"></Skill215>
+    <Skill216 prop0="房谋" prop1="百出+秘计+沉着+料敌（房乔）☆" prop2="计略" prop3="4" prop4="64-百出" prop5="59-秘计" prop6="73-智将" prop7="132-料敌" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXL彵8橖8橖"></Skill216>
+    <Skill217 prop0="杜断" prop1="机智+妙计+规律+料敌（杜如晦）☆" prop2="计略" prop3="4" prop4="55-機智" prop5="58-妙计" prop6="72-规律" prop7="132-料敌" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX訧?&#60;滭&#60;滭"></Skill217>
+    <Skill218 prop0="赵公" prop1="后勤+指导+搬运（长孙无忌）" prop2="内政" prop3="4" prop4="141-后勤" prop5="84-指导" prop6="7-搬运" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX?垬?垬?"></Skill218>
+    <Skill219 prop0="庐陵" prop1="能吏+征税+指导+屯田（谢安）" prop2="内政" prop3="4" prop4="80-能吏" prop5="89-徵税" prop6="84-指导" prop7="78-屯田" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXtDm?錃?錃?"></Skill219>
+    <Skill220 prop0="名相" prop1="法治+富国+仁政+指导+兴农（李斯）" prop2="内政" prop3="4" prop4="140-法治" prop5="87-富豪" prop6="88-米道" prop7="84-指导" prop8="96-仁政" prop9="" prop10="" prop11="" prop12="XXXXXXt?淯?淯?"></Skill220>
+    <Skill221 prop0="突骑" prop1="弩将+骑将" prop2="攻击" prop3="4" prop4="36-弓将" prop5="37-骑将" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOOXXt??Q?Q?"></Skill221>
+    <Skill222 prop0="弓帅" prop1="弩将+神臂" prop2="攻击" prop3="4" prop4="36-弓将" prop5="129-神臂" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXXt怴?x憜x憜"></Skill222>
+    <Skill223 prop0="清祖" prop1="骑神+强运+驱逐+攻城+不屈（努尔哈赤）" prop2="行军" prop3="4" prop4="45-骑神" prop5="32-强运" prop6="23-驱逐" prop7="17-攻城" prop8="27-不屈" prop9="" prop10="" prop11="" prop12="XXXOOX??埊?埊?"></Skill223>
+    <Skill224 prop0="魏文" prop1="枪将+怒发+沉着+护身+强运（宇文泰）☆" prop2="行军" prop3="4" prop4="32-强运" prop5="34-枪将" prop6="30-怒发" prop7="73-智将" prop8="" prop9="31-护身" prop10="" prop11="" prop12="OXXOXX堗?"></Skill224>
+    <Skill225 prop0="铁骑" prop1="治军+骑将+护身+沉着（狄青+多尔衮）★" prop2="行军" prop3="4" prop4="31-护身" prop5="37-骑将" prop6="73-智将" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX訧?饦?饦?"></Skill225>
+    <Skill226 prop0="军治" prop1="白马+骑将+长驱+护身+筑城+强运（耶律阿保机+阿骨打）" prop2="行军" prop3="4" prop4="25-白马" prop5="37-骑将" prop6="3-长驱" prop7="31-护身" prop8="32-强运" prop9="77-大将" prop10="" prop11="" prop12="XXXOXX堗?鵂?鵂?"></Skill226>
+    <Skill227 prop0="博陆" prop1="能吏+指导+仁政+料敌（霍光）" prop2="内政" prop3="4" prop4="80-能吏" prop5="84-枭雄" prop6="96-仁政" prop7="132-料敌" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX訧?袓?袓?"></Skill227>
+    <Skill228 prop0="成武" prop1="骑神+白马+昂扬++强运+护身（慕容垂）" prop2="攻击" prop3="4" prop4="11-昂扬" prop5="25-白马" prop6="45-骑神" prop7="31-护身" prop8="" prop9="32-强运" prop10="" prop11="" prop12="XXXOXX堗?擖擖"></Skill228>
+    <Skill229 prop0="威勇" prop1="扫荡+护身+骑将+明镜+强运（李存勖）" prop2="防御" prop3="4" prop4="9-扫荡" prop5="32-天命" prop6="74-明镜" prop7="37-骑将" prop8="" prop9="31-护身" prop10="" prop11="" prop12="OOXOXXx?d?d?"></Skill229>
+    <Skill230 prop0="汉武" prop1="洞察+法治+富国+兴农+强运+护身（刘彻）☆" prop2="内政" prop3="4" prop4="61-洞察" prop5="140-法治" prop6="87-富豪" prop7="88-米道" prop8="33-血路" prop9="22-攻心" prop10="31-护身" prop11="32-强运" prop12="XOXOXX涞?把C?!"></Skill230>
+    <Skill231 prop0="刺客" prop1="夺帅+猛者+血路（荆轲+要离）" prop2="行军" prop3="4" prop4="19-捕缚" prop5="51-猛者" prop6="33-血路" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXXt怴?"></Skill231>
+    <Skill232 prop0="安国" prop1="安民+祈愿+风水+强运+名声（姬昌）" prop2="内政" prop3="4" prop4="136-汉将" prop5="97-风水" prop6="98-祈願" prop7="32-强运" prop8="" prop9="79-名声" prop10="" prop11="" prop12="XXXXOX愸栀栀"></Skill232>
+    <Skill233 prop0="非攻" prop1="安民+发明+筑城+射程+攻城（墨子）" prop2="行军" prop3="4" prop4="24-射程" prop5="77-大将" prop6="82-发明" prop7="136-汉将" prop8="" prop9="17-攻城" prop10="" prop11="" prop12="XXXXOX堗?鸾?鸾?"></Skill233>
+    <Skill234 prop0="辅国" prop1="治军+戟神+沉着+火攻+辅佐（周亚夫+檀道济）★" prop2="行军" prop3="4" prop4="130-治军" prop5="43-戟神" prop6="73-智将" prop7="53-火攻" prop8="" prop9="26-辅佐" prop10="" prop11="" prop12="XOXOXX??嘎?嘎?"></Skill234>
+    <Skill235 prop0="儒将" prop1="巧变+沉着+连击+治军（裴行俭）☆" prop2="行军" prop3="4" prop4="125-群雄" prop5="12-连击" prop6="73-智将" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="OXXOXXL彵??"></Skill235>
+    <Skill236 prop0="郧公" prop1="坚城+鬼谋+妙计（韦叔裕）" prop2="行军" prop3="4" prop4="131-坚城" prop5="65-鬼谋" prop6="58-妙计" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXt??懊懊"></Skill236>
+    <Skill237 prop0="太平" prop1="战将+威风+突袭+夺帅（史万岁）" prop2="攻击" prop3="4" prop4="124-战将" prop5="10-威风" prop6="13-突袭" prop7="19-捕缚" prop8="" prop9="" prop10="" prop11="" prop12="XOXOXXtDm?t砻t砻"></Skill237>
+    <Skill238 prop0="门神" prop1="枪将+猛者+护卫+乱战（尉迟恭+秦琼）" prop2="攻击" prop3="4" prop4="34-枪将" prop5="51-猛将" prop6="52-护卫" prop7="15-乱战" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXXL彵屛?屛?"></Skill238>
+    <Skill239 prop0="令公" prop1="枪将+白马+不屈+铁壁（杨业）" prop2="攻击" prop3="4" prop4="34-枪将" prop5="25-白马" prop6="27-不屈" prop7="29-铁壁" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXXL彵难?难?"></Skill239>
+    <Skill240 prop0="蕲王" prop1="战将+威风+射手+治军（韩世忠）" prop2="行军" prop3="4" prop4="124-仇天" prop5="10-威风" prop6="50-射手" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX訧?粼?粼?"></Skill240>
+    <Skill241 prop0="成祖" prop1="强运+遁走+反计+筑城+护身（朱棣）☆" prop2="行军" prop3="4" prop4="32-强运" prop5="68-智者" prop6="1-遁走" prop7="77-大将" prop8="31-护身" prop9="" prop10="" prop11="" prop12="OXOOXX??茏?茏?"></Skill241>
+    <Skill242 prop0="高祖" prop1="强运+仁政+攻心+护身+遁走+眼力（刘邦）" prop2="行军" prop3="4" prop4="32-强运" prop5="1-遁走" prop6="96-仁政" prop7="22-攻心" prop8="31-护身" prop9="85-眼力" prop10="" prop11="" prop12="XXXOXXd故??"></Skill242>
+    <Skill243 prop0="鬼狐" prop1="料敌+反计+鬼谋+慧眼（郭嘉+赵普+张元）☆" prop2="计略" prop3="4" prop4="132-料敌" prop5="65-先知" prop6="68-智者" prop7="60-慧眼" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX旪?x!?x!?"></Skill243>
+    <Skill244 prop0="高密" prop1="治军+料敌+威压+枪将（邓禹）★" prop2="行军" prop3="4" prop4="95-军阀" prop5="132-料敌" prop6="34-枪将" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX擰?$?$?"></Skill244>
+    <Skill245 prop0="节侯" prop1="战将+沉着+精妙+治军（冯异）☆" prop2="行军" prop3="1" prop4="124-仇天" prop5="20-精妙" prop6="73-智将" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXX訧?8潼8潼"></Skill245>
+    <Skill246 prop0="大鹏" prop1="陷阵+金刚+勇将+威风+猛者+无双+突袭+铁壁（李元霸）" prop2="攻击" prop3="4" prop4="133-陷阵" prop5="28-金刚" prop6="39-勇将" prop7="0-无双" prop8="13-突袭" prop9="29-铁壁" prop10="10-威风" prop11="51-猛将" prop12="XOXOXX$w?p琰Cj4"></Skill246>
+    <Skill247 prop0="谋臣" prop1="奇谋+待伏+治军+明镜（贾诩+范增+姚广孝）" prop2="行军" prop3="1" prop4="69-奇谋" prop5="16-待伏" prop6="130-治军" prop7="74-明镜" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX訧?荜?荜?"></Skill247>
+    <Skill248 prop0="忠信" prop1="战将+铁壁+筑城+治军（蒙恬）" prop2="行军" prop3="4" prop4="124-仇天" prop5="29-铁壁" prop6="77-大将" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XOXOXXL彵铧铧"></Skill248>
+    <Skill249 prop0="枪王" prop1="枪将+沉着+不屈+威风（张辽+王彦章）☆" prop2="行军" prop3="4" prop4="10-威风" prop5="27-不屈" prop6="34-枪将" prop7="73-沉著" prop8="" prop9="" prop10="" prop11="" prop12="OOXXXX&#60;?慁慁"></Skill249>
+    
+  </UseNewSkill>
+  <RealRandom enable="false"></RealRandom>
+  <ShowRate enable="true"></ShowRate>
+  <PerfectRate enable="false"></PerfectRate>
+  <DTCapture enable="true">30</DTCapture>
+  <DTDeath enable="true" High="5" Medium="2"></DTDeath>
+  <DTMorale enable="true" Win="15" Lost="30" Req="10" Ref="20"></DTMorale>
+  <SZOption enable="false"></SZOption>
+  <SZShowCard enable="false"></SZShowCard>
+  <EventGeneral enable="true" EgStart="745" EgEnd="745"></EventGeneral>
+  <SpecialKidney enable="true"></SpecialKidney>
+  <AvailableYear enable="false"></AvailableYear>
+  <RemoveSpecial enable="true"></RemoveSpecial>
+  <NGContribution enable="true" Contribution1="3000" Contribution2="1000"></NGContribution>
+  <RebellionCond enable="true">50</RebellionCond>
+  <NoRebellion enable="false"></NoRebellion>
+  <RebellionArmy enable="true">8000</RebellionArmy>
+  <RebellionGeneral enable="true" Geranal1="2" Geranal2="1">8000</RebellionGeneral>
+  <RebellionType enable="true" TypeL1="4" TypeL2="1" TypeL3="4" TypeL4="2" TypeL5="0" TypeS1="0" TypeS2="2" TypeS3="0" TypeS4="2" TypeS5="0"></RebellionType>
+  <AIAtkAndTrans enable="true"></AIAtkAndTrans>
+  <AIArmyPolicy enable="true">1</AIArmyPolicy>
+  <AIEatDay enable="true">40</AIEatDay>
+  <AIGeneralSelect enable="true"></AIGeneralSelect>
+  <AISkillAlignToArmy enable="true"></AISkillAlignToArmy>
+  <AIUseReactFeature enable="true"></AIUseReactFeature>
+  <AIResINC enable="true" MINC="5000" RINC="50000" SINC="5000" EINC="20000" HINC="20000"></AIResINC>
+  <AIAppoint enable="true" Gao="6" Wen="12" Wu="5"></AIAppoint>
+  <LeaderAI enable="true"></LeaderAI>
+  <MsgIntro enable="true"></MsgIntro>
+  
+</Config>
