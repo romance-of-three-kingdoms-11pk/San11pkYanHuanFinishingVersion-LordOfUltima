@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Config><AbilityLimit enable="true">200</AbilityLimit>
-  <AbilityExpLimit enable="true">80</AbilityExpLimit>
-  <AbilityTrainLimit enable="true">30</AbilityTrainLimit>
-  <LevelName lv0name="Ｃ" lv1name="Ｂ" lv2name="Ａ" lv3name="Ｓ" lv4name="熟" lv5name="精" lv6name="极" lv7name="神" lv8name="候" lv9name="公" lv10name="王" lv11name="帝" lv12name="皇" lv13name="妖" lv14name="圣" lv15name="仙"></LevelName>
-  <LvLimitAndExp enable="true" lv0exp="150" lv1exp="200" lv2exp="250" lv3exp="250" lv4exp="250" lv5exp="250" lv6exp="250" lv7exp="250" lv8exp="250" lv9exp="250" lv10exp="250" lv11exp="250" lv12exp="250" lv13exp="250" lv14exp="250">15</LvLimitAndExp>
-  <ABExpGain enable="true" AB0="-2" AB1="-1" AB2="-2" AB3="0" AB4="0"></ABExpGain>
-  <LvExpGain enable="true" Lv0="0" Lv1="1" Lv2="-1" Lv3="-2" Lv4="-2" Lv5="0"></LvExpGain>
+  <AbilityExpLimit enable="true">0</AbilityExpLimit>
+  <AbilityTrainLimit enable="true">0</AbilityTrainLimit>
+  <LevelName lv0name="Ｃ" lv1name="Ｂ" lv2name="Ａ" lv3name="Ｓ" lv4name="熟" lv5name="精" lv6name="极" lv7name="圣" lv8name="神" lv9name="公" lv10name="王" lv11name="帝" lv12name="魔" lv13name="皇" lv14name="妖" lv15name="仙"></LevelName>
+  <LvLimitAndExp enable="true" lv0exp="150" lv1exp="200" lv2exp="250" lv3exp="250" lv4exp="250" lv5exp="250" lv6exp="250" lv7exp="250" lv8exp="250" lv9exp="250" lv10exp="250" lv11exp="250" lv12exp="250" lv13exp="250" lv14exp="250">6</LvLimitAndExp>
+  <ABExpGain enable="true" AB0="-2" AB1="-2" AB2="-2" AB3="0" AB4="0"></ABExpGain>
+  <LvExpGain enable="true" Lv0="-1" Lv1="-1" Lv2="-1" Lv3="-2" Lv4="-2" Lv5="-1"></LvExpGain>
   <ABTrainLimit enable="true" Low="70" Medium="80" High="105"></ABTrainLimit>
-  <LvTrainLimit enable="true" A="2" B="1"></LvTrainLimit>
-  <LvTrainNoCond enable="true"></LvTrainNoCond>
+  <LvTrainLimit enable="false" A="3" B="2"></LvTrainLimit>
+  <LvTrainNoCond enable="false"></LvTrainNoCond>
   <TrainPeriod enable="true">2</TrainPeriod>
   <ContribGain enable="true">150</ContribGain>
-  <ContribLimit enable="true">60000</ContribLimit>
+  <ContribLimit enable="false">60000</ContribLimit>
   <OfficialRank enable="false">4000</OfficialRank>
-  <TreasureSkill enable="true"><Treasure enable="true" TreasureID="0" Description="五明骥（韩信）" Skill="1-飞渡" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
-    <Treasure enable="true" TreasureID="1" Description="浑红马（李靖）" Skill="1-飞渡" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
-    <Treasure enable="true" TreasureID="2" Description="踏雪乌雅马（项籍）" Skill="130-治军" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+  <TreasureSkill enable="true"><Treasure enable="true" TreasureID="0" Description="五明骥（韩信）" Skill="33-血路" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="1" Description="浑红马（李靖）" Skill="32-天命" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="2" Description="踏雪乌雅马（项籍）" Skill="32-天命" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="3" Description="毕燕挝（李存孝）" Skill="11-昂扬" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="4" Description="天龙破城戟（项籍）" Skill="10-威风" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="5" Description="錾金枪（徐达）" Skill="29-铁壁" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
@@ -33,12 +33,12 @@
     <Treasure enable="true" TreasureID="17" Description="韩信兵法（治军）" Skill="130-治军" WL="0" TS="1" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="18" Description="孙子兵法（孙武）" Skill="57-虚实" WL="0" TS="1" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="19" Description="赤宵（刘邦）" Skill="9-威武" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
-    <Treasure enable="true" TreasureID="20" Description="菊花青" Skill="49-冲锋" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
-    <Treasure enable="true" TreasureID="21" Description="岳飞" Skill="1-飞渡" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
-    <Treasure enable="true" TreasureID="22" Description="莫邪" Skill="143-圣人" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="20" Description="菊花青" Skill="49-疾驰" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="21" Description="银龙马-岳飞" Skill="32-天命" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="22" Description="莫邪" Skill="127-百战" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="23" Description="灵宝（李广）" Skill="9-威武" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="24" Description="轩辕弓（巧变）" Skill="125-巧变" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
-    <Treasure enable="true" TreasureID="25" Description="李元霸" Skill="51-猛者" WL="0" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="25" Description="李元霸" Skill="33-血路" WL="0" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="26" Description="纪效新书" Skill="74-明镜" WL="0" TS="1" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="27" Description="李卫公问对（李靖）" Skill="130-治军" WL="0" TS="1" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="28" Description="大夏龙雀（姬重耳）" Skill="9-威武" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
@@ -50,7 +50,7 @@
     <Treasure enable="true" TreasureID="34" Description="三略（张良）" Skill="68-反计" WL="0" TS="0" ZL="1" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="35" Description="（吴起）" Skill="22-攻心" WL="0" TS="1" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="37" Description="巨阙（姬光）" Skill="13-突袭" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
-    <Treasure enable="true" TreasureID="38" Description="七星剑（伍员）" Skill="132-料敌" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
+    <Treasure enable="true" TreasureID="38" Description="七星剑（伍员）" Skill="130-治军" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="39" Description="白起" Skill="130-治军" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="40" Description="震天弓（薛礼）" Skill="26-辅佐" WL="1" TS="0" ZL="0" ZZ="0" ML="0"></Treasure>
     <Treasure enable="true" TreasureID="41" Description="玉玺（安民）" Skill="136-安民" WL="0" TS="0" ZL="0" ZZ="0" ML="1"></Treasure>
@@ -60,80 +60,80 @@
   </TreasureSkill>
   <TreasureNoConfiscate enable="true"></TreasureNoConfiscate>
   <ArmyInnovation enable="true">4000</ArmyInnovation>
-  <AMLimit enable="true">10000</AMLimit>
-  <ARLimit enable="true">50000</ARLimit>
+  <AMLimit enable="true">20000</AMLimit>
+  <ARLimit enable="true">80000</ARLimit>
   <TSLimit enable="true">60000</TSLimit>
   <TEqLimit enable="true">100000</TEqLimit>
   <TMLimit enable="true">100000</TMLimit>
-  <TRLimit enable="true">500000</TRLimit>
-  <ArmyAtk use="0" PoWL="60" PoTS="20" Threshold="5000"></ArmyAtk>
-  <ArmyDef use="0" PoWL="0" PoTS="100" Threshold="5000"></ArmyDef>
-  <MoralePlusA enable="true" Threshold="50">80</MoralePlusA>
-  <MoralePlusD enable="true" Threshold="50">80</MoralePlusD>
-  <ArmyBuild enable="false" PoZZ="67" Plus="50"></ArmyBuild>
+  <TRLimit enable="true">1000000</TRLimit>
+  <ArmyAtk use="0" PoWL="30" PoTS="50" Threshold="5000"></ArmyAtk>
+  <ArmyDef use="0" PoWL="10" PoTS="90" Threshold="5000"></ArmyDef>
+  <MoralePlusA enable="true" Threshold="60">50</MoralePlusA>
+  <MoralePlusD enable="true" Threshold="60">80</MoralePlusD>
+  <ArmyBuild enable="true" PoZZ="67" Plus="50"></ArmyBuild>
   <TransitBuildNoDis enable="true"></TransitBuildNoDis>
-  <TransitBaseMov enable="false">16</TransitBaseMov>
-  <SwordADPlus enable="true">80</SwordADPlus>
-  <TransitPlus enable="true">40</TransitPlus>
+  <TransitBaseMov enable="true">16</TransitBaseMov>
+  <SwordADPlus enable="true">90</SwordADPlus>
+  <TransitPlus enable="true">50</TransitPlus>
   <EliteADPlus enable="true">10</EliteADPlus>
   <LvADPlus enable="true">10</LvADPlus>
   <ArmyShareAbility enable="true"></ArmyShareAbility>
-  <CityEat enable="true">50</CityEat>
-  <WideEat enable="true">300</WideEat>
-  <HorseEat enable="false"></HorseEat>
-  <SameEat enable="false"></SameEat>
+  <CityEat enable="true">500</CityEat>
+  <WideEat enable="true">750</WideEat>
+  <HorseEat enable="true"></HorseEat>
+  <SameEat enable="true"></SameEat>
   <MoraleLimit enable="true" SLBN="150" SLBY="250"></MoraleLimit>
   <BaseHits enable="false" Atk0="70" Atk1="70" Atk2="60" Atk3="70" Atk4="70" Atk5="65" Atk6="75" Atk7="70" Atk8="65" Atk9="70" Atk10="65" Atk11="60" Atk12="100" Atk13="100" Atk14="100" Atk15="100" Atk16="100" Atk17="65" Atk18="100"></BaseHits>
   <HitsLowerLmt enable="true">1</HitsLowerLmt>
   <HitsUpperLmt enable="true">100</HitsUpperLmt>
-  <HitsPlus enable="true" lv="3" unit="3"></HitsPlus>
+  <HitsPlus enable="true" lv="4" unit="5"></HitsPlus>
   <HitsPlus1 enable="false">20</HitsPlus1>
   <HitsPlus2 enable="false">10</HitsPlus2>
   <HitsPlusToEx enable="true" toEx="20">1</HitsPlusToEx>
-  <BurstBase enable="true">10</BurstBase>
+  <BurstBase enable="true">2</BurstBase>
   <BurstUpperLmt enable="true">100</BurstUpperLmt>
   <BurstPlus1 enable="true" ToWL="100" PlusMul="5"></BurstPlus1>
   <BurstPlus2 enable="true">1</BurstPlus2>
-  <BurstPlus3 enable="true" QM="6" ZJ="8" YW="4"></BurstPlus3>
-  <ExerPlus enable="true">8</ExerPlus>
+  <BurstPlus3 enable="false" QM="6" ZJ="8" YW="4"></BurstPlus3>
+  <ExerPlus enable="false">8</ExerPlus>
   <ElitePlus enable="true">12</ElitePlus>
-  <SLadderPlus enable="true" SPEQ="40" SPWP="20"></SLadderPlus>
+  <SLadderPlus enable="false" SPEQ="40" SPWP="20"></SLadderPlus>
   <ArrowShield enable="true">50</ArrowShield>
   <BigShield enable="true">55</BigShield>
-  <Forage enable="true" base="0" mul1="1" mul2="2"></Forage>
-  <MovePlus enable="false" mp0="3" mp1="4" mp2="4" mp3="6" mp4="6" mp5="6" mp6="2"></MovePlus>
+  <Forage enable="true" base="0" mul1="3" mul2="6"></Forage>
+  <MovePlus enable="true" mp0="3" mp1="4" mp2="3" mp3="3" mp4="3" mp5="3" mp6="2"></MovePlus>
   <DamagePlus enable="true" ToWL="102" PlusMul="50" general="true"></DamagePlus>
-  <AtkBurst enable="true">15</AtkBurst>
+  <AtkBurst enable="true">20</AtkBurst>
   <AtkReflect enable="true">50</AtkReflect>
-  <CoAtk enable="true">180</CoAtk>
+  <CoAtk enable="true">120</CoAtk>
   <HardDec enable="true">30</HardDec>
-  <TSvsJD enable="true">20</TSvsJD>
-  <JLvsJD enable="true">180</JLvsJD>
-  <QBvsSS enable="true">100</QBvsSS>
-  <QBvsJD enable="true">100</QBvsJD>
-  <ArmyVsArmy enable="false" AvsA11="1" AvsA12="1.15" AvsA13="1" AvsA14="0.85" AvsA15="1" AvsA16="1" AvsA17="1" AvsA18="1" AvsA21="0.85" AvsA22="1" AvsA23="1" AvsA24="1.15" AvsA25="1" AvsA26="1" AvsA27="1" AvsA28="1" AvsA31="1" AvsA32="1" AvsA33="1" AvsA34="1" AvsA35="1" AvsA36="1" AvsA37="1" AvsA38="1" AvsA41="1.15" AvsA42="0.85" AvsA43="1" AvsA44="1" AvsA45="1" AvsA46="1" AvsA47="1" AvsA48="1" AvsA51="1" AvsA52="1" AvsA53="0.85" AvsA54="1" AvsA55="1" AvsA56="1" AvsA57="1" AvsA58="1" AvsA61="1" AvsA62="1" AvsA63="0.85" AvsA64="1" AvsA65="1" AvsA66="1" AvsA67="1" AvsA68="0.8" AvsA71="1" AvsA72="1" AvsA73="0.85" AvsA74="1" AvsA75="1" AvsA76="1" AvsA77="1" AvsA78="1" AvsA81="1" AvsA82="1" AvsA83="1" AvsA84="1" AvsA85="1" AvsA86="1" AvsA87="1" AvsA88="0.8"></ArmyVsArmy>
-  <SpecialKillHDM enable="true">2</SpecialKillHDM>
-  <SpecialKillBurst enable="true">2</SpecialKillBurst>
-  <SpecialKillBase enable="true" Base1="1" Base2="2"></SpecialKillBase>
+  <TSvsJD enable="true">80</TSvsJD>
+  <JLvsJD enable="true">100</JLvsJD>
+  <QBvsSS enable="true">80</QBvsSS>
+  <QBvsJD enable="true">80</QBvsJD>
+  <ArmyVsArmy enable="true" AvsA11="1" AvsA12="1.15" AvsA13="1" AvsA14="0.85" AvsA15="1" AvsA16="1" AvsA17="1" AvsA18="1" AvsA21="0.85" AvsA22="1" AvsA23="1" AvsA24="1.15" AvsA25="1" AvsA26="1" AvsA27="1" AvsA28="1" AvsA31="1" AvsA32="1" AvsA33="1" AvsA34="1" AvsA35="1" AvsA36="1" AvsA37="1" AvsA38="1" AvsA41="1.15" AvsA42="0.85" AvsA43="1" AvsA44="1" AvsA45="1" AvsA46="1" AvsA47="1" AvsA48="1" AvsA51="1" AvsA52="1" AvsA53="0.85" AvsA54="1" AvsA55="1" AvsA56="1" AvsA57="1" AvsA58="1" AvsA61="1" AvsA62="1" AvsA63="0.85" AvsA64="1" AvsA65="1" AvsA66="1" AvsA67="1" AvsA68="0.8" AvsA71="1" AvsA72="1" AvsA73="0.85" AvsA74="1" AvsA75="1" AvsA76="1" AvsA77="1" AvsA78="1" AvsA81="1" AvsA82="1" AvsA83="1" AvsA84="1" AvsA85="1" AvsA86="1" AvsA87="1" AvsA88="0.8"></ArmyVsArmy>
+  <SpecialKillHDM enable="false">2</SpecialKillHDM>
+  <SpecialKillBurst enable="false">2</SpecialKillBurst>
+  <SpecialKillBase enable="false" Base1="1" Base2="2"></SpecialKillBase>
   <SpecialPKWithoutCond enable="true"></SpecialPKWithoutCond>
   <SpecialPKBase enable="true">10</SpecialPKBase>
-  <SpecialInjBurst enable="true">1</SpecialInjBurst>
-  <SpecialInjBase enable="true" Base1="1" Base2="5" Base3="2"></SpecialInjBase>
-  <SpecialCapNoHalf enable="true"></SpecialCapNoHalf>
-  <SpecialCapJI enable="true">15</SpecialCapJI>
-  <SpecialCapBase enable="true">2</SpecialCapBase>
-  <QLevel1Chaos enable="true"></QLevel1Chaos>
-  <QLevel3Chaos enable="true" base="15" burst="100"></QLevel3Chaos>
-  <QLevel2Chaos enable="true" base="15" burst="100"></QLevel2Chaos>
+  <SpecialInjBurst enable="true">5</SpecialInjBurst>
+  <SpecialInjBase enable="true" Base1="2" Base2="3" Base3="3"></SpecialInjBase>
+  <SpecialCapNoHalf enable="false"></SpecialCapNoHalf>
+  <SpecialCapJI enable="true">5</SpecialCapJI>
+  <SpecialCapBase enable="false">2</SpecialCapBase>
+  <QLevel1Chaos enable="false"></QLevel1Chaos>
+  <QLevel3Chaos enable="true" base="20" burst="50"></QLevel3Chaos>
+  <QLevel2Chaos enable="true" base="20" burst="50"></QLevel2Chaos>
   <ShotPrecision enable="false"></ShotPrecision>
   <SameSpread enable="true"></SameSpread>
-  <DistancePlus enable="true">1</DistancePlus>
+  <DistancePlus enable="true">8</DistancePlus>
   <StraHitsLL enable="true">1</StraHitsLL>
   <StraHitsUL enable="false">99</StraHitsUL>
   <StraHitsToEx enable="true">10</StraHitsToEx>
   <StraBurstLL enable="true">3</StraBurstLL>
-  <StraFireHitsPlus enable="false"></StraFireHitsPlus>
-  <StraChaosHitsPlus enable="false"></StraChaosHitsPlus>
+  <StraFireHitsPlus enable="true"></StraFireHitsPlus>
+  <StraChaosHitsPlus enable="true"></StraChaosHitsPlus>
   <StraCost enable="false" NBC0="10" NBC1="10" NBC2="15" NBC3="15" NBC4="10" NBC5="10" NBC6="20" NBC7="50" NBC8="50"></StraCost>
   <StraRangeInc enable="true"></StraRangeInc>
   <StraRange enable="true" Range0="1" Range1="4" Range2="2" Range3="2" Range4="5" Range5="3" Range6="2" Range7="2" Range8="5"></StraRange>
@@ -141,13 +141,13 @@
   <StraFBAnywhere enable="true"></StraFBAnywhere>
   <StraNHAnyarmy enable="true"></StraNHAnyarmy>
   <StraFBDamage enable="true">1</StraFBDamage>
-  <StraFBMorale enable="true">20</StraFBMorale>
+  <StraFBMorale enable="true">30</StraFBMorale>
   <StraFBStun enable="true">80</StraFBStun>
-  <StraLLDamage enable="true" DamageA="1500" DamageB="700"></StraLLDamage>
-  <FireBaseDamage enable="false" DamageA="300" DamageB="100"></FireBaseDamage>
-  <FireTechDamage enable="false" DamageA="300" DamageB="100"></FireTechDamage>
-  <FireTrapDamage enable="false" DamageA0="300" DamageB0="100" DamageA1="400" DamageB1="200" DamageA2="300" DamageB2="200" DamageA3="400" DamageB3="300" DamageA4="400" DamageB4="200" DamageA5="500" DamageB5="400" DamageA6="500" DamageB6="300"></FireTrapDamage>
-  <FireDamagePlus1 enable="false">500</FireDamagePlus1>
+  <StraLLDamage enable="false" DamageA="1500" DamageB="700"></StraLLDamage>
+  <FireBaseDamage enable="true" DamageA="500" DamageB="100"></FireBaseDamage>
+  <FireTechDamage enable="true" DamageA="500" DamageB="100"></FireTechDamage>
+  <FireTrapDamage enable="true" DamageA0="300" DamageB0="100" DamageA1="400" DamageB1="200" DamageA2="300" DamageB2="200" DamageA3="400" DamageB3="300" DamageA4="400" DamageB4="200" DamageA5="500" DamageB5="400" DamageA6="500" DamageB6="300"></FireTrapDamage>
+  <FireDamagePlus1 enable="true">500</FireDamagePlus1>
   <FireDamagePlus2 enable="true">50</FireDamagePlus2>
   <HQExtend enable="false" HQ1="3" HQ2="5" HQ3="4"></HQExtend>
   <HZExtend enable="false" HZ1="1" HZ2="2"></HZExtend>
@@ -165,42 +165,42 @@
   <GGMLimit enable="true" base="50000" expand="50000"></GGMLimit>
   <GGRLimit enable="true" base="100000" expand="500000"></GGRLimit>
   <GGEqLimit enable="true" base="100000" expand="50000"></GGEqLimit>
-  <Strengthen1 enable="true">2000</Strengthen1>
-  <Strengthen2 enable="true">3000</Strengthen2>
-  <RecoverMul enable="false">50</RecoverMul>
+  <Strengthen1 enable="true">1000</Strengthen1>
+  <Strengthen2 enable="true">2000</Strengthen2>
+  <RecoverMul enable="true">50</RecoverMul>
   <RecoverPlus enable="true">250</RecoverPlus>
-  <RecoverMin enable="false">150</RecoverMin>
-  <RecoverMax enable="false">450</RecoverMax>
-  <NormalRecover enable="false"></NormalRecover>
+  <RecoverMin enable="true">150</RecoverMin>
+  <RecoverMax enable="true">450</RecoverMax>
+  <NormalRecover enable="true"></NormalRecover>
   <KeepCaptive enable="false"></KeepCaptive>
-  <CaptiveNoCost enable="true"></CaptiveNoCost>
+  <CaptiveNoCost enable="false"></CaptiveNoCost>
   <AllGGIncome enable="true"></AllGGIncome>
-  <NoneIncome enable="false"></NoneIncome>
-  <NormalRecruit enable="true"></NormalRecruit>
+  <NoneIncome enable="true"></NoneIncome>
+  <NormalRecruit enable="false"></NormalRecruit>
   <NoneRunaway enable="true"></NoneRunaway>
-  <DefenceMul enable="true" city="20" port="20" pass="30"></DefenceMul>
-  <SelfDefMul enable="true" city="45" port="45" pass="40"></SelfDefMul>
+  <DefenceMul enable="true" city="50" port="60" pass="40"></DefenceMul>
+  <SelfDefMul enable="true" city="60" port="85" pass="50"></SelfDefMul>
   <DefenceToSJ enable="true"></DefenceToSJ>
-  <DefenceToGJ enable="true">20</DefenceToGJ>
-  <DefEnhenceMul enable="true">200</DefEnhenceMul>
-  <DefAtkMul enable="true">50</DefAtkMul>
+  <DefenceToGJ enable="true">40</DefenceToGJ>
+  <DefEnhenceMul enable="true">150</DefEnhenceMul>
+  <DefAtkMul enable="true">100</DefAtkMul>
   <AreaAutoAttack enable="true"></AreaAutoAttack>
-  <DestoryCity enable="true" mul="20" min="5" pass="40"></DestoryCity>
-  <BADamage enable="true" JL="300" LN="500" TS="900"></BADamage>
+  <DestoryCity enable="true" mul="20" min="5" pass="50"></DestoryCity>
+  <BADamage enable="false" JL="300" LN="500" TS="900"></BADamage>
   <BARange enable="true" JL="3" LN="4" TS="3"></BARange>
-  <BCDamage enable="true" ZH="400" ZI="600" CS="800"></BCDamage>
-  <BDefMul enable="true" ZH="85" ZI="75" CS="65"></BDefMul>
+  <BCDamage enable="false" ZH="400" ZI="600" CS="800"></BCDamage>
+  <BDefMul enable="false" ZH="85" ZI="75" CS="65"></BDefMul>
   <BEatMul enable="true" ZH="83" ZI="67" CS="50"></BEatMul>
-  <BSelfDefMul enable="true" ZH="80" ZI="70" CS="60"></BSelfDefMul>
-  <OSelfDefMul enable="true" TL="90" SQ="70"></OSelfDefMul>
+  <BSelfDefMul enable="false" ZH="80" ZI="70" CS="60"></BSelfDefMul>
+  <OSelfDefMul enable="true" TL="80" SQ="70"></OSelfDefMul>
   <TGRange enable="true">4</TGRange>
   <TGEffect enable="true">20</TGEffect>
   <JYRange enable="true">4</JYRange>
   <JYEffect enable="true">20</JYEffect>
-  <SBRange enable="true">1</SBRange>
-  <SBProb enable="true">90</SBProb>
+  <SBRange enable="false">1</SBRange>
+  <SBProb enable="true">120</SBProb>
   <SBEffect enable="true">0</SBEffect>
-  <SBEffectMax enable="true">1</SBEffectMax>
+  <SBEffectMax enable="false">1</SBEffectMax>
   <CancelDistance enable="false"></CancelDistance>
   <BuildSpeed enable="true">200</BuildSpeed>
   <BuildLimit enable="false" Fix="405" Rand="10"></BuildLimit>
@@ -1272,7 +1272,7 @@
     <Area1059 enable="true" Description="云南" AreaX="3" AreaY="188"></Area1059>
     
   </EmptyArea>
-  <DevelopSpeed enable="true">100</DevelopSpeed>
+  <DevelopSpeed enable="true">250</DevelopSpeed>
   <DevelopLimit enable="true"></DevelopLimit>
   <CombineForbidden enable="true"></CombineForbidden>
   <DirectBuild enable="true"></DirectBuild>
@@ -1282,8 +1282,8 @@
   <AllAgrMul enable="true"></AllAgrMul>
   <SoldLimit enable="true">50000</SoldLimit>
   <BarracksProduce enable="true" BigCity="250" NormalCity="200"></BarracksProduce>
-  <SmithProduce enable="true" Spec="200" NonSpec="100"></SmithProduce>
-  <HorseProduce enable="true" Spec="200" NonSpec="100"></HorseProduce>
+  <SmithProduce enable="true" Spec="250" NonSpec="150"></SmithProduce>
+  <HorseProduce enable="true" Spec="250" NonSpec="150"></HorseProduce>
   <Machine enable="true">2</Machine>
   <Dockyard enable="true">3</Dockyard>
   <DockOnlyAtPort enable="true"></DockOnlyAtPort>
@@ -1298,17 +1298,17 @@
   <PeaceDownProb enable="true">50</PeaceDownProb>
   <LoyaltyDownLimit enable="true">1</LoyaltyDownLimit>
   <LoyaltyDownPlus enable="true">3</LoyaltyDownPlus>
-  <LoyaltyDownProb enable="true">5</LoyaltyDownProb>
-  <CharmToLoyalty enable="false"></CharmToLoyalty>
-  <RuseEffect enable="true" Rumor="10" Faction="5" Rebell="0"></RuseEffect>
+  <LoyaltyDownProb enable="true">50</LoyaltyDownProb>
+  <CharmToLoyalty enable="true"></CharmToLoyalty>
+  <RuseEffect enable="true" Rumor="10" Faction="20" Rebell="0"></RuseEffect>
   <RumorPlus enable="true">2</RumorPlus>
   <AmicableCostReduce enable="true">1000</AmicableCostReduce>
   <AmicableCost enable="true">5000</AmicableCost>
   <AdviseNoLimit enable="true"></AdviseNoLimit>
-  <SPGain enable="true">200</SPGain>
+  <SPGain enable="false">120</SPGain>
   <SPLimit enable="true">60000</SPLimit>
-  <SPAutoGain enable="true" HDSkill="5" YXSkill="2" TQSkill="10"></SPAutoGain>
-  <ResearchDuration enable="true">200</ResearchDuration>
+  <SPAutoGain enable="true" HDSkill="50" YXSkill="20" TQSkill="100"></SPAutoGain>
+  <ResearchDuration enable="false">150</ResearchDuration>
   <RapidResearch enable="true">1</RapidResearch>
   <Commission enable="true"></Commission>
   <KeepBuilding enable="true"></KeepBuilding>
@@ -1321,29 +1321,29 @@
   <SkillAY enable="true">15</SkillAY>
   <SkillZY enable="true">12</SkillZY>
   <SkillBC enable="true" YBC0="1" YBC1="1" YBC2="1" YBC3="1" YBC4="1" YBC5="8" YBC6="1" YBC7="5" YBC8="25"></SkillBC>
-  <SkillLZProb enable="true">100</SkillLZProb>
+  <SkillLZProb enable="true">50</SkillLZProb>
   <SkillJJProb enable="true">100</SkillJJProb>
   <SkillTXProb enable="true">100</SkillTXProb>
   <SkillQXProb enable="true">100</SkillQXProb>
-  <SkillMZProb enable="true">50</SkillMZProb>
-  <SkillLDProb enable="true">50</SkillLDProb>
+  <SkillMZProb enable="true">100</SkillMZProb>
+  <SkillLDProb enable="true">20</SkillLDProb>
   <SkillBQ enable="true" cond="5000">60</SkillBQ>
   <SkillJG enable="true" cond="1800">50</SkillJG>
   <SkillQY enable="true">100</SkillQY>
   <SkillBF enable="true">50</SkillBF>
   <SkillLK enable="true" ProbTM="80" ProbTZ="80" ProbJH="80"></SkillLK>
-  <SkillMvCQ enable="true">3</SkillMvCQ>
-  <SkillMvCD enable="true">4</SkillMvCD>
-  <SkillMvBY enable="true">5</SkillMvBY>
-  <SkillMvQH enable="true">5</SkillMvQH>
+  <SkillMvCQ enable="true">6</SkillMvCQ>
+  <SkillMvCD enable="true">6</SkillMvCD>
+  <SkillMvBY enable="true">4</SkillMvBY>
+  <SkillMvQH enable="true">10</SkillMvQH>
   <SkillQH enable="true"></SkillQH>
   <SkillGX enable="true">15</SkillGX>
   <SkillTP enable="true">100</SkillTP>
-  <SkillMS enable="true">20</SkillMS>
-  <SkillNL enable="true">200</SkillNL>
-  <SkillMD enable="true">180</SkillMD>
-  <SkillFH enable="true">180</SkillFH>
-  <SkillWY enable="true">60</SkillWY>
+  <SkillMS enable="false">20</SkillMS>
+  <SkillNL enable="false">200</SkillNL>
+  <SkillMD enable="false">180</SkillMD>
+  <SkillFH enable="false">180</SkillFH>
+  <SkillWY enable="true">30</SkillWY>
   <SkillNZ enable="true">3</SkillNZ>
   <SkillXJ enable="false" CmpA="1" CmpB="1"></SkillXJ>
   <SkillQZ enable="true"></SkillQZ>
@@ -1353,7 +1353,7 @@
   <SkillFZProb enable="true" ProbFZ="100" ProbXY="40" ProbQM="30" ProbZJ="50"></SkillFZProb>
   <SkillFZ enable="true"></SkillFZ>
   <SkillDZ enable="true"></SkillDZ>
-  <SkillQG enable="false"></SkillQG>
+  <SkillQG enable="true"></SkillQG>
   <SkillGM enable="true"></SkillGM>
   <SkillZD enable="true"></SkillZD>
   <SkillHG enable="true"></SkillHG>
@@ -1361,30 +1361,30 @@
   <SkillFJ enable="true"></SkillFJ>
   <SkillZC enable="true"></SkillZC>
   <SkillTB enable="true"></SkillTB>
-  <SkillLZ enable="true"></SkillLZ>
+  <SkillLZ enable="false"></SkillLZ>
   <SkillBQJG enable="true"></SkillBQJG>
   <SkillLD enable="false"></SkillLD>
   <SkillDF enable="true"></SkillDF>
   <NewSkillBS enable="true">50</NewSkillBS>
-  <NewSkillBX enable="true" Prop="0"></NewSkillBX>
+  <NewSkillBX enable="false" Prop="0"></NewSkillBX>
   <NewSkillZS enable="true">60</NewSkillZS>
-  <NewSkillBZ enable="true">40</NewSkillBZ>
-  <NewSkillJJ enable="true">40</NewSkillJJ>
+  <NewSkillBZ enable="false">40</NewSkillBZ>
+  <NewSkillJJ enable="false">40</NewSkillJJ>
   <NewSkillDH enable="true" Range="2" Prop="1"></NewSkillDH>
   <NewSkillPZ enable="true" Range="3">30</NewSkillPZ>
   <NewSkillXR enable="true">50</NewSkillXR>
-  <NewSkillBF enable="true">30</NewSkillBF>
+  <NewSkillBF enable="false">30</NewSkillBF>
   <NewSkillHQ enable="true">10</NewSkillHQ>
-  <NewSkillYC enable="true">80</NewSkillYC>
-  <NewSkillJL enable="true">80</NewSkillJL>
-  <NewSkillBL enable="true" Range="25">50</NewSkillBL>
+  <NewSkillYC enable="true">50</NewSkillYC>
+  <NewSkillJL enable="true">50</NewSkillJL>
+  <NewSkillBL enable="true" Range="30">60</NewSkillBL>
   <NewSkillJH enable="true">100</NewSkillJH>
-  <NewSkillSC enable="true">80</NewSkillSC>
+  <NewSkillSC enable="false">80</NewSkillSC>
   <NewSkillYJ enable="true">60</NewSkillYJ>
   <NewSkillGS enable="true">60</NewSkillGS>
   <UseNewSkill enable="true"><Skill0 prop0="无双" prop1="陆上不考虑ＺＯＣ且攻50％的機率不受损；无视地形施展战法；骑兵移动↑" prop2="行军" prop3="3" prop4="3-长驱" prop5="13-突袭" prop6="125-群雄" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXX\&#38;66"></Skill0>
     <Skill1 prop0="遁走" prop1="「飞渡」於陆上时不考虑ＺＯＣ；不会战死、被俘、负伤" prop2="行军" prop3="3" prop4="32-天命" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXX纛?勜?勜?"></Skill1>
-    <Skill2 prop0="强行" prop1="增加兵器、输送部队以外的陆上部队之移动力" prop2="行军" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXX慃"></Skill2>
+    <Skill2 prop0="强行" prop1="增加兵器、输送部队以外的陆上部队之移动力，於陆上时不考虑ＺＯＣ" prop2="行军" prop3="3" prop4="1-遁走" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXXXF?4叓4叓"></Skill2>
     <Skill3 prop0="长驱" prop1="增加骑兵部队的移动力；打倒敌方部队就可回復气力" prop2="行军" prop3="2" prop4="11-昂扬" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX铸h蔸h蔸"></Skill3>
     <Skill4 prop0="推进" prop1="水上无视ZOC且移动速度↑；枪剑和冰系对武低者战法成功时暴击" prop2="行军" prop3="2" prop4="5-操舵" prop5="34-枪将" prop6="38-水将" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXO黨?肋?肋?"></Skill4>
     <Skill5 prop0="识水" prop1="增加水上的移动力；於水上时不考虑ＺＯＣ" prop2="行军" prop3="2" prop4="4-推进" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXO葹"></Skill5>
@@ -1394,32 +1394,32 @@
     <Skill9 prop0="扫荡" prop1="被攻击的敌方部队气力减少（小）；预防毒泉的伤害" prop2="攻击" prop3="2" prop4="8-解毒" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO纕?x膪x膪"></Skill9>
     <Skill10 prop0="威风" prop1="被攻击的敌方部队气力减少（大）；无栈道通行的损害；减轻落石的损伤" prop2="攻击" prop3="3" prop4="6-踏破" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO敐?仨?仨?"></Skill10>
     <Skill11 prop0="昂扬" prop1="打倒敌方部队就可回復气力" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill11>
-    <Skill12 prop0="连战" prop1="敌武低刀戟招成必爆；攻击无损且50％连续攻击２次；每回合回复气力" prop2="攻击" prop3="2" prop4="13-突袭" prop5="35-戟将" prop6="75-奏乐" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXO8┨旘?旘?"></Skill12>
-    <Skill13 prop0="突袭" prop1="於陆上攻击时，有50％的機率不会受到损伤" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXX慃"></Skill13>
+    <Skill12 prop0="连战" prop1="敌武低刀戟招成必爆；攻击无损且50％连续攻击２次；被攻回复气力" prop2="攻击" prop3="2" prop4="13-突袭" prop5="35-戟将" prop6="30-怒发" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXO?x湯x湯"></Skill12>
+    <Skill13 prop0="突袭" prop1="於陆上攻击时，有50％的機率不会受到损伤；齐攻视为一般攻击且不会位移" prop2="攻击" prop3="2" prop4="29-铁壁" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXX堋? 斛 斛"></Skill13>
     <Skill14 prop0="强袭" prop1="於水上攻击时，有50％的機率不会受到损伤" prop2="攻击" prop3="2" prop4="1-遁走" prop5="13-突袭" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXO铸h鼹h鼹"></Skill14>
     <Skill15 prop0="乱战" prop1="於森林中攻击时暴击；增加兵器、输送部队以外的陆上部队之移动" prop2="攻击" prop3="2" prop4="2-强行" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXXXX錂?轩?轩?"></Skill15>
     <Skill16 prop0="待伏" prop1="伏兵成功时暴击；外交80％可舌战" prop2="计略" prop3="2" prop4="86-论客" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOOT夶,,"></Skill16>
     <Skill17 prop0="攻城" prop1="攻击据点、设施、建築物时施展会心一击；每回合回復自军部队的气力" prop2="攻击" prop3="3" prop4="75-奏乐" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXOO??匎?匎?"></Skill17>
-    <Skill18 prop0="掎角" prop1="施展齐攻时，有50％的機率让对方陷入混乱；有50％的機率不会受到损伤" prop2="攻击" prop3="2" prop4="27-不屈" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXO錂??"></Skill18>
+    <Skill18 prop0="掎角" prop1="施展齐攻时，有50％的機率让对方陷入混乱；齐攻被视为普通攻击" prop2="攻击" prop3="2" prop4="29-铁壁" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXO07??"></Skill18>
     <Skill19 prop0="捕缚" prop1="消灭敌方时技巧点数加倍，提高捕捉无「强运」或名马的敌将的几率50%" prop2="攻击" prop3="2" prop4="20-精妙" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXO\?T?T?"></Skill19>
-    <Skill20 prop0="精妙" prop1="击破敌方部队时所获得的技巧点数增为２倍" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill20>
-    <Skill21 prop0="掠夺" prop1="击破敌方部队时，有機会夺取敌将的道具" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXO慃"></Skill21>
+    <Skill20 prop0="精妙" prop1="击破敌方部队时所获得的技巧点数增为２倍，对低武枪法必爆，森林中暴击" prop2="攻击" prop3="2" prop4="34-枪将" prop5="15-乱战" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXX虜?埊?埊?"></Skill20>
+    <Skill21 prop0="掠夺" prop1="击破敌方部队时，有機会夺取敌将的道具；敌减气，路上攻击50％几率无损" prop2="攻击" prop3="2" prop4="9-扫荡" prop5="13-突袭" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXOH権鸨?鸨?"></Skill21>
     <Skill22 prop0="攻心" prop1="攻击时可将敌方部队的一部分士兵吸收到自军部队中" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXX慃"></Skill22>
     <Skill23 prop0="驱逐" prop1="对武力比自己低的敌方部队施展一般攻击时会成为会心一击" prop2="攻击" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXO慃"></Skill23>
     <Skill24 prop0="射程" prop1="敌智低计成必爆、火伤1.5倍；机关招成必爆，井阑、投石的射程加１" prop2="攻击" prop3="2" prop4="46-工神" prop5="53-火攻" prop6="58-妙计" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXOX錂?????"></Skill24>
     <Skill25 prop0="白马" prop1="未研究技巧「骑射」时也可施展骑射；骑射可施展会心一击" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX慃"></Skill25>
     <Skill26 prop0="辅佐" prop1="即使没建立人际关係（厌恶除外）也可支援攻击；於森林中攻击时暴击" prop2="攻击" prop3="2" prop4="15-乱战" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOOXO??\?\?"></Skill26>
-    <Skill27 prop0="不屈" prop1="若在部队的士兵不多时被攻击，有50％的機率不会受到损伤" prop2="防御" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill27>
+    <Skill27 prop0="不屈" prop1="若在部队的士兵不多时被攻击，有50％的機率不会受到损伤，同伴不会被俘" prop2="防御" prop3="2" prop4="33-血路" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOOУ????"></Skill27>
     <Skill28 prop0="金刚" prop1="敌方伤害&#60;1800则80％免损;被齐攻视为普攻免撼动" prop2="防御" prop3="2" prop4="29-铁壁" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XOXXXX?1?7?7"></Skill28>
     <Skill29 prop0="铁壁" prop1="就算被一齐攻击，也会视为一般攻击；遭受敌战法攻击时，气力回复" prop2="防御" prop3="2" prop4="30-怒发" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO錂?????"></Skill29>
     <Skill30 prop0="怒发" prop1="遭受敌方部队的战法攻击时，气力就会回復" prop2="防御" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill30>
-    <Skill31 prop0="护身" prop1="火以外的攻击损伤减半，但火攻损伤增为２倍，同伴不会被俘战死、负伤" prop2="防御" prop3="2" prop4="52-护卫" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXX錂?????"></Skill31>
+    <Skill31 prop0="护身" prop1="火以外的攻击损伤减半，但火攻损伤增为２倍，不会被俘战死、负伤" prop2="防御" prop3="2" prop4="52-护卫" prop5="32-天命" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXX喋??4?4"></Skill31>
     <Skill32 prop0="天命" prop1="外交80％可舌战；不会战死、被俘、负伤；破敌后80％取敌道具" prop2="防御" prop3="4" prop4="21-掠夺" prop5="86-论客" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO"></Skill32>
-    <Skill33 prop0="血路" prop1="就算部队溃灭，同部队的武将也不会被俘虏" prop2="防御" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill33>
+    <Skill33 prop0="血路" prop1="就算部队溃灭，同部队的武将也不会被俘虏；森林中暴击，无栈道伤害" prop2="防御" prop3="2" prop4="6-踏破" prop5="15-乱战" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO悧?p%?p%?"></Skill33>
     <Skill34 prop0="枪将" prop1="对敌武低枪剑战法必爆；即使无人际关係（厌恶除外）也可援助攻击" prop2="攻击" prop3="2" prop4="18-掎角" prop5="26-辅佐" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXX??????"></Skill34>
     <Skill35 prop0="戟将" prop1="对武力低的敌方施展刀戟战法成功暴击；森林中攻击必爆" prop2="攻击" prop3="2" prop4="15-乱战" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XOXXXXL輰,*?,*?"></Skill35>
     <Skill36 prop0="弓将" prop1="对武低施展弓弩成必暴；可於森林使用弩兵战法" prop2="攻击" prop3="2" prop4="50-射手" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX魟?????"></Skill36>
-    <Skill37 prop0="骑将" prop1="对武比己低的敌部施展骑兵战法成功时暴击，增加骑兵的移动力" prop2="攻击" prop3="2" prop4="3-长驱" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXXDy?/?/?"></Skill37>
+    <Skill37 prop0="骑将" prop1="对武比己低的敌部施展骑兵战法成功时暴击，增加骑兵的移动力，灭敌减气" prop2="攻击" prop3="2" prop4="3-长驱" prop5="10-威风" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX+?&#60;??&#60;??"></Skill37>
     <Skill38 prop0="水将" prop1="对武比己低的敌方部队施展水军战法成功时暴击；於水上时不考虑ＺＯＣ" prop2="攻击" prop3="2" prop4="4-推进" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXO?????"></Skill38>
     <Skill39 prop0="勇将" prop1="对武低全战法成必暴且无视地形；遭受敌方战法攻击时气力就会回復15" prop2="攻击" prop3="3" prop4="30-怒发" prop5="125-群雄" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO鸾?????"></Skill39>
     <Skill40 prop0="神将" prop1="对武力比自己低的敌方部队施展一般攻击及战法成功时会心一击" prop2="攻击" prop3="4" prop4="10-威风" prop5="13-突袭" prop6="51-猛将" prop7="29-铁壁" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXX鞌?p6?p6?"></Skill40>
@@ -1427,25 +1427,25 @@
     <Skill42 prop0="枪神" prop1="枪剑战法必爆无视地形；破敌回气；陆上不考虑ＺＯＣ普攻几率连续攻击" prop2="攻击" prop3="3" prop4="0-无双" prop5="12-连战" prop6="11-昂扬" prop7="125-群雄" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXX@穼T;?T;?"></Skill42>
     <Skill43 prop0="戟神" prop1="敌魅低战法必成且刀必定暴击；灭敌经验↑且技巧点翻倍；物理眩晕免疫" prop2="攻击" prop3="4" prop4="122-兵仙" prop5="20-精妙" prop6="84-枭雄" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XOXXXX??????"></Skill43>
     <Skill44 prop0="弓神" prop1="弓弩战法成功时施展会心一击；使弩兵的射程增加１区格" prop2="攻击" prop3="3" prop4="129-神臂" prop5="9-扫荡" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX?-?C?C"></Skill44>
-    <Skill45 prop0="骑神" prop1="可施展骑射，骑兵战法成功暴击；增加骑兵移动力有50％的機率不会损伤" prop2="攻击" prop3="3" prop4="25-白马" prop5="3-长驱" prop6="27-不屈" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX@穼hB?hB?"></Skill45>
+    <Skill45 prop0="骑神" prop1="可施展骑射，骑兵战法成功暴击；增加骑兵移动力骑兵战法有機率使敌混乱" prop2="攻击" prop3="3" prop4="25-白马" prop5="3-长驱" prop6="49-疾驰" prop7="15-乱战" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX`A竔?竔?"></Skill45>
     <Skill46 prop0="工神" prop1="兵器战法成功时施展会心一击；识破计略还施彼身" prop2="攻击" prop3="3" prop4="68-智者" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXOX$?腄?腄?"></Skill46>
     <Skill47 prop0="寰宇" prop1="「水神」水军战法暴击；操舵+戟将+威风+猛者+驱逐" prop2="攻击" prop3="4" prop4="5-识水" prop5="35-戟将" prop6="10-威风" prop7="51-猛将" prop8="23-驱逐" prop9="" prop10="" prop11="" prop12="XOXOXO?? G? G?"></Skill47>
-    <Skill48 prop0="霸王" prop1="全战法成功必爆；敌攻击微弱免损；强势反击。全军覆没，伙伴不会被俘" prop2="攻击" prop3="4" prop4="27-不屈" prop5="133-陷阵" prop6="33-血路" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO竪?|I?|I?"></Skill48>
-    <Skill49 prop0="疾驰" prop1="对攻比己队低的施展骑兵战法成功时，必使其陷入混乱；乱战+骑将+弓将" prop2="攻击" prop3="3" prop4="15-乱战" prop5="37-骑将" prop6="36-弓将" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX衛?A?A?"></Skill49>
+    <Skill48 prop0="霸王" prop1="全战法成功必爆；敌攻微弱免损；强势反击。同伴不会被俘，灭敌减气" prop2="攻击" prop3="4" prop4="27-不屈" prop5="133-陷阵" prop6="33-血路" prop7="10-威风" prop8="134-恫吓" prop9="" prop10="" prop11="" prop12="OOOOOOk?`J?`J?"></Skill48>
+    <Skill49 prop0="背嵬" prop1="对攻比己队低的施展骑兵战法成功时，必使其陷入混乱；乱战+骑将+枪神" prop2="攻击" prop3="3" prop4="15-乱战" prop5="37-骑将" prop6="42-枪神" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX鴻?|J?|J?"></Skill49>
     <Skill50 prop0="射手" prop1="可於森林使用弩兵战法" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX慃"></Skill50>
     <Skill51 prop0="猛将" prop1="战法让敌方部队移动区格时，有50％的機率可让敌将负伤；解毒+扫荡+骑将" prop2="攻击" prop3="3" prop4="8-解毒" prop5="9-扫荡" prop6="37-骑将" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXO靶?lK?lK?"></Skill51>
-    <Skill52 prop0="护卫" prop1="同部队的武将不会战死、负伤；增加兵器、输送队以外的陆上部队移动力" prop2="防御" prop3="2" prop4="2-强行" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO$?(S?(S?"></Skill52>
+    <Skill52 prop0="护卫" prop1="同部队武将不会战死、负伤被俘；增加兵器、输送队以外的陆上部队移动力" prop2="防御" prop3="2" prop4="2-强行" prop5="33-血路" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO耐?HS?HS?"></Skill52>
     <Skill53 prop0="火攻" prop1="火攻+犄角+反计（田单）" prop2="计略" prop3="3" prop4="30-怒发" prop5="68-反计" prop6="18-掎角" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXXu?????"></Skill53>
-    <Skill54 prop0="言毒" prop1="对智力比自己低的敌方部队施展部队计略「伪报」时，必定会成功" prop2="计略" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill54>
-    <Skill55 prop0="機智" prop1="对智力比自己低的敌方部队施展部队计略「擾乱」时，必定会成功" prop2="计略" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill55>
-    <Skill56 prop0="诡计" prop1="对智力比自己低的敌方部队施展部队计略「内讧」时，必定会成功" prop2="计略" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill56>
-    <Skill57 prop0="鬼谋" prop1="对智力比自己低的敌方部队施展全部队计略时，必定会成功" prop2="计略" prop3="4" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill57>
-    <Skill58 prop0="妙计" prop1="对智力比自己低的敌方部队施展部队计略成功时会心一击；伏兵暴击" prop2="计略" prop3="2" prop4="16-待伏" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX??靉?靉?"></Skill58>
-    <Skill59 prop0="秘计" prop1="对智力比自己高的敌方部队施展部队计略成功时会心一击；伏兵暴击" prop2="计略" prop3="2" prop4="16-待伏" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX??`d?`d?"></Skill59>
-    <Skill60 prop0="慧眼" prop1="必定可识破智力比自己低的敌方部队所施展部队计略；伏兵暴击" prop2="计略" prop3="3" prop4="16-待伏" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX??詅?詅?"></Skill60>
-    <Skill61 prop0="洞察" prop1="必定可识破敌方部队所施展的部队计略" prop2="计略" prop3="4" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill61>
+    <Skill54 prop0="退敌" prop1="对智力比自己低的敌方部队施展部队计略「伪报」时，必定会成功伏兵暴击" prop2="计略" prop3="3" prop4="16-待伏" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX??鋁?鋁?"></Skill54>
+    <Skill55 prop0="機智" prop1="对智力比自己低的敌方部队施展部队计略「擾乱」时，必定会成功伏兵暴击" prop2="计略" prop3="3" prop4="16-待伏" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX葉?`[?`[?"></Skill55>
+    <Skill56 prop0="诡计" prop1="对智力比自己低的敌方部队施展部队计略「内讧」时，必定会成功伏兵暴击" prop2="计略" prop3="3" prop4="16-待伏" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX癚?躚?躚?"></Skill56>
+    <Skill57 prop0="鬼谋" prop1="对智力比自己低的敌方部队施展全部队计略时，必定会成功" prop2="计略" prop3="4" prop4="65-先知" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX@鄭X`?X`?"></Skill57>
+    <Skill58 prop0="妙计" prop1="对智力比自己低的敌方部队施展部队计略成功时会心一击；" prop2="计略" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill58>
+    <Skill59 prop0="秘计" prop1="对智力比自己高的敌方部队施展部队计略成功时会心一击；伏兵暴击" prop2="计略" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill59>
+    <Skill60 prop0="慧眼" prop1="必定可识破智力比自己低的敌方部队所施展部队计略；伏兵暴击" prop2="计略" prop3="3" prop4="16-待伏" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX簷竒?竒?"></Skill60>
+    <Skill61 prop0="洞察" prop1="必定可识破敌方部队所施展的部队计略；伏兵暴击" prop2="计略" prop3="4" prop4="16-待伏" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXP菎(j?(j?"></Skill61>
     <Skill62 prop0="梵天" prop1="「火神」火攻優势；驱逐+猛者+护身+射程" prop2="计略" prop3="4" prop4="23-驱逐" prop5="51-猛将" prop6="31-护身" prop7="24-射程" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXX靯%鑛7鑛7"></Skill62>
-    <Skill63 prop0="冠冕" prop1="对低智计略必会成功，於全计略有所優势；计成波及周围敌队，伏兵暴击" prop2="计略" prop3="4" prop4="66-布局" prop5="16-待伏" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX0?(n?(n?"></Skill63>
+    <Skill63 prop0="冠冕" prop1="对低智计略必会成功，於全计略有所優势；计成波及周围敌队" prop2="计略" prop3="4" prop4="66-布局" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX|[?蘬?蘬?"></Skill63>
     <Skill64 prop0="千秋" prop1="部队计略的消费气力变为１" prop2="计略" prop3="4" prop4="77-大将" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX????"></Skill64>
     <Skill65 prop0="先知" prop1="增广１区格可施展部队计略的範围；每回合恢复部队气力，伏兵暴击" prop2="计略" prop3="3" prop4="75-鼓舞" prop5="16-待伏" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX??"></Skill65>
     <Skill66 prop0="布局" prop1="对敌计成功，敌邻接部队也遭受计略波及，成功暴击" prop2="计略" prop3="3" prop4="67-深谋" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX$?`u?`u?"></Skill66>
@@ -1461,14 +1461,14 @@
     <Skill76 prop0="诗想" prop1="军乐台的回復气力效果增为２倍" prop2="补助" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill76>
     <Skill77 prop0="大将" prop1="「筑城」设施耐久上昇量增为２倍；犄角+铁壁+怒发+乱战" prop2="补助" prop3="3" prop4="18-掎角" prop5="29-铁壁" prop6="30-怒发" prop7="16-待伏" prop8="" prop9="" prop10="" prop11="" prop12="XXOOOX垶X婝X婝"></Skill77>
     <Skill78 prop0="屯田" prop1="所属於关所、港口时，士兵不会消费兵粮" prop2="补助" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill78>
-    <Skill79 prop0="名声" prop1="增加徵兵时的士兵数" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill79>
+    <Skill79 prop0="贤者" prop1="增加徵兵时的士兵数" prop2="内政" prop3="3" prop4="32-天命" prop5="31-护身" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX(糊扄扄"></Skill79>
     <Skill80 prop0="能吏" prop1="增加生产枪、戟、弩之兵装时的产量" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill80>
     <Skill81 prop0="繁殖" prop1="增加生产军马之兵装时的产量" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill81>
-    <Skill82 prop0="发明" prop1="生产兵器之兵装时所需的生产期间减半" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill82>
-    <Skill83 prop0="造船" prop1="兵器战法成功时爆击；生产舰船、兵器时间减半；加快内政、军事建设" prop2="内政" prop3="2" prop4="82-发明" prop5="46-工神" prop6="77-大将" prop7="137-纵横" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXt@橕@橕"></Skill83>
+    <Skill82 prop0="循吏" prop1="生产兵装所需期间减半，所属关所、港口时，士兵不会消耗，技巧翻倍" prop2="内政" prop3="2" prop4="78-屯田" prop5="20-精妙" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX伸銒蹹?蹹?"></Skill82>
+    <Skill83 prop0="诸侯" prop1="兵器战法成功时爆击；生产时间减半；加快内政、军事建设。耐久上升" prop2="内政" prop3="3" prop4="82-循吏" prop5="46-工神" prop6="77-大将" prop7="137-纵横" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXXXOXX+?@G?@G?"></Skill83>
     <Skill84 prop0="枭雄" prop1="指导+繁殖+拱戍+护身+强运" prop2="内政" prop3="3" prop4="81-繁殖" prop5="31-护身" prop6="116-拱戍" prop7="32-强运" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX尻L,?`x?`x?"></Skill84>
-    <Skill85 prop0="眼力" prop1="若有未发现的在野人士时执行人材探索的话，必定会发现" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill85>
-    <Skill86 prop0="论客" prop1="於同盟、停战协定、交换俘虏时容易进入舌战" prop2="内政" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill86>
+    <Skill85 prop0="帅才" prop1="探索未发现的在野，必定会发现；不会出现盗贼和瘟疫；指导+攻心+精妙" prop2="内政" prop3="4" prop4="95-军阀" prop5="97-将才" prop6="84-枭雄" prop7="20-精妙" prop8="22-攻心" prop9="" prop10="" prop11="" prop12="XXXXXX??牋?牋?"></Skill85>
+    <Skill86 prop0="论客" prop1="於同盟、停战协定、交换俘虏时容易进入舌战；对低智计略必成功" prop2="内政" prop3="4" prop4="57-鬼谋" prop5="65-先知" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX垥?摹?摹?"></Skill86>
     <Skill87 prop0="富豪" prop1="每个月的所属都市的资金收入增为1.5倍" prop2="收入" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill87>
     <Skill88 prop0="米道" prop1="每季的所属都市的兵粮收入增加为1.5倍" prop2="收入" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill88>
     <Skill89 prop0="徵税" prop1="每回合所属都市都会有资金收入（一次收入将减半）" prop2="收入" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill89>
@@ -1476,43 +1476,43 @@
     <Skill91 prop0="亲乌" prop1="所属的领内不出现「乌丸」；踏破+白马+护身" prop2="灾害" prop3="2" prop4="6-踏破" prop5="25-白马" prop6="31-护身" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOOXX&#60;B5宧?宧?"></Skill91>
     <Skill92 prop0="亲羌" prop1="所属领内不出现「羌族」；骑将+怒发" prop2="灾害" prop3="3" prop4="30-怒发" prop5="37-骑将" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOOXX+?`夳`夳"></Skill92>
     <Skill93 prop0="亲越" prop1="所属领内不出现「山越」；操舵+乱战" prop2="灾害" prop3="3" prop4="5-操舵" prop5="15-乱战" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOOXX\F?虌?虌?"></Skill93>
-    <Skill94 prop0="蛮王" prop1="所属领内不出现「南蛮」；踏破+乱战+护身" prop2="灾害" prop3="2" prop4="6-踏破" prop5="15-乱战" prop6="31-护身" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XOOOXX悶(衞?衞?"></Skill94>
+    <Skill94 prop0="蛮王" prop1="所属领内不出现「南蛮」；踏破+恫吓+乱战+护身+骑将" prop2="灾害" prop3="2" prop4="6-踏破" prop5="15-乱战" prop6="31-护身" prop7="134-恫吓" prop8="37-骑将" prop9="" prop10="" prop11="" prop12="OOOOXX&#60;偗胞胞"></Skill94>
     <Skill95 prop0="军阀" prop1="所属领内不易出现盗贼或異族；白马+强运+护身+掠夺" prop2="灾害" prop3="3" prop4="25-白马" prop5="31-护身" prop6="32-天命" prop7="21-掠夺" prop8="" prop9="" prop10="" prop11="" prop12="XOOOOX?%劵7劵7"></Skill95>
     <Skill96 prop0="仁政" prop1="所属相同的武将之每个月的忠诚不会下降" prop2="灾害" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill96>
-    <Skill97 prop0="风水" prop1="所属都市不容易出现蝗灾、瘟疫" prop2="灾害" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill97>
-    <Skill98 prop0="祈願" prop1="所属都市容易出现豐收" prop2="灾害" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill98>
+    <Skill97 prop0="将才" prop1="所属都市不容易出现蝗灾、瘟疫；攻城+洞察+屯田+治军" prop2="灾害" prop3="3" prop4="17-攻城" prop5="61-洞察" prop6="78-屯田" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXXXOX0e?x烬x烬"></Skill97>
+    <Skill98 prop0="梁帝" prop1="所属都市容易出现豐收；无双+突袭+强运+护身+巧变（朱温+萧衍）" prop2="灾害" prop3="2" prop4="0-无双" prop5="13-突袭" prop6="32-天命" prop7="31-护身" prop8="125-群雄" prop9="" prop10="" prop11="" prop12="OOOOOX牟0êü?ü?"></Skill98>
     <Skill99 prop0="内助" prop1="若结婚，双方的能力全部＋3" prop2="关系" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill99>
-    <Skill100 prop0="飞将" prop1="无双+突袭+破竹+弓神+护身+骑将（李广+吕布）" prop2="攻击" prop3="4" prop4="0-无双" prop5="13-突袭" prop6="135-破竹" prop7="44-弓神" prop8="31-护身" prop9="37-骑将" prop10="" prop11="" prop12="OOOOXXd图d纣d纣"></Skill100>
+    <Skill100 prop0="飞将" prop1="无双+突袭+破竹+弓神+护身+白马（李广+吕布）" prop2="攻击" prop3="4" prop4="0-无双" prop5="13-突袭" prop6="135-破竹" prop7="44-弓神" prop8="31-护身" prop9="25-白马" prop10="" prop11="" prop12="OOOOXXX桋0?0?"></Skill100>
     <Skill101 prop0="破虏" prop1="驱逐+强袭+水将+护身（卢俊义+孙坚）" prop2="攻击" prop3="3" prop4="14-强袭" prop5="23-驱逐" prop6="38-水将" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXO??8?8"></Skill101>
     <Skill102 prop0="俊才" prop1="法治+富国+繁殖+贤哲+料敌（耶律楚材）★" prop2="收入" prop3="4" prop4="81-繁殖" prop5="87-富豪" prop6="138-贤哲" prop7="140-法治" prop8="132-料敌" prop9="" prop10="" prop11="" prop12="XXXXXXxw?剃?剃?"></Skill102>
     <Skill103 prop0="文正" prop1="诗想+仁政+法治+贤哲（范仲淹）★" prop2="内政" prop3="4" prop4="76-诗想" prop5="96-仁政" prop6="138-贤哲" prop7="140-法治" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX泄贱贱"></Skill103>
-    <Skill104 prop0="武襄" prop1="水将+辅佐+护身+工神（俞大猷+完颜银术可）" prop2="攻击" prop3="4" prop4="26-辅佐" prop5="38-水将" prop6="31-护身" prop7="37-骑将" prop8="" prop9="" prop10="" prop11="" prop12="OXXOOO?槉P8P8"></Skill104>
-    <Skill105 prop0="桓王" prop1="骑将+怒发+霸王+治军+护身（孙策）★" prop2="攻击" prop3="4" prop4="30-怒发" prop5="37-骑将" prop6="48-霸王" prop7="130-治军" prop8="31-护身" prop9="" prop10="" prop11="" prop12="OXXOOODD?D?D"></Skill105>
+    <Skill104 prop0="武襄" prop1="水将+辅佐+护身+骑将+攻城（俞大猷+完颜银术可）" prop2="攻击" prop3="4" prop4="26-辅佐" prop5="38-水将" prop6="31-护身" prop7="37-骑将" prop8="17-攻城" prop9="" prop10="" prop11="" prop12="XXXOOO鶏????"></Skill104>
+    <Skill105 prop0="桓王" prop1="霸王+怒发+治军+护身（孙策）★" prop2="攻击" prop3="4" prop4="30-怒发" prop5="31-护身" prop6="48-霸王" prop7="130-治军" prop8="32-天命" prop9="" prop10="" prop11="" prop12="OXXOOOT怒愛愛"></Skill105>
     <Skill106 prop0="延平" prop1="水神+操舵+破浪+强袭（郑成功）★" prop2="行军" prop3="4" prop4="4-推进" prop5="5-操舵" prop6="14-强袭" prop7="47-寰宇" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXOT``"></Skill106>
-    <Skill107 prop0="昭侯" prop1="火攻+沉着+犄角+治军（陆逊）☆★" prop2="防御" prop3="4" prop4="18-掎角" prop5="53-火攻" prop6="73-智将" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XOOOXO郚?絮?絮?"></Skill107>
-    <Skill108 prop0="忠侯" prop1="坚城+不屈+铁壁（曹仁）★" prop2="防御" prop3="4" prop4="29-铁壁" prop5="27-不屈" prop6="131-奇阵" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XOXOOXLr?"></Skill108>
-    <Skill109 prop0="兰陵" prop1="昂扬+不屈+骑将+护身（高长恭）★" prop2="攻击" prop3="4" prop4="37-骑将" prop5="27-不屈" prop6="11-昂扬" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX€$T8T8"></Skill109>
-    <Skill110 prop0="纣王" prop1="枪神+游侠+巧变+金刚（帝辛）★" prop2="攻击" prop3="4" prop4="42-枪神" prop5="126-天狼" prop6="125-群雄" prop7="28-金刚" prop8="" prop9="" prop10="" prop11="" prop12="OXXOXXP??8?8"></Skill110>
+    <Skill107 prop0="昭侯" prop1="火攻+沉着+犄角+治军（陆逊）☆★" prop2="防御" prop3="4" prop4="18-掎角" prop5="53-火攻" prop6="73-智将" prop7="130-治军" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XOOOXO$颦"></Skill107>
+    <Skill108 prop0="忠侯" prop1="坚城+不屈+铁壁+血路（曹仁）★" prop2="防御" prop3="4" prop4="29-铁壁" prop5="27-不屈" prop6="131-奇阵" prop7="33-血路" prop8="" prop9="" prop10="" prop11="" prop12="XOXOOXt蟛????"></Skill108>
+    <Skill109 prop0="兰陵" prop1="昂扬+护身+骑将+强运（高长恭）★" prop2="攻击" prop3="4" prop4="37-骑将" prop5="27-不屈" prop6="11-昂扬" prop7="32-天命" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX?`?`?"></Skill109>
+    <Skill110 prop0="纣王" prop1="枪神+游侠+巧变+金刚（帝辛）★" prop2="攻击" prop3="4" prop4="42-枪神" prop5="126-天狼" prop6="125-群雄" prop7="28-金刚" prop8="32-天命" prop9="" prop10="" prop11="" prop12="OXXOXX榣?旀旀"></Skill110>
     <Skill111 prop0="名将" prop1="驱逐+怒发+不屈+猛者（英布+完颜娄室 ）" prop2="攻击" prop3="4" prop4="23-驱逐" prop5="27-不屈" prop6="30-怒发" prop7="51-猛将" prop8="" prop9="" prop10="" prop11="" prop12="OXXOXX?狛?狛?"></Skill111>
     <Skill112 prop0="摧阵" prop1="攻城+踏破+规律+乱战（司马错+贺若弼）★" prop2="攻击" prop3="4" prop4="17-攻城" prop5="6-踏破" prop6="72-规律" prop7="15-乱战" prop8="" prop9="" prop10="" prop11="" prop12="XXXXOX葴??8?8"></Skill112>
-    <Skill113 prop0="犀首" prop1="治军+戟将+护身+料敌（先轸+犀首+司马穰苴）★" prop2="行军" prop3="3" prop4="35-戟将" prop5="31-护身" prop6="130-治军" prop7="132-料敌" prop8="" prop9="" prop10="" prop11="" prop12="XOXOXXp	???"></Skill113>
+    <Skill113 prop0="犀首" prop1="治军+戟将+护身+料敌+强运（先轸+犀首+司马穰苴）★" prop2="行军" prop3="3" prop4="35-戟将" prop5="31-护身" prop6="130-治军" prop7="132-料敌" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XOXOXXtw?????"></Skill113>
     <Skill114 prop0="倾城" prop1="奏乐+亲和+内助+安民" prop2="补助" prop3="4" prop4="75-鼓舞" prop5="142-亲和" prop6="99-内助" prop7="136-汉将" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX |!?D?D"></Skill114>
-    <Skill115 prop0="神武" prop1="清野+反计+枪将+护身+强运+布阵（高欢）" prop2="内政" prop3="3" prop4="68-智者" prop5="34-枪将" prop6="117-布阵" prop7="32-天命" prop8="31-护身" prop9="" prop10="" prop11="" prop12="OXXOXO剡0?8?8"></Skill115>
-    <Skill116 prop0="拱戍" prop1="在己方领土上作战，增加伤害并减少所受伤害；水将+筑城+强运+护身" prop2="补助" prop3="3" prop4="38-水将" prop5="32-天命" prop6="77-大将" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO,-?8?8"></Skill116>
+    <Skill115 prop0="神武" prop1="清野+反计+骑将+护身+强运+布阵（高欢）" prop2="内政" prop3="3" prop4="68-智者" prop5="34-枪将" prop6="117-布阵" prop7="32-天命" prop8="31-护身" prop9="" prop10="" prop11="" prop12="OXXOXO&#60;倫????"></Skill115>
+    <Skill116 prop0="拱戍" prop1="在己方领土上作战，增加伤害并减少所受伤害；霸王+筑城+强运+护身" prop2="补助" prop3="3" prop4="48-霸王" prop5="32-天命" prop6="77-大将" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO嗹h2?h2?"></Skill116>
     <Skill117 prop0="布阵" prop1="防止被战法暴击，规避兵种相克带来的负面影响；威风+驱逐+骑将+护身" prop2="防御" prop3="3" prop4="10-威风" prop5="23-驱逐" prop6="37-骑将" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO凹0X,8X,8"></Skill117>
     <Skill118 prop0="悍将" prop1="「要击」对异常部队主动攻击伤害提升；勇将+猛将+遁走+护身" prop2="攻击" prop3="4" prop4="39-勇将" prop5="51-猛将" prop6="1-遁走" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOOH,?????"></Skill118>
     <Skill119 prop0="商才" prop1="单次交易上限翻倍，且交易效果上升" prop2="内政" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill119>
-    <Skill120 prop0="惊叹" prop1="「兵圣」部队所受物理伤害减半；无双+霸王+驱逐+强运" prop2="防御" prop3="4" prop4="0-无双" prop5="48-霸王" prop6="32-天命" prop7="23-驱逐" prop8="" prop9="" prop10="" prop11="" prop12="XOXOXXhz炖?炖?"></Skill120>
-    <Skill121 prop0="军神" prop1="敌方战法成功率大幅下降；猛者+神将+霸王+陷阵" prop2="防御" prop3="4" prop4="133-陷阵" prop5="51-猛将" prop6="48-霸王" prop7="40-神将" prop8="31-护身" prop9="" prop10="" prop11="" prop12="XOXOXX4?炖7炖7"></Skill121>
+    <Skill120 prop0="惊叹" prop1="「兵圣」部队所受物理伤害减半；无双+霸王+扫荡+强运" prop2="防御" prop3="4" prop4="0-无双" prop5="48-霸王" prop6="32-天命" prop7="9-扫荡" prop8="" prop9="" prop10="" prop11="" prop12="XOXOXX桦?P琵P琵"></Skill120>
+    <Skill121 prop0="军神" prop1="敌方战法成功率大幅下降；猛者+神将+强运+陷阵" prop2="防御" prop3="4" prop4="133-陷阵" prop5="51-猛将" prop6="32-天命" prop7="40-神将" prop8="31-护身" prop9="" prop10="" prop11="" prop12="XOXOXXT陡糖?糖?"></Skill121>
     <Skill122 prop0="兵仙" prop1="对统率较低的部队施展战法必成功" prop2="攻击" prop3="4" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXX慃"></Skill122>
     <Skill123 prop0="战神" prop1="战法爆击时对敌方部队形成较高的伤害" prop2="攻击" prop3="4" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill123>
     <Skill124 prop0="天敌" prop1="「战将」对防御力比己攻击力低敌部队暴击；突袭+猛者+强运+护身" prop2="攻击" prop3="3" prop4="13-突袭" prop5="32-天命" prop6="51-猛将" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXOl拄勈?勈?"></Skill124>
     <Skill125 prop0="群雄" prop1="「巧变」可无视地形限制施展战法；遁走+强运+不屈+威风" prop2="攻击" prop3="4" prop4="1-遁走" prop5="27-不屈" prop6="10-威风" prop7="32-天命" prop8="" prop9="" prop10="" prop11="" prop12="OOOOXXt仵柑?柑?"></Skill125>
     <Skill126 prop0="天狼" prop1="「游侠」对兵力远多己方部队暴击；猛者+铁壁+勇将+陷阵（杨延昭）" prop2="攻击" prop3="4" prop4="51-猛将" prop5="29-铁壁" prop6="39-勇将" prop7="133-陷阵" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO鼻烫烫"></Skill126>
     <Skill127 prop0="百战" prop1="部队战法的消费气力变为五分之一" prop2="攻击" prop3="4" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill127>
-    <Skill128 prop0="狙击" prop1="施展射击战法时，使敌将负伤機率增加" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX慃"></Skill128>
-    <Skill129 prop0="神臂" prop1="使弩兵的射程增加１区格" prop2="攻击" prop3="2" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX慃"></Skill129>
-    <Skill130 prop0="治军" prop1="物理攻击眩晕效果免疫" prop2="防御" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOX慃"></Skill130>
+    <Skill128 prop0="狙击" prop1="施展射击战法时，使敌将负伤機率增加；灭敌减气小" prop2="攻击" prop3="2" prop4="9-扫荡" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX皠?愙?愙?"></Skill128>
+    <Skill129 prop0="神臂" prop1="使弩兵的射程增加１区格；支援攻击" prop2="攻击" prop3="2" prop4="26-辅佐" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXXH糗?糗?"></Skill129>
+    <Skill130 prop0="治军" prop1="物理攻击眩晕效果免疫；增加兵器、输送部队以外移动力" prop2="防御" prop3="3" prop4="2-强行" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOX斮?L啕L啕"></Skill130>
     <Skill131 prop0="奇阵" prop1="「坚城」城防和士兵所受伤害减半；筑城+妖术+纵横" prop2="防御" prop3="3" prop4="77-大将" prop5="70-妖术" prop6="137-纵横" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX&#60;隰??"></Skill131>
     <Skill132 prop0="料敌" prop1="敌方部队所施展部队计略成功的几率大幅降低" prop2="计略" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX慃"></Skill132>
     <Skill133 prop0="陷阵" prop1="能对敌方施展的战法予以强势的反击；威风+犄角+突袭+怒发" prop2="补助" prop3="4" prop4="10-威风" prop5="13-突袭" prop6="18-掎角" prop7="31-护身" prop8="30-怒发" prop9="" prop10="" prop11="" prop12="OOXOXX@W1d?d?"></Skill133>
@@ -1526,102 +1526,100 @@
     <Skill141 prop0="逆天" prop1="「后勤」补充兵力；乱战+辅佐+强运+护身+繁殖（勾践）" prop2="补助" prop3="3" prop4="15-乱战" prop5="26-辅佐" prop6="31-护身" prop7="81-繁殖" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXOXOX歙/堮7堮7"></Skill141>
     <Skill142 prop0="亲和" prop1="实行亲善所能提升的友好度加；攻破敌方城池后可保留全部内政设施" prop2="内政" prop3="2" prop4="136-汉将" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXp? ? ?"></Skill142>
     <Skill143 prop0="圣人" prop1="圣人+仁政+贤哲+强运（孔丘+周公）" prop2="内政" prop3="4" prop4="96-仁政" prop5="138-贤哲" prop6="32-天命" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX@/1l?l?"></Skill143>
-    <Skill144 prop0="王佐" prop1="「运筹」计成功，有機率再次行动；火神+水神+工神+操舵+奏乐（周瑜）" prop2="补助" prop3="4" prop4="47-寰宇" prop5="62-梵天" prop6="46-工神" prop7="74-明镜" prop8="75-鼓舞" prop9="5-识水" prop10="" prop11="" prop12="OOOXOOt?@@"></Skill144>
+    <Skill144 prop0="王佐" prop1="「运筹」有機率再次行动；火神+水神+工神+明镜+操舵+奏乐（周瑜）" prop2="补助" prop3="4" prop4="47-寰宇" prop5="62-梵天" prop6="46-工神" prop7="74-明镜" prop8="75-鼓舞" prop9="5-识水" prop10="32-天命" prop11="" prop12="OOOXOO??噶噶"></Skill144>
     <Skill145 prop0="激励" prop1="如果使用战法成功，则有機率可再行动一次" prop2="补助" prop3="3" prop4="" prop5="" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO慃"></Skill145>
     <Skill146 prop0="雄主" prop1="可登非己在野武将；不会战死、被俘、负伤防内讧；征兵↑物伤减半不妨火" prop2="内政" prop3="3" prop4="32-天命" prop5="79-名声" prop6="56-诡计" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX$?橗7橗7"></Skill146>
-    <Skill147 prop0="女帝" prop1="登用无归属武将失败时舌战；所属城市者忠诚度不降；对智低者用计必成" prop2="内政" prop3="2" prop4="57-鬼谋" prop5="96-仁政" prop6="69-奇谋" prop7="95-军阀" prop8="97-风水" prop9="99-内助" prop10="" prop11="146-伯乐" prop12="XXXXXX郼t?t??"></Skill147>
+    <Skill147 prop0="女帝" prop1="登用无归属武将失败时舌战；所属城市者忠诚度不降；对智低者用计必成" prop2="内政" prop3="2" prop4="57-鬼谋" prop5="96-仁政" prop6="69-奇谋" prop7="95-军阀" prop8="97-将才" prop9="99-内助" prop10="146-雄主" prop11="" prop12="XXXXXX??????"></Skill147>
     <Skill148 prop0="七杀" prop1="「军魂」统率光环的各种加成效果翻倍；猛者+霸王+铁壁+妖术+戟将" prop2="补助" prop3="4" prop4="29-铁壁" prop5="48-霸王" prop6="51-猛将" prop7="35-戟将" prop8="70-妖术" prop9="" prop10="" prop11="" prop12="OOOOOO?????"></Skill148>
     <Skill149 prop0="武尊" prop1="获得统帅光环或范围加1格；突袭+强行+护身+精妙" prop2="补助" prop3="4" prop4="13-突袭" prop5="2-强行" prop6="20-精妙" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOOOOO虙?溷?溷?"></Skill149>
     <Skill150 prop0="异数" prop1="兵仙+攻心+百战+战神+斗神+破竹+料敌+强行（韩信）◆" prop2="行军" prop3="4" prop4="2-强行" prop5="22-攻心" prop6="41-鬥神" prop7="122-兵仙" prop8="127-百战" prop9="132-料敌" prop10="123-战神" prop11="135-破竹" prop12="OOXOXXd覄8úCj?"></Skill150>
-    <Skill151 prop0="杀神" prop1="战神+百战+斗神+军魂+遁走+料敌+铁壁+布阵（白起）◆" prop2="行军" prop3="4" prop4="1-遁走" prop5="29-铁壁" prop6="41-鬥神" prop7="123-战神" prop8="127-百战" prop9="132-料敌" prop10="117-布阵" prop11="148-七杀" prop12="XOXOXX楻	剽Cj?"></Skill151>
-    <Skill152 prop0="天王" prop1="巧变+百战+军神+战神+军魂+冲锋+护身+料敌（李靖）◆" prop2="行军" prop3="4" prop4="31-护身" prop5="48-霸王" prop6="49-疾驰" prop7="125-巧变" prop8="127-百战" prop9="132-料敌" prop10="123-战神" prop11="148-军魂" prop12="XXXOXX0籍ll?Cj?"></Skill152>
+    <Skill151 prop0="杀神" prop1="战神+百战+斗神+军魂+强运+料敌+铁壁+布阵（白起）◆" prop2="行军" prop3="4" prop4="32-天命" prop5="29-铁壁" prop6="41-鬥神" prop7="123-战神" prop8="127-百战" prop9="132-料敌" prop10="117-布阵" prop11="148-七杀" prop12="XOXOXXl擙C??"></Skill151>
+    <Skill152 prop0="天王" prop1="巧变+百战+霸王+战神+军魂+疾驰+护身+料敌（李靖）◆" prop2="行军" prop3="4" prop4="31-护身" prop5="48-霸王" prop6="49-背嵬" prop7="125-群雄" prop8="127-百战" prop9="132-料敌" prop10="123-战神" prop11="148-七杀" prop12="XXXOXXD?恗?Cj?"></Skill152>
     <Skill153 prop0="武穆" prop1="战神+枪神+百战+明镜+军魂+护身+治军+破竹（岳飞）◆" prop2="行军" prop3="4" prop4="31-护身" prop5="42-枪神" prop6="74-明镜" prop7="127-百战" prop8="135-破竹" prop9="130-治军" prop10="123-战神" prop11="148-军魂" prop12="OXXOXX??D邴Cj?"></Skill153>
-    <Skill154 prop0="霸主" prop1="无双+恫吓+霸王+护身+不屈+军神+突袭+疾驰（项籍）☆☆☆☆☆" prop2="行军" prop3="4" prop4="0-无双" prop5="134-恫吓" prop6="13-突袭" prop7="121-军神" prop8="31-护身" prop9="27-不屈" prop10="49-疾驰" prop11="48-霸王" prop12="OOXOOX(婅f2圵C齴鉻1"></Skill154>
-    <Skill155 prop0="留侯" prop1="神算+运筹+鬼谋+论客+精妙（张良）" prop2="计略" prop3="4" prop4="20-精妙" prop5="63-冠冕" prop6="65-先知" prop7="86-论客" prop8="144-王佐" prop9="32-强运" prop10="" prop11="" prop12="XXOXXXL?勂?勂?"></Skill155>
-    <Skill156 prop0="苍狼" prop1="骑神+冲锋+威风+长驱+明镜+护身（速不台）☆" prop2="行军" prop3="4" prop4="3-长驱" prop5="10-威风" prop6="45-骑神" prop7="49-疾驰" prop8="74-明镜" prop9="31-护身" prop10="" prop11="" prop12="XXXOXXPRpH6pH6"></Skill156>
-    <Skill157 prop0="烈侯" prop1="骑神+巧变+明镜+护身+攻心（卫青）☆" prop2="行军" prop3="4" prop4="45-骑神" prop5="31-护身" prop6="22-攻心" prop7="125-群雄" prop8="" prop9="74-明镜" prop10="" prop11="" prop12="XXXOXXx?@?@?"></Skill157>
-    <Skill158 prop0="兵神" prop1="军神+治军+遁走+变法+斗神+攻城+奇谋+兵圣（吴起）★" prop2="行军" prop3="4" prop4="121-军神" prop5="17-攻城" prop6="1-遁走" prop7="41-鬥神" prop8="69-奇谋" prop9="139-变法" prop10="130-治军" prop11="120-惊叹" prop12="OOXOXX-葿C?y"></Skill158>
-    <Skill159 prop0="兵魔" prop1="兵圣+军神+遁走+看破+料敌+攻心+治军（孙武）★" prop2="行军" prop3="4" prop4="120-天命" prop5="48-霸王" prop6="22-攻心" prop7="60-慧眼" prop8="1-遁走" prop9="130-治军" prop10="132-料敌" prop11="" prop12="XOXOXX`登`
-?`
-?"></Skill159>
+    <Skill154 prop0="霸主" prop1="无双+恫吓+霸王+战神+金刚+军神+突袭+疾驰（项籍）☆☆☆☆☆" prop2="行军" prop3="4" prop4="0-无双" prop5="134-恫吓" prop6="13-突袭" prop7="121-军神" prop8="123-战神" prop9="28-金刚" prop10="49-背嵬" prop11="48-霸王" prop12="OOOOOX??囱?C?1"></Skill154>
+    <Skill155 prop0="留侯" prop1="神算+运筹+鬼谋+论客+精妙+强运（张良）" prop2="计略" prop3="4" prop4="20-精妙" prop5="63-冠冕" prop6="65-先知" prop7="86-论客" prop8="144-王佐" prop9="32-天命" prop10="" prop11="" prop12="XXOXXXX湴臈?臈?"></Skill155>
+    <Skill156 prop0="苍狼" prop1="骑神+疾驰+威风+长驱+明镜+护身+强运（速不台）☆" prop2="行军" prop3="4" prop4="3-长驱" prop5="10-威风" prop6="45-骑神" prop7="49-背嵬" prop8="74-明镜" prop9="31-护身" prop10="32-天命" prop11="" prop12="XXXOXXd?h待h待"></Skill156>
+    <Skill157 prop0="烈侯" prop1="骑神+巧变+明镜+护身+攻心（卫青）☆" prop2="行军" prop3="4" prop4="45-骑神" prop5="31-护身" prop6="22-攻心" prop7="125-群雄" prop8="74-明镜" prop9="32-天命" prop10="" prop11="" prop12="XXXOXX"></Skill157>
+    <Skill158 prop0="兵神" prop1="军神+治军+强运+变法+斗神+攻城+奇谋+兵圣（吴起）★" prop2="行军" prop3="4" prop4="121-军神" prop5="17-攻城" prop6="32-天命" prop7="41-鬥神" prop8="69-奇谋" prop9="139-变法" prop10="130-治军" prop11="120-惊叹" prop12="OOXOXX炜?嗲?C?y"></Skill158>
+    <Skill159 prop0="兵魔" prop1="兵圣+军神+遁走+强运+看破+料敌+攻心+治军（孙武）★" prop2="行军" prop3="4" prop4="120-惊叹" prop5="48-霸王" prop6="22-攻心" prop7="60-慧眼" prop8="1-遁走" prop9="130-治军" prop10="132-料敌" prop11="32-天命" prop12="XOXOXX虜?XC?!"></Skill159>
     <Skill160 prop0="武侯" prop1="虚实+妙计+运筹+治军+反计+安民+能吏+游侠（王猛）★" prop2="行军" prop3="4" prop4="57-鬼谋" prop5="58-妙计" prop6="68-智者" prop7="130-治军" prop8="144-王佐" prop9="136-汉将" prop10="80-能吏" prop11="126-天狼" prop12="OXOOXXX? 愨Cj"></Skill160>
-    <Skill161 prop0="中山" prop1="神将+料敌+攻心+威风+连击+治军（徐达）☆" prop2="行军" prop3="4" prop4="40-神将" prop5="10-威风" prop6="12-连击" prop7="22-攻心" prop8="132-料敌" prop9="130-治军" prop10="" prop11="" prop12="OXXOXX鑶?丶?丶?"></Skill161>
-    <Skill162 prop0="卧龙" prop1="洞察+神算+法治+昂扬+机智+治军+精妙+巧变（诸葛亮）☆" prop2="计略" prop3="4" prop4="63-冠冕" prop5="61-洞察" prop6="130-治军" prop7="140-法治" prop8="11-昂扬" prop9="55-機智" prop10="20-精妙" prop11="125-群雄" prop12="XXOXOX垶)$栤Cj~"></Skill162>
-    <Skill163 prop0="神箭" prop1="弓神+神臂+扫荡+狙击+治军（薛礼）" prop2="行军" prop3="4" prop4="44-弓神" prop5="130-治军" prop6="9-扫荡" prop7="128-狙击" prop8="129-神臂" prop9="" prop10="" prop11="" prop12="XXOOXX學-詡B詡B"></Skill163>
-    <Skill164 prop0="冠军" prop1="无双+破竹+冲锋+昂扬+连击+血路+犄角（霍去病）" prop2="攻击" prop3="4" prop4="0-无双" prop5="11-昂扬" prop6="12-连击" prop7="49-疾驰" prop8="135-破竹" prop9="18-掎角" prop10="" prop11="" prop12="XXOOXX??????"></Skill164>
-    <Skill165 prop0="唐宗" prop1="武干+军魂+强运+料敌+治军+仁政+激励（李世民）☆" prop2="行军" prop3="4" prop4="149-武尊" prop5="148-七杀" prop6="32-强运" prop7="96-仁政" prop8="145-激励" prop9="130-治军" prop10="132-料敌" prop11="" prop12="XXOOXXD噺????"></Skill165>
-    <Skill166 prop0="太公" prop1="治军+鬼门+贤哲+奇谋+百出+料敌（姜尚）☆★" prop2="计略" prop3="4" prop4="69-奇谋" prop5="71-咒术" prop6="130-治军" prop7="138-贤哲" prop8="64-百出" prop9="132-料敌" prop10="" prop11="" prop12="XXOXOXts?????"></Skill166>
-    <Skill167 prop0="天骄" prop1="激励+骑神+昂扬+疾驰+强运+金刚+料敌（铁木真）☆" prop2="行军" prop3="4" prop4="45-骑神" prop5="11-昂扬" prop6="49-疾驰" prop7="32-天命" prop8="145-激励" prop9="28-金刚" prop10="132-料敌" prop11="" prop12="XXXOXXd?凑6凑6"></Skill167>
+    <Skill161 prop0="中山" prop1="神将+料敌+攻心+威风+连击+治军（徐达）☆" prop2="行军" prop3="4" prop4="40-神将" prop5="10-威风" prop6="12-连战" prop7="22-攻心" prop8="132-料敌" prop9="130-治军" prop10="32-天命" prop11="" prop12="OXXOXX$Q?{?{?"></Skill161>
+    <Skill162 prop0="卧龙" prop1="洞察+神算+法治+昂扬+能吏+治军+精妙+巧变（诸葛亮）☆" prop2="计略" prop3="4" prop4="63-冠冕" prop5="61-洞察" prop6="130-治军" prop7="140-法治" prop8="11-昂扬" prop9="80-能吏" prop10="20-精妙" prop11="125-群雄" prop12="XXOXOXP鴧?Cj~"></Skill162>
+    <Skill163 prop0="神箭" prop1="弓神+神臂+扫荡+狙击+治军（薛礼）" prop2="行军" prop3="4" prop4="44-弓神" prop5="130-治军" prop6="9-扫荡" prop7="128-狙击" prop8="129-神臂" prop9="32-天命" prop10="" prop11="" prop12="XXOOXX魓?"></Skill163>
+    <Skill164 prop0="冠军" prop1="无双+破竹+疾驰+昂扬+连击+遁走+强运+犄角（霍去病）" prop2="攻击" prop3="4" prop4="0-无双" prop5="11-昂扬" prop6="12-连战" prop7="49-背嵬" prop8="135-破竹" prop9="18-掎角" prop10="32-天命" prop11="1-遁走" prop12="XXOOXX蠨?DC?"></Skill164>
+    <Skill165 prop0="唐宗" prop1="武干+军魂+遁走+强运+料敌+治军+仁政+激励（李世民）☆" prop2="行军" prop3="4" prop4="149-武尊" prop5="148-七杀" prop6="32-天命" prop7="96-仁政" prop8="145-激励" prop9="130-治军" prop10="132-料敌" prop11="1-遁走" prop12="XXOOXX??d埸C?"></Skill165>
+    <Skill166 prop0="太公" prop1="治军+鬼门+贤哲+奇谋+百出+料敌（姜尚）☆★" prop2="计略" prop3="4" prop4="69-奇谋" prop5="71-咒术" prop6="130-治军" prop7="138-贤哲" prop8="64-千秋" prop9="132-料敌" prop10="32-天命" prop11="" prop12="XXOXOXd?噱?噱?"></Skill166>
+    <Skill167 prop0="天骄" prop1="激励+骑神+昂扬+疾驰+强运+金刚+料敌+威风（铁木真）☆" prop2="行军" prop3="4" prop4="45-骑神" prop5="11-昂扬" prop6="49-背嵬" prop7="32-天命" prop8="145-激励" prop9="28-金刚" prop10="132-料敌" prop11="10-威风" prop12="XXXOXXd???C?"></Skill167>
     <Skill168 prop0="仲父" prop1="能吏+繁殖+名声+治军+仁政+指导+富国(管仲)" prop2="行军" prop3="4" prop4="84-枭雄" prop5="79-名声" prop6="81-繁殖" prop7="87-富豪" prop8="96-仁政" prop9="80-能吏" prop10="130-治军" prop11="" prop12="XOOXXX"></Skill168>
     <Skill169 prop0="魏武" prop1="虚实+捕缚+诗想+屯田+护身+治军+强运（曹操）" prop2="行军" prop3="3" prop4="19-捕缚" prop5="57-鬼谋" prop6="76-诗想" prop7="78-屯田" prop8="130-治军" prop9="31-护身" prop10="32-天命" prop11="" prop12="OOXXXX袆G8G8"></Skill169>
     <Skill170 prop0="宋祖" prop1="枪神+巧变+强行+强运+护身（赵匡胤）☆★" prop2="行军" prop3="4" prop4="42-枪神" prop5="32-天命" prop6="125-群雄" prop7="31-护身" prop8="2-强行" prop9="" prop10="" prop11="" prop12="OXXOXXX瞛麶8麶8"></Skill170>
-    <Skill171 prop0="少保" prop1="工神+遁走+射程+强行+治军（戚继光）" prop2="行军" prop3="4" prop4="46-工神" prop5="1-遁走" prop6="2-强行" prop7="24-射程" prop8="130-治军" prop9="" prop10="" prop11="" prop12="XXOXOX@?鼹鼹"></Skill171>
-    <Skill172 prop0="光武" prop1="料敌+斗神+攻心+昂扬+强运+金刚（刘秀）☆" prop2="行军" prop3="4" prop4="132-料敌" prop5="41-鬥神" prop6="11-昂扬" prop7="22-攻心" prop8="32-强运" prop9="28-金刚" prop10="" prop11="" prop12="XOXOXXO?鐯?鐯?"></Skill172>
+    <Skill171 prop0="少保" prop1="工神+遁走+射程+强行+治军（戚继光）" prop2="行军" prop3="4" prop4="46-工神" prop5="1-遁走" prop6="2-强行" prop7="24-射程" prop8="130-治军" prop9="32-天命" prop10="" prop11="" prop12="XXOXOXH(?  "></Skill171>
+    <Skill172 prop0="光武" prop1="激励+料敌+治军+斗神+攻心+昂扬+强运+金刚（刘秀）☆" prop2="行军" prop3="4" prop4="132-料敌" prop5="41-鬥神" prop6="11-昂扬" prop7="22-攻心" prop8="32-天命" prop9="28-金刚" prop10="145-激励" prop11="130-治军" prop12="XOXOXX??&#60;-?C??"></Skill172>
     <Skill173 prop0="大帝" prop1="猛者+铁壁+金刚+霸王+疾驰+威风+白马+战神（冉闵）☆☆☆☆☆" prop2="攻击" prop3="4" prop4="49-疾驰" prop5="28-金刚" prop6="29-铁壁" prop7="48-霸王" prop8="10-威风" prop9="25-白马" prop10="123-战神" prop11="51-猛将" prop12="XOXOOXL???Cj4"></Skill173>
-    <Skill174 prop0="刑公" prop1="骑将+昂扬+突袭（苏烈）" prop2="行军" prop3="3" prop4="11-昂扬" prop5="13-突袭" prop6="37-骑将" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX$?????"></Skill174>
-    <Skill175 prop0="忠武" prop1="攻心+攻城+治军+护身+铁壁（郭子仪）" prop2="行军" prop3="4" prop4="22-攻心" prop5="130-治军" prop6="17-攻城" prop7="31-护身" prop8="29-铁壁" prop9="" prop10="" prop11="" prop12="XOXOOX,啀	????"></Skill175>
-    <Skill176 prop0="帝鞭" prop1="长驱+骑神+攻城+昂扬+掠夺+治军（旭烈兀）" prop2="攻击" prop3="4" prop4="3-长驱" prop5="45-骑神" prop6="17-攻城" prop7="11-昂扬" prop8="21-掠夺" prop9="130-治军" prop10="" prop11="" prop12="XXXOXX|郝????"></Skill176>
-    <Skill177 prop0="英公" prop1="射程+攻城+精妙+治军（李绩）" prop2="行军" prop3="3" prop4="24-射程" prop5="17-攻城" prop6="20-精妙" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXOXOX0I?碐?碐?"></Skill177>
-    <Skill178 prop0="武安" prop1="巧变+破竹+昂扬+治军+骑神+长驱+斗神+护身（李牧）★" prop2="行军" prop3="4" prop4="125-群雄" prop5="135-破竹" prop6="11-昂扬" prop7="45-骑神" prop8="130-治军" prop9="31-护身" prop10="41-鬥神" prop11="3-长驱" prop12="OOXOXX燤	??Cj"></Skill178>
+    <Skill174 prop0="刑公" prop1="骑将+昂扬+突袭+强运（苏烈）" prop2="行军" prop3="3" prop4="11-昂扬" prop5="13-突袭" prop6="37-骑将" prop7="32-天命" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX鑔?癷?癷?"></Skill174>
+    <Skill175 prop0="忠武" prop1="攻心+攻城+治军+护身+铁壁（郭子仪）" prop2="行军" prop3="4" prop4="22-攻心" prop5="130-治军" prop6="17-攻城" prop7="31-护身" prop8="29-铁壁" prop9="32-天命" prop10="" prop11="" prop12="XOXOOX??$椟$椟"></Skill175>
+    <Skill176 prop0="帝鞭" prop1="长驱+骑神+攻城+昂扬+掠夺+治军+强运（旭烈兀）" prop2="攻击" prop3="4" prop4="3-长驱" prop5="45-骑神" prop6="17-攻城" prop7="11-昂扬" prop8="21-掠夺" prop9="130-治军" prop10="32-天命" prop11="" prop12="XXXOXX湶?HP?HP?"></Skill176>
+    <Skill177 prop0="英公" prop1="射程+攻城+精妙+治军（李绩）" prop2="行军" prop3="3" prop4="24-射程" prop5="17-攻城" prop6="20-精妙" prop7="130-治军" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXOXOXT#?#?"></Skill177>
+    <Skill178 prop0="武安" prop1="巧变+破竹+昂扬+治军+骑神+斗神+护身+强运（李牧）★" prop2="行军" prop3="4" prop4="125-群雄" prop5="135-破竹" prop6="11-昂扬" prop7="45-骑神" prop8="130-治军" prop9="31-护身" prop10="41-鬥神" prop11="32-天命" prop12="OOXOXXDD?宐?Cj!"></Skill178>
     <Skill179 prop0="武成" prop1="斗神+攻城+金刚+治军+威风+遁走+慧眼+强运(王翦）★" prop2="行军" prop3="4" prop4="41-鬥神" prop5="17-攻城" prop6="28-金刚" prop7="10-威风" prop8="130-治军" prop9="1-遁走" prop10="60-慧眼" prop11="32-天命" prop12="XOXXOX罊??Cj!"></Skill179>
     <Skill180 prop0="宋武" prop1="神将+水神+铁壁+强运+布阵（刘裕）☆" prop2="攻击" prop3="4" prop4="40-神将" prop5="47-寰宇" prop6="29-铁壁" prop7="32-强运" prop8="117-布阵" prop9="" prop10="" prop11="" prop12="OOXOXO8x???"></Skill180>
-    <Skill181 prop0="太武" prop1="骑神+长驱+白马+护身+强运（拓拔焘）" prop2="攻击" prop3="3" prop4="25-白马" prop5="3-长驱" prop6="45-骑神" prop7="31-护身" prop8="" prop9="32-强运" prop10="" prop11="" prop12="XXXOXX????"></Skill181>
-    <Skill182 prop0="太保" prop1="无双+骑将+巧变+金刚+猛者（李存孝）" prop2="攻击" prop3="4" prop4="0-无双" prop5="37-骑将" prop6="28-金刚" prop7="125-群雄" prop8="51-猛将" prop9="" prop10="" prop11="" prop12="OOXOXXㄣ?纋?纋?"></Skill182>
-    <Skill183 prop0="开平" prop1="勇将+陷阵+怒发+猛者+治军（常遇春）" prop2="攻击" prop3="3" prop4="39-勇将" prop5="30-怒发" prop6="133-陷阵" prop7="51-猛将" prop8="130-治军" prop9="" prop10="" prop11="" prop12="OOXOXXdo?do?"></Skill183>
-    <Skill184 prop0="巾帼" prop1="料敌+巧变+辅佐（梁红玉+花木兰）☆" prop2="补助" prop3="3" prop4="132-料敌" prop5="125-群雄" prop6="26-辅佐" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX??餾?餾?"></Skill184>
+    <Skill181 prop0="太武" prop1="骑神+长驱+白马+护身+强运（拓拔焘）" prop2="攻击" prop3="3" prop4="25-白马" prop5="3-长驱" prop6="45-骑神" prop7="31-护身" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXXOXX衪?鑂?鑂?"></Skill181>
+    <Skill182 prop0="太保" prop1="无双+骑将+巧变+金刚+猛者（李存孝）" prop2="攻击" prop3="4" prop4="0-无双" prop5="37-骑将" prop6="28-金刚" prop7="125-群雄" prop8="51-猛将" prop9="32-天命" prop10="" prop11="" prop12="OOXOXX(*?|例|例"></Skill182>
+    <Skill183 prop0="开平" prop1="勇将+陷阵+怒发+猛者+治军+强运（常遇春）" prop2="攻击" prop3="3" prop4="39-勇将" prop5="30-怒发" prop6="133-陷阵" prop7="51-猛将" prop8="130-治军" prop9="32-天命" prop10="" prop11="" prop12="OOXOXXh?磟?磟?"></Skill183>
+    <Skill184 prop0="巾帼" prop1="料敌+巧变+辅佐+内助（梁红玉+花木兰）☆" prop2="补助" prop3="3" prop4="132-料敌" prop5="125-群雄" prop6="26-辅佐" prop7="99-内助" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXOXXX萲?|纛|纛"></Skill184>
     <Skill185 prop0="文终" prop1="兴农+能吏+繁殖+后勤+征税+贤哲+屯田（萧何）" prop2="内政" prop3="4" prop4="88-米道" prop5="80-能吏" prop6="81-繁殖" prop7="89-徵税" prop8="78-屯田" prop9="141-后勤" prop10="138-贤哲" prop11="" prop12="XXXXXXt葕€"></Skill185>
     <Skill186 prop0="阳明" prop1="虚实+妙计+贤哲+反计+精妙（王守仁）" prop2="计略" prop3="4" prop4="57-虚实" prop5="58-妙计" prop6="138-贤哲" prop7="20-精妙" prop8="68-反计" prop9="" prop10="" prop11="" prop12="OXOXXXt(K?p?p?"></Skill186>
-    <Skill187 prop0="忠襄" prop1="戟神+昂扬+不屈+治军(孟珙)" prop2="行军" prop3="3" prop4="43-戟神" prop5="11-昂扬" prop6="27-不屈" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XOXXXO$B?x傶x傶"></Skill187>
-    <Skill188 prop0="智圣" prop1="料敌+虚实+鬼谋+妙计+连环（孙膑）" prop2="计略" prop3="4" prop4="132-料敌" prop5="57-鬼谋" prop6="65-先知" prop7="58-妙计" prop8="66-布局" prop9="" prop10="" prop11="" prop12="XXOXXXxh?|嗿|嗿"></Skill188>
-    <Skill189 prop0="隐士" prop1="运筹+神算+鬼谋+反计+料敌（李泌+刘基）☆" prop2="计略" prop3="4" prop4="144-王佐" prop5="63-冠冕" prop6="65-先知" prop7="68-智者" prop8="132-料敌" prop9="" prop10="" prop11="" prop12="XXOXOX脆?l`?l`?"></Skill189>
-    <Skill190 prop0="陷城" prop1="工神+射程+强行+护身（郭侃+耿弇）" prop2="攻击" prop3="3" prop4="46-工神" prop5="24-射程" prop6="2-强行" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="XXXXOX&#60;?缼?缼?"></Skill190>
+    <Skill187 prop0="忠襄" prop1="戟神+昂扬+不屈+治军(孟珙)" prop2="行军" prop3="3" prop4="43-戟神" prop5="11-昂扬" prop6="27-不屈" prop7="130-治军" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XOXXXOt\?\\"></Skill187>
+    <Skill188 prop0="智圣" prop1="料敌+虚实+鬼谋+妙计+连环（孙膑）" prop2="计略" prop3="4" prop4="132-料敌" prop5="57-鬼谋" prop6="65-先知" prop7="58-妙计" prop8="66-布局" prop9="32-天命" prop10="" prop11="" prop12="XXOXXXx艅"></Skill188>
+    <Skill189 prop0="隐士" prop1="运筹+神算+鬼谋+反计+料敌（李泌+刘基）☆" prop2="计略" prop3="4" prop4="144-王佐" prop5="63-冠冕" prop6="65-先知" prop7="68-智者" prop8="132-料敌" prop9="32-天命" prop10="" prop11="" prop12="XXOXOX悸?????"></Skill189>
+    <Skill190 prop0="陷城" prop1="工神+射程+强行+护身（郭侃+耿弇）" prop2="攻击" prop3="3" prop4="46-工神" prop5="24-射程" prop6="2-强行" prop7="31-护身" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXXXOX@緞????"></Skill190>
     <Skill191 prop0="赵柱" prop1="戟神+威风+铁壁+金刚+料敌+强运+踏破+搬运（廉颇）" prop2="防御" prop3="3" prop4="43-戟神" prop5="10-威风" prop6="29-铁壁" prop7="28-金刚" prop8="32-天命" prop9="132-料敌" prop10="7-游走" prop11="6-踏破" prop12="XOXOXX?F?Cj"></Skill191>
-    <Skill192 prop0="白袍" prop1="巧变+明镜+激励+游侠+护身（陈庆之）☆" prop2="行军" prop3="4" prop4="125-群雄" prop5="126-天狼" prop6="74-明镜" prop7="145-激励" prop8="31-护身" prop9="" prop10="" prop11="" prop12="XXXOXXX鶔葨?葨?"></Skill192>
+    <Skill192 prop0="白袍" prop1="巧变+明镜+激励+游侠+护身（陈庆之）☆" prop2="行军" prop3="4" prop4="125-群雄" prop5="126-天狼" prop6="74-明镜" prop7="145-激励" prop8="31-护身" prop9="32-天命" prop10="" prop11="" prop12="XXXOXXじ?????"></Skill192>
     <Skill193 prop0="将星" prop1="工神+拱戍+强行+治军+铁壁（乐毅）★" prop2="攻击" prop3="4" prop4="116-拱戍" prop5="29-铁壁" prop6="2-强行" prop7="46-工神" prop8="130-治军" prop9="" prop10="" prop11="" prop12="XOXOOX鄭?笟?笟?"></Skill193>
-    <Skill194 prop0="遗爱" prop1="攻心+犄角+巧变+明镜+护身+铁壁（慕容恪）☆" prop2="补助" prop3="3" prop4="18-掎角" prop5="22-攻心" prop6="125-群雄" prop7="74-明镜" prop8="29-铁壁" prop9="31-护身" prop10="" prop11="" prop12="XXOOOOT?鄌鄌"></Skill194>
-    <Skill195 prop0="献武" prop1="破竹+勇将+攻心+护身+明镜（谢玄）" prop2="行军" prop3="3" prop4="135-破竹" prop5="39-勇将" prop6="22-攻心" prop7="74-明镜" prop8="" prop9="27-不屈" prop10="" prop11="" prop12="OXXOXO?鴷8鴷8"></Skill195>
-    <Skill196 prop0="骁勇" prop1="勇将+陷阵+猛者+护身+铁壁（萧摩柯+杨大眼+杨再兴）" prop2="攻击" prop3="4" prop4="39-勇将" prop5="133-陷阵" prop6="51-猛将" prop7="31-护身" prop8="" prop9="29-铁壁" prop10="" prop11="" prop12="XOXOXXX鶔堞?堞?"></Skill196>
-    <Skill197 prop0="景武" prop1="水神+破浪+操舵+强运+护身（杨素）" prop2="行军" prop3="3" prop4="4-推进" prop5="5-操舵" prop6="31-护身" prop7="47-寰宇" prop8="32-强运" prop9="" prop10="" prop11="" prop12="XXXOXOp茂歇?歇?"></Skill197>
-    <Skill198 prop0="献侯" prop1="百出+连环+伪报+内讧+妙计（陈平）☆" prop2="计略" prop3="4" prop4="64-百出" prop5="66-布局" prop6="54-言毒" prop7="58-妙计" prop8="56-诡计" prop9="" prop10="" prop11="" prop12="XXXXXX莛?挟?挟?"></Skill198>
-    <Skill199 prop0="孤胆" prop1="勇将+遁走+巧变+疾驰+血路（赵云+罗成+林冲）" prop2="攻击" prop3="3" prop4="39-勇将" prop5="1-遁走" prop6="125-群雄" prop7="49-疾驰" prop8="" prop9="33-血路" prop10="" prop11="" prop12="OOXOXOP嬳4圍4圍"></Skill199>
-    <Skill200 prop0="上将" prop1="筑城+猛者+骑将+火攻+布阵（章邯+袁崇焕+蓝玉）" prop2="行军" prop3="4" prop4="77-大将" prop5="117-布阵" prop6="37-骑将" prop7="53-火攻" prop8="51-猛将" prop9="" prop10="" prop11="" prop12="OOOOOX?t?t?"></Skill200>
-    <Skill201 prop0="女后" prop1="威压+风水+安民+内助+奇谋（萧绰+吕雉）" prop2="内政" prop3="1" prop4="95-军阀" prop5="97-风水" prop6="136-汉将" prop7="146-雄主" prop8="99-内助" prop9="69-奇谋" prop10="" prop11="" prop12="XXXXXX丕+D―D―"></Skill201>
+    <Skill194 prop0="遗爱" prop1="攻心+犄角+巧变+明镜+护身+铁壁（慕容恪）☆" prop2="补助" prop3="3" prop4="18-掎角" prop5="22-攻心" prop6="125-群雄" prop7="74-明镜" prop8="29-铁壁" prop9="31-护身" prop10="32-天命" prop11="" prop12="XXOOOO孬?€?€?"></Skill194>
+    <Skill195 prop0="献武" prop1="破竹+勇将+攻心+护身+明镜（谢玄）" prop2="行军" prop3="3" prop4="135-破竹" prop5="39-勇将" prop6="22-攻心" prop7="74-明镜" prop8="27-不屈" prop9="" prop10="" prop11="" prop12="OXXOXOw?湥?湥?"></Skill195>
+    <Skill196 prop0="骁勇" prop1="勇将+陷阵+猛者+护身+铁壁（萧摩柯+杨大眼+杨再兴）" prop2="攻击" prop3="4" prop4="39-勇将" prop5="133-陷阵" prop6="51-猛将" prop7="31-护身" prop8="29-铁壁" prop9="" prop10="" prop11="" prop12="XOXOXX磗?困?困?"></Skill196>
+    <Skill197 prop0="景武" prop1="水神+破浪+操舵+强运+护身（杨素）" prop2="行军" prop3="3" prop4="4-推进" prop5="5-识水" prop6="31-护身" prop7="47-寰宇" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXXOXO????"></Skill197>
+    <Skill198 prop0="献侯" prop1="百出+连环+伪报+内讧+妙计（陈平）☆" prop2="计略" prop3="4" prop4="64-千秋" prop5="66-布局" prop6="54-退敌" prop7="58-妙计" prop8="56-诡计" prop9="32-天命" prop10="" prop11="" prop12="XXXXXX凧?????"></Skill198>
+    <Skill199 prop0="孤胆" prop1="勇将+遁走+巧变+疾驰+血路（赵云+罗成+林冲）" prop2="攻击" prop3="3" prop4="39-勇将" prop5="1-遁走" prop6="125-群雄" prop7="49-疾驰" prop8="33-血路" prop9="" prop10="" prop11="" prop12="OOXOXO??TT"></Skill199>
+    <Skill200 prop0="上将" prop1="攻城+猛者+骑将+火攻+布阵（章邯+袁崇焕+蓝玉）" prop2="行军" prop3="4" prop4="17-攻城" prop5="117-布阵" prop6="37-骑将" prop7="53-火攻" prop8="51-猛将" prop9="" prop10="" prop11="" prop12="OOOOOXxU?鬲?鬲?"></Skill200>
+    <Skill201 prop0="女后" prop1="威压+风水+安民+内助+奇谋+伯乐（萧绰+吕雉）" prop2="内政" prop3="1" prop4="95-军阀" prop5="97-将才" prop6="136-汉将" prop7="146-雄主" prop8="99-内助" prop9="69-奇谋" prop10="32-天命" prop11="" prop12="XXXXXX@緞d+?d+?"></Skill201>
     <Skill202 prop0="明祖" prop1="水将+后勤+筑城+护身+强运（朱元璋）" prop2="行军" prop3="4" prop4="77-大将" prop5="38-水将" prop6="141-逆天" prop7="31-护身" prop8="32-强运" prop9="" prop10="" prop11="" prop12="OXXOXO愐?x忷x忷"></Skill202>
     <Skill203 prop0="箭神" prop1="弩神+狙击+射手+治军（斛律光+后羿+养由基）" prop2="攻击" prop3="3" prop4="44-弓神" prop5="128-狙击" prop6="50-射手" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXXX睊ll"></Skill203>
     <Skill204 prop0="能臣" prop1="富国+料敌+奇谋+妙计（荀彧+范蠡）" prop2="内政" prop3="4" prop4="132-料敌" prop5="87-富豪" prop6="58-妙计" prop7="69-奇谋" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXL彵L滫L滫"></Skill204>
     <Skill205 prop0="革新" prop1="变法+指导+能吏+法治+贤哲（公孙鞅+王安石+张居正）" prop2="内政" prop3="4" prop4="139-变法" prop5="84-枭雄" prop6="138-贤哲" prop7="140-法治" prop8="80-能吏" prop9="" prop10="" prop11="" prop12="XXXXXX訧?l濟l濟"></Skill205>
-    <Skill206 prop0="冠首" prop1="看破+连环+鬼谋+奇谋+贤者+妖术（张宾+崔浩）" prop2="行军" prop3="1" prop4="69-奇谋" prop5="70-妖术" prop6="138-贤哲" prop7="60-慧眼" prop8="66-布局" prop9="65-先知" prop10="" prop11="" prop12="XXOXXX€?H耳H耳"></Skill206>
-    <Skill207 prop0="少帅" prop1="猛者+军神+斗神+护身（寇仲+李元芳）" prop2="攻击" prop3="4" prop4="41-鬥神" prop5="51-猛将" prop6="121-军神" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOXOXX窶),m?,m?"></Skill207>
-    <Skill208 prop0="始皇" prop1="威压+和戎+征税+强运+名声（嬴政）" prop2="内政" prop3="4" prop4="32-天命" prop5="89-徵税" prop6="91-亲乌" prop7="95-军阀" prop8="" prop9="79-名声" prop10="" prop11="" prop12="XXOOXXt?垉垉"></Skill208>
-    <Skill209 prop0="中兴" prop1="治军+昂扬+弩将+扫荡（李光弼）★" prop2="防御" prop3="4" prop4="130-治军" prop5="11-昂扬" prop6="36-弓将" prop7="9-扫荡" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXXL彵P菌P菌"></Skill209>
+    <Skill206 prop0="冠首" prop1="看破+连环+鬼谋+奇谋+贤者+妖术（张宾+崔浩）" prop2="行军" prop3="1" prop4="69-奇谋" prop5="70-妖术" prop6="138-贤哲" prop7="60-慧眼" prop8="66-布局" prop9="65-先知" prop10="32-天命" prop11="" prop12="XXOXXXじ?$/?$/?"></Skill206>
+    <Skill207 prop0="少帅" prop1="猛者+军神+斗神+护身（寇仲+李元芳）" prop2="攻击" prop3="4" prop4="41-鬥神" prop5="51-猛将" prop6="121-军神" prop7="31-护身" prop8="32-天命" prop9="" prop10="" prop11="" prop12="OOXOXX椟?????"></Skill207>
+    <Skill208 prop0="始皇" prop1="威压+亲乌+征税+强运+名声（嬴政）" prop2="内政" prop3="4" prop4="32-天命" prop5="89-徵税" prop6="91-亲乌" prop7="95-军阀" prop8="79-贤者" prop9="" prop10="" prop11="" prop12="XXOOXXt綍\劈\劈"></Skill208>
+    <Skill209 prop0="中兴" prop1="治军+昂扬+弩将+扫荡（李光弼）★" prop2="防御" prop3="4" prop4="130-治军" prop5="11-昂扬" prop6="36-弓将" prop7="9-扫荡" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXOXXXじ?????"></Skill209>
     <Skill210 prop0="元帝" prop1="骑将+铁壁+长驱+治军（忽必烈）" prop2="防御" prop3="3" prop4="37-骑将" prop5="29-铁壁" prop6="3-长驱" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXXOOXL彵,凕,凕"></Skill210>
-    <Skill211 prop0="睿武" prop1="巧变+连击+仁政+护身（柴荣）" prop2="补助" prop3="4" prop4="125-群雄" prop5="12-连击" prop6="96-仁政" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="XOXOXXL彵$嘃$嘃"></Skill211>
-    <Skill212 prop0="严侯" prop1="火神+退敌+明镜+待伏（韦睿）☆" prop2="计略" prop3="4" prop4="62-火神" prop5="74-明镜" prop6="54-言毒" prop7="16-待伏" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXt牠?稿?稿?"></Skill212>
+    <Skill211 prop0="睿武" prop1="巧变+连击+仁政+护身（柴荣）" prop2="补助" prop3="4" prop4="125-群雄" prop5="12-连战" prop6="96-仁政" prop7="31-护身" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XOXOXXじ?碈?碈?"></Skill211>
+    <Skill212 prop0="严侯" prop1="火神+退敌+明镜+待伏（韦睿）☆" prop2="计略" prop3="4" prop4="62-梵天" prop5="74-明镜" prop6="54-退敌" prop7="16-待伏" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXXXXXT+?tF?tF?"></Skill212>
     <Skill213 prop0="忠肃" prop1="水神+洞察+不屈+推进（虞允文）☆" prop2="行军" prop3="4" prop4="47-寰宇" prop5="61-洞察" prop6="27-不屈" prop7="4-推进" prop8="" prop9="" prop10="" prop11="" prop12="OXOXOOL彵H岦H岦"></Skill213>
-    <Skill214 prop0="宣王" prop1="料敌+深谋+治军+坚城+强运（司马懿）☆★" prop2="防御" prop3="4" prop4="131-奇阵" prop5="67-深谋" prop6="132-料敌" prop7="130-治军" prop8="" prop9="32-强运" prop10="" prop11="" prop12="OXXOXX鄑"></Skill214>
-    <Skill215 prop0="步将" prop1="戟将+枪将" prop2="攻击" prop3="4" prop4="35-戟将" prop5="34-枪将" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OOXXXXt??"></Skill215>
-    <Skill216 prop0="房谋" prop1="百出+秘计+沉着+料敌（房乔）☆" prop2="计略" prop3="4" prop4="64-百出" prop5="59-秘计" prop6="73-智将" prop7="132-料敌" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXL彵8橖8橖"></Skill216>
-    <Skill217 prop0="杜断" prop1="机智+妙计+规律+料敌（杜如晦）☆" prop2="计略" prop3="4" prop4="55-機智" prop5="58-妙计" prop6="72-规律" prop7="132-料敌" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX訧?&#60;滭&#60;滭"></Skill217>
-    <Skill218 prop0="赵公" prop1="后勤+指导+搬运（长孙无忌）" prop2="内政" prop3="4" prop4="141-后勤" prop5="84-指导" prop6="7-搬运" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX?垬?垬?"></Skill218>
+    <Skill214 prop0="宣王" prop1="料敌+深谋+治军+坚城+强运（司马懿）☆★" prop2="防御" prop3="4" prop4="131-奇阵" prop5="67-深谋" prop6="132-料敌" prop7="130-治军" prop8="32-天命" prop9="" prop10="" prop11="" prop12="OXXOXXl愷H冼H冼"></Skill214>
+    <Skill215 prop0="步将" prop1="戟将+枪将+踏破+护身" prop2="攻击" prop3="4" prop4="35-戟将" prop5="34-枪将" prop6="6-踏破" prop7="31-护身" prop8="" prop9="" prop10="" prop11="" prop12="OOXXXX瑎?h吸h吸"></Skill215>
+    <Skill216 prop0="房谋" prop1="百出+秘计+沉着+料敌（房乔）☆" prop2="计略" prop3="4" prop4="64-千秋" prop5="59-秘计" prop6="73-智将" prop7="132-料敌" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXXXXX&#60;B?郠?郠?"></Skill216>
+    <Skill217 prop0="杜断" prop1="机智+妙计+规律+料敌（杜如晦）☆" prop2="计略" prop3="4" prop4="55-機智" prop5="58-妙计" prop6="72-规律" prop7="132-料敌" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXXXXXp磩 U? U?"></Skill217>
+    <Skill218 prop0="赵公" prop1="后勤+指导+搬运+强行（长孙无忌）" prop2="内政" prop3="4" prop4="141-逆天" prop5="84-枭雄" prop6="7-游走" prop7="2-强行" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX辄辄"></Skill218>
     <Skill219 prop0="庐陵" prop1="能吏+征税+指导+屯田（谢安）" prop2="内政" prop3="4" prop4="80-能吏" prop5="89-徵税" prop6="84-指导" prop7="78-屯田" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXtDm?錃?錃?"></Skill219>
     <Skill220 prop0="名相" prop1="法治+富国+仁政+指导+兴农（李斯）" prop2="内政" prop3="4" prop4="140-法治" prop5="87-富豪" prop6="88-米道" prop7="84-指导" prop8="96-仁政" prop9="" prop10="" prop11="" prop12="XXXXXXt?淯?淯?"></Skill220>
-    <Skill221 prop0="突骑" prop1="弩将+骑将" prop2="攻击" prop3="4" prop4="36-弓将" prop5="37-骑将" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOOXXt??Q?Q?"></Skill221>
-    <Skill222 prop0="弓帅" prop1="弩将+神臂" prop2="攻击" prop3="4" prop4="36-弓将" prop5="129-神臂" prop6="" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXXt怴?x憜x憜"></Skill222>
+    <Skill221 prop0="突骑" prop1="弩将+骑将+威风+长驱" prop2="攻击" prop3="4" prop4="36-弓将" prop5="37-骑将" prop6="10-威风" prop7="3-长驱" prop8="" prop9="" prop10="" prop11="" prop12="XXOOXX▁?柩?柩?"></Skill221>
+    <Skill222 prop0="弓帅" prop1="弩将+神臂+扫荡+铁壁" prop2="攻击" prop3="4" prop4="36-弓将" prop5="129-神臂" prop6="9-扫荡" prop7="29-铁壁" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX敐?@挈@挈"></Skill222>
     <Skill223 prop0="清祖" prop1="骑神+强运+驱逐+攻城+不屈（努尔哈赤）" prop2="行军" prop3="4" prop4="45-骑神" prop5="32-强运" prop6="23-驱逐" prop7="17-攻城" prop8="27-不屈" prop9="" prop10="" prop11="" prop12="XXXOOX??埊?埊?"></Skill223>
-    <Skill224 prop0="魏文" prop1="枪将+怒发+沉着+护身+强运（宇文泰）☆" prop2="行军" prop3="4" prop4="32-强运" prop5="34-枪将" prop6="30-怒发" prop7="73-智将" prop8="" prop9="31-护身" prop10="" prop11="" prop12="OXXOXX堗?"></Skill224>
-    <Skill225 prop0="铁骑" prop1="治军+骑将+护身+沉着（狄青+多尔衮）★" prop2="行军" prop3="4" prop4="31-护身" prop5="37-骑将" prop6="73-智将" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX訧?饦?饦?"></Skill225>
+    <Skill224 prop0="魏文" prop1="枪将+怒发+沉着+护身+强运（宇文泰）☆" prop2="行军" prop3="4" prop4="32-天命" prop5="34-枪将" prop6="30-怒发" prop7="73-智将" prop8="31-护身" prop9="" prop10="" prop11="" prop12="OXXOXXど?0琬0琬"></Skill224>
+    <Skill225 prop0="铁骑" prop1="治军+骑将+护身+沉着（狄青+多尔衮）★" prop2="行军" prop3="4" prop4="31-护身" prop5="37-骑将" prop6="73-智将" prop7="130-治军" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXXOXXp磩,o?,o?"></Skill225>
     <Skill226 prop0="军治" prop1="白马+骑将+长驱+护身+筑城+强运（耶律阿保机+阿骨打）" prop2="行军" prop3="4" prop4="25-白马" prop5="37-骑将" prop6="3-长驱" prop7="31-护身" prop8="32-强运" prop9="77-大将" prop10="" prop11="" prop12="XXXOXX堗?鵂?鵂?"></Skill226>
     <Skill227 prop0="博陆" prop1="能吏+指导+仁政+料敌（霍光）" prop2="内政" prop3="4" prop4="80-能吏" prop5="84-枭雄" prop6="96-仁政" prop7="132-料敌" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX訧?袓?袓?"></Skill227>
-    <Skill228 prop0="成武" prop1="骑神+白马+昂扬++强运+护身（慕容垂）" prop2="攻击" prop3="4" prop4="11-昂扬" prop5="25-白马" prop6="45-骑神" prop7="31-护身" prop8="" prop9="32-强运" prop10="" prop11="" prop12="XXXOXX堗?擖擖"></Skill228>
-    <Skill229 prop0="威勇" prop1="扫荡+护身+骑将+明镜+强运（李存勖）" prop2="防御" prop3="4" prop4="9-扫荡" prop5="32-天命" prop6="74-明镜" prop7="37-骑将" prop8="" prop9="31-护身" prop10="" prop11="" prop12="OOXOXXx?d?d?"></Skill229>
-    <Skill230 prop0="汉武" prop1="洞察+法治+富国+兴农+强运+护身（刘彻）☆" prop2="内政" prop3="4" prop4="61-洞察" prop5="140-法治" prop6="87-富豪" prop7="88-米道" prop8="33-血路" prop9="22-攻心" prop10="31-护身" prop11="32-强运" prop12="XOXOXX涞?把C?!"></Skill230>
-    <Skill231 prop0="刺客" prop1="夺帅+猛者+血路（荆轲+要离）" prop2="行军" prop3="4" prop4="19-捕缚" prop5="51-猛者" prop6="33-血路" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXXt怴?"></Skill231>
-    <Skill232 prop0="安国" prop1="安民+祈愿+风水+强运+名声（姬昌）" prop2="内政" prop3="4" prop4="136-汉将" prop5="97-风水" prop6="98-祈願" prop7="32-强运" prop8="" prop9="79-名声" prop10="" prop11="" prop12="XXXXOX愸栀栀"></Skill232>
-    <Skill233 prop0="非攻" prop1="安民+发明+筑城+射程+攻城（墨子）" prop2="行军" prop3="4" prop4="24-射程" prop5="77-大将" prop6="82-发明" prop7="136-汉将" prop8="" prop9="17-攻城" prop10="" prop11="" prop12="XXXXOX堗?鸾?鸾?"></Skill233>
-    <Skill234 prop0="辅国" prop1="治军+戟神+沉着+火攻+辅佐（周亚夫+檀道济）★" prop2="行军" prop3="4" prop4="130-治军" prop5="43-戟神" prop6="73-智将" prop7="53-火攻" prop8="" prop9="26-辅佐" prop10="" prop11="" prop12="XOXOXX??嘎?嘎?"></Skill234>
+    <Skill228 prop0="成武" prop1="骑神+白马+昂扬++强运+护身（慕容垂）" prop2="攻击" prop3="4" prop4="11-昂扬" prop5="25-白马" prop6="45-骑神" prop7="31-护身" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXXOXX@緞t_?t_?"></Skill228>
+    <Skill229 prop0="威勇" prop1="扫荡+护身+骑将+明镜+强运（李存勖）" prop2="防御" prop3="4" prop4="9-扫荡" prop5="32-天命" prop6="74-明镜" prop7="37-骑将" prop8="31-护身" prop9="" prop10="" prop11="" prop12="OOXOXX??xx"></Skill229>
+    <Skill230 prop0="汉武" prop1="洞察+法治+富国+兴农+强运+护身+辅佐（刘彻）☆" prop2="内政" prop3="4" prop4="61-洞察" prop5="140-法治" prop6="87-富豪" prop7="88-米道" prop8="26-辅佐" prop9="22-攻心" prop10="31-护身" prop11="32-天命" prop12="XOXOXX鳧?L?Cj!"></Skill230>
+    <Skill231 prop0="刺客" prop1="捕缚+猛者+血路+铁壁（荆轲+要离）" prop2="行军" prop3="4" prop4="19-捕缚" prop5="51-猛将" prop6="33-血路" prop7="29-铁壁" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXXXE?????"></Skill231>
+    <Skill232 prop0="安国" prop1="安民+祈愿+风水+强运+名声（姬昌）" prop2="内政" prop3="4" prop4="136-汉将" prop5="97-风水" prop6="98-梁帝" prop7="32-天命" prop8="79-贤者" prop9="" prop10="" prop11="" prop12="XXXXOX蕗TT"></Skill232>
+    <Skill233 prop0="非攻" prop1="安民+发明+筑城+射程+攻城（墨子）" prop2="行军" prop3="4" prop4="24-射程" prop5="77-大将" prop6="82-循吏" prop7="136-汉将" prop8="17-攻城" prop9="" prop10="" prop11="" prop12="XXXXOX茆?€€"></Skill233>
+    <Skill234 prop0="辅国" prop1="治军+戟神+沉着+火攻+辅佐（周亚夫+檀道济）★" prop2="行军" prop3="4" prop4="130-治军" prop5="43-戟神" prop6="73-智将" prop7="53-火攻" prop8="26-辅佐" prop9="32-天命" prop10="" prop11="" prop12="XOXOXX@緞恟?恟?"></Skill234>
     <Skill235 prop0="儒将" prop1="巧变+沉着+连击+治军（裴行俭）☆" prop2="行军" prop3="4" prop4="125-群雄" prop5="12-连击" prop6="73-智将" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="OXXOXXL彵??"></Skill235>
-    <Skill236 prop0="郧公" prop1="坚城+鬼谋+妙计（韦叔裕）" prop2="行军" prop3="4" prop4="131-坚城" prop5="65-鬼谋" prop6="58-妙计" prop7="" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXXt??懊懊"></Skill236>
-    <Skill237 prop0="太平" prop1="战将+威风+突袭+夺帅（史万岁）" prop2="攻击" prop3="4" prop4="124-战将" prop5="10-威风" prop6="13-突袭" prop7="19-捕缚" prop8="" prop9="" prop10="" prop11="" prop12="XOXOXXtDm?t砻t砻"></Skill237>
+    <Skill236 prop0="郧公" prop1="坚城+鬼谋+妙计+治军（韦叔裕）" prop2="行军" prop3="4" prop4="131-奇阵" prop5="65-先知" prop6="58-妙计" prop7="130-治军" prop8="32-天命" prop9="" prop10="" prop11="" prop12="XXXXXXp雮@x?@x?"></Skill236>
+    <Skill237 prop0="太平" prop1="战将+威风+突袭+捕缚（史万岁）" prop2="攻击" prop3="4" prop4="124-天敌" prop5="10-威风" prop6="13-突袭" prop7="19-捕缚" prop8="" prop9="" prop10="" prop11="" prop12="XOXOXX奥?????"></Skill237>
     <Skill238 prop0="门神" prop1="枪将+猛者+护卫+乱战（尉迟恭+秦琼）" prop2="攻击" prop3="4" prop4="34-枪将" prop5="51-猛将" prop6="52-护卫" prop7="15-乱战" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXXL彵屛?屛?"></Skill238>
     <Skill239 prop0="令公" prop1="枪将+白马+不屈+铁壁（杨业）" prop2="攻击" prop3="4" prop4="34-枪将" prop5="25-白马" prop6="27-不屈" prop7="29-铁壁" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXXL彵难?难?"></Skill239>
     <Skill240 prop0="蕲王" prop1="战将+威风+射手+治军（韩世忠）" prop2="行军" prop3="4" prop4="124-仇天" prop5="10-威风" prop6="50-射手" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXOXXX訧?粼?粼?"></Skill240>
@@ -1630,16 +1628,16 @@
     <Skill243 prop0="鬼狐" prop1="料敌+反计+鬼谋+慧眼（郭嘉+赵普+张元）☆" prop2="计略" prop3="4" prop4="132-料敌" prop5="65-先知" prop6="68-智者" prop7="60-慧眼" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX旪?x!?x!?"></Skill243>
     <Skill244 prop0="高密" prop1="治军+料敌+威压+枪将（邓禹）★" prop2="行军" prop3="4" prop4="95-军阀" prop5="132-料敌" prop6="34-枪将" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XXXOXX擰?$?$?"></Skill244>
     <Skill245 prop0="节侯" prop1="战将+沉着+精妙+治军（冯异）☆" prop2="行军" prop3="1" prop4="124-仇天" prop5="20-精妙" prop6="73-智将" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="OXXXXX訧?8潼8潼"></Skill245>
-    <Skill246 prop0="大鹏" prop1="陷阵+金刚+勇将+威风+猛者+无双+突袭+铁壁（李元霸）" prop2="攻击" prop3="4" prop4="133-陷阵" prop5="28-金刚" prop6="39-勇将" prop7="0-无双" prop8="13-突袭" prop9="29-铁壁" prop10="10-威风" prop11="51-猛将" prop12="XOXOXX$w?p琰Cj4"></Skill246>
+    <Skill246 prop0="大鹏" prop1="陷阵+金刚+霸王+威风+猛者+无双+突袭+铁壁（李元霸）" prop2="攻击" prop3="4" prop4="133-陷阵" prop5="28-金刚" prop6="48-霸王" prop7="0-无双" prop8="13-突袭" prop9="29-铁壁" prop10="10-威风" prop11="51-猛将" prop12="XOXOXX腉?€?C?4"></Skill246>
     <Skill247 prop0="谋臣" prop1="奇谋+待伏+治军+明镜（贾诩+范增+姚广孝）" prop2="行军" prop3="1" prop4="69-奇谋" prop5="16-待伏" prop6="130-治军" prop7="74-明镜" prop8="" prop9="" prop10="" prop11="" prop12="XXXXXX訧?荜?荜?"></Skill247>
     <Skill248 prop0="忠信" prop1="战将+铁壁+筑城+治军（蒙恬）" prop2="行军" prop3="4" prop4="124-仇天" prop5="29-铁壁" prop6="77-大将" prop7="130-治军" prop8="" prop9="" prop10="" prop11="" prop12="XOXOXXL彵铧铧"></Skill248>
-    <Skill249 prop0="枪王" prop1="枪将+沉着+不屈+威风（张辽+王彦章）☆" prop2="行军" prop3="4" prop4="10-威风" prop5="27-不屈" prop6="34-枪将" prop7="73-沉著" prop8="" prop9="" prop10="" prop11="" prop12="OOXXXX&#60;?慁慁"></Skill249>
+    <Skill249 prop0="枪王" prop1="枪将+沉着+不屈+威风（张辽+王彦章）☆" prop2="行军" prop3="4" prop4="10-威风" prop5="27-不屈" prop6="34-枪将" prop7="73-智将" prop8="32-天命" prop9="" prop10="" prop11="" prop12="OOXXXX$紊腬?腬?"></Skill249>
     
   </UseNewSkill>
-  <RealRandom enable="false"></RealRandom>
-  <ShowRate enable="true"></ShowRate>
+  <RealRandom enable="true"></RealRandom>
+  <ShowRate enable="false"></ShowRate>
   <PerfectRate enable="false"></PerfectRate>
-  <DTCapture enable="true">30</DTCapture>
+  <DTCapture enable="true">50</DTCapture>
   <DTDeath enable="true" High="5" Medium="2"></DTDeath>
   <DTMorale enable="true" Win="15" Lost="30" Req="10" Ref="20"></DTMorale>
   <SZOption enable="false"></SZOption>
@@ -1649,14 +1647,14 @@
   <AvailableYear enable="false"></AvailableYear>
   <RemoveSpecial enable="true"></RemoveSpecial>
   <NGContribution enable="true" Contribution1="3000" Contribution2="1000"></NGContribution>
-  <RebellionCond enable="true">50</RebellionCond>
-  <NoRebellion enable="false"></NoRebellion>
-  <RebellionArmy enable="true">8000</RebellionArmy>
-  <RebellionGeneral enable="true" Geranal1="2" Geranal2="1">8000</RebellionGeneral>
+  <RebellionCond enable="true">60</RebellionCond>
+  <NoRebellion enable="true"></NoRebellion>
+  <RebellionArmy enable="true">20000</RebellionArmy>
+  <RebellionGeneral enable="true" Geranal1="6" Geranal2="1">20000</RebellionGeneral>
   <RebellionType enable="true" TypeL1="4" TypeL2="1" TypeL3="4" TypeL4="2" TypeL5="0" TypeS1="0" TypeS2="2" TypeS3="0" TypeS4="2" TypeS5="0"></RebellionType>
   <AIAtkAndTrans enable="true"></AIAtkAndTrans>
   <AIArmyPolicy enable="true">1</AIArmyPolicy>
-  <AIEatDay enable="true">40</AIEatDay>
+  <AIEatDay enable="true">30</AIEatDay>
   <AIGeneralSelect enable="true"></AIGeneralSelect>
   <AISkillAlignToArmy enable="true"></AISkillAlignToArmy>
   <AIUseReactFeature enable="true"></AIUseReactFeature>
